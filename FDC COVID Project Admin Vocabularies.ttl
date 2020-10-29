@@ -1,0 +1,899 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix euvoc: <http://publications.europa.eu/ontology/euvoc#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosthes: <http://purl.org/iso25964/skos-thes#> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix zonmwpa: <http://www.fair-data-collective.com/zonmw/projectadmin> .
+
+<http://www.fair-data-collective.com/zonmw/projectadmin> a skos:ConceptScheme;
+  dct:creator <https://orcid.org/0000-0001-6875-5360>;
+  dct:description "Controlled vocabulary of terms used in ZonMV COVID project administrative metadata"@en;
+  dct:title "ZonMW Project Administration Terms"@en;
+  pav:createdOn "2020-10-28T23:30:00-07:00"@en;
+  pav:lastUpdatedOn "2020-10-28T23:30:00-07:01"@en;
+  pav:version "0.1"@en;
+  skos:narrower <http://www.fair-data-collective.com/zonmw/projectadminCareProcessPhase>,
+    <http://www.fair-data-collective.com/zonmw/projectadminPopulation>, <http://www.fair-data-collective.com/zonmw/projectadminServices>,
+    <http://www.fair-data-collective.com/zonmw/projectadminSetting>, <http://www.fair-data-collective.com/zonmw/projectadminSizeOfCollection>,
+    <http://www.fair-data-collective.com/zonmw/projectadminStudyArea>, <http://www.fair-data-collective.com/zonmw/projectadminTypesOfCollection>,
+    <http://www.fair-data-collective.com/zonmw/projectadminTypesOfData>, <http://www.fair-data-collective.com/zonmw/projectadminTypesOfMaterial>;
+  skos:prefLabel "ZonMW Project Administration Terms"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminStudyArea> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:definition "This is a set of controlled terms for the Study Area category."@en;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:narrower <http://www.fair-data-collective.com/zonmw/projectadminMultiplemunicipalities>,
+    <http://www.fair-data-collective.com/zonmw/projectadminNeighbourhood>, <http://www.fair-data-collective.com/zonmw/projectadminProvincial>,
+    <http://www.fair-data-collective.com/zonmw/projectadminRegional>, <http://www.fair-data-collective.com/zonmw/projectadminRural>,
+    <http://www.fair-data-collective.com/zonmw/projectadminTownship>;
+  skos:prefLabel "Study Area"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminTownship> a skos:Concept;
+  dct:contributor <https://orcid.org/0000-0001-6875-5360>;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminStudyArea>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Township"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminRural> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminStudyArea>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Rural"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminMultiplemunicipalities> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminStudyArea>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Multiple municipalities"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminProvincial> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminStudyArea>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Provincial"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminRegional> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminStudyArea>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Regional"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminNeighbourhood> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminSetting>, <http://www.fair-data-collective.com/zonmw/projectadminStudyArea>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Neighbourhood"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminOtherStudyArea> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminSizeOfCollection>;
+  skos:definition "If selected, supply a text value for Study Area."@en;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "OtherStudyArea"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminSizeOfCollection> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:definition "This is a set of controlled terms for the Size of Collection category."@en;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:narrower <http://www.fair-data-collective.com/zonmw/projectadmin1.000.000-10.000.000>,
+    <http://www.fair-data-collective.com/zonmw/projectadmin10-100>, <http://www.fair-data-collective.com/zonmw/projectadmin10.000-100.000>,
+    <http://www.fair-data-collective.com/zonmw/projectadmin10.000.000-100.000.000>, <http://www.fair-data-collective.com/zonmw/projectadmin100-1000>,
+    <http://www.fair-data-collective.com/zonmw/projectadmin100.000-1.000.000>, <http://www.fair-data-collective.com/zonmw/projectadmin100.000.000-1.000.000.000>,
+    <http://www.fair-data-collective.com/zonmw/projectadmin1000-10.000>, <http://www.fair-data-collective.com/zonmw/projectadminOtherSizeOfCollection>,
+    <http://www.fair-data-collective.com/zonmw/projectadminOtherStudyArea>, <http://www.fair-data-collective.com/zonmw/projectadminUnder10>;
+  skos:prefLabel "Size Of Collection"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminUnder10> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminSizeOfCollection>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Under 10"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadmin10-100> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminSizeOfCollection>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "10 - 100"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadmin100-1000> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminSizeOfCollection>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "100 - 1000"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadmin1000-10.000> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminSizeOfCollection>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "1000 - 10.000"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadmin10.000-100.000> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminSizeOfCollection>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "10.000 - 100.000"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadmin100.000-1.000.000> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminSizeOfCollection>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "100.000 - 1.000.000"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadmin1.000.000-10.000.000> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminSizeOfCollection>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "1.000.000 - 10.000.000"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadmin10.000.000-100.000.000> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminSizeOfCollection>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "10.000.000 - 100.000.000"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadmin100.000.000-1.000.000.000>
+  a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminSizeOfCollection>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "100.000.000 - 1.000.000.000"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminOtherSizeOfCollection> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminSizeOfCollection>;
+  skos:definition "If selected, supply a text value for the Size of Collection."@en;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Other Size Of Collection"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminServices> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:definition "This is a set of controlled terms for the Services category."@en;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:narrower <http://www.fair-data-collective.com/zonmw/projectadminAbilitytosetupclinicaltrials>,
+    <http://www.fair-data-collective.com/zonmw/projectadminAnimalTestingFacility>, <http://www.fair-data-collective.com/zonmw/projectadminAntibodyDevelopment>,
+    <http://www.fair-data-collective.com/zonmw/projectadminBSL-2laboratoriesavailable>,
+    <http://www.fair-data-collective.com/zonmw/projectadminBSL-3laboratoriesavailable>,
+    <http://www.fair-data-collective.com/zonmw/projectadminLaboratoriesdoingPCR-baseddiagnosis>,
+    <http://www.fair-data-collective.com/zonmw/projectadminMemberCOVID-19Network>, <http://www.fair-data-collective.com/zonmw/projectadminOtherServices>,
+    <http://www.fair-data-collective.com/zonmw/projectadminOtherTypesOfMaterial>, <http://www.fair-data-collective.com/zonmw/projectadminProteomicsstudiesincludingproteinengineeringandproteininteractions>,
+    <http://www.fair-data-collective.com/zonmw/projectadminScreeningtoolsforsearchingvirusproteasesinhibitors>,
+    <http://www.fair-data-collective.com/zonmw/projectadminVirusSequencingFacility>;
+  skos:prefLabel "Services"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminBSL-2laboratoriesavailable>
+  a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminServices>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "BSL-2 laboratories available"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminBSL-3laboratoriesavailable>
+  a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminServices>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "BSL-3 laboratories available"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminMemberCOVID-19Network> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminServices>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Member COVID-19 Network"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminAntibodyDevelopment> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminServices>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Antibody Development"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminLaboratoriesdoingPCR-baseddiagnosis>
+  a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminServices>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Laboratories doing PCR-based diagnosis"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminProteomicsstudiesincludingproteinengineeringandproteininteractions>
+  a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminServices>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Proteomics studies including protein engineering and protein interactions"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminScreeningtoolsforsearchingvirusproteasesinhibitors>
+  a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminServices>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Screening tools for searching virus proteases inhibitors"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminAnimalTestingFacility> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminServices>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Animal Testing Facility"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminAbilitytosetupclinicaltrials>
+  a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminServices>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Ability to set up clinical trials"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminVirusSequencingFacility> a
+    skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminServices>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Virus Sequencing Facility"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminOtherServices> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminServices>;
+  skos:definition "If selected, supply a text value for the Services."@en;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Other Services"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminTypesOfMaterial> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:definition "This is a set of controlled terms for the Types of Material category."@en;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:narrower <http://www.fair-data-collective.com/zonmw/projectadminBuffyCoat>, <http://www.fair-data-collective.com/zonmw/projectadminCelllines>,
+    <http://www.fair-data-collective.com/zonmw/projectadminDNA>, <http://www.fair-data-collective.com/zonmw/projectadminFaeces>,
+    <http://www.fair-data-collective.com/zonmw/projectadminNasalswab>, <http://www.fair-data-collective.com/zonmw/projectadminNotavailable>,
+    <http://www.fair-data-collective.com/zonmw/projectadminPathogen>, <http://www.fair-data-collective.com/zonmw/projectadminPeripheralbloodcells>,
+    <http://www.fair-data-collective.com/zonmw/projectadminPlasma>, <http://www.fair-data-collective.com/zonmw/projectadminRNA>,
+    <http://www.fair-data-collective.com/zonmw/projectadminSaliva>, <http://www.fair-data-collective.com/zonmw/projectadminSerum>,
+    <http://www.fair-data-collective.com/zonmw/projectadminThroatswab>, <http://www.fair-data-collective.com/zonmw/projectadminTissue-cryopreserved>,
+    <http://www.fair-data-collective.com/zonmw/projectadminTissue-paraffinpreserved>,
+    <http://www.fair-data-collective.com/zonmw/projectadminTissue-stainedsectionsDivslides>,
+    <http://www.fair-data-collective.com/zonmw/projectadminUrine>, <http://www.fair-data-collective.com/zonmw/projectadminWholeBlood>,
+    <http://www.fair-data-collective.com/zonmw/projectadmincDNADivmRNA>, <http://www.fair-data-collective.com/zonmw/projectadminmicroRNA>;
+  skos:prefLabel "TypesOfMaterial"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminBuffyCoat> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminTypesOfMaterial>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Buffy Coat"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadmincDNADivmRNA> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminTypesOfMaterial>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "cDNA / mRNA"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminCelllines> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminTypesOfMaterial>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Cell lines"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminDNA> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminTypesOfMaterial>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "DNA"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminFaeces> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminTypesOfMaterial>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Faeces"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminmicroRNA> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminTypesOfMaterial>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "microRNA"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminNasalswab> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminTypesOfMaterial>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Nasal swab"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminNotavailable> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminTypesOfData>,
+    <http://www.fair-data-collective.com/zonmw/projectadminTypesOfMaterial>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Not available"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminPathogen> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminTypesOfMaterial>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Pathogen"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminPeripheralbloodcells> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminTypesOfMaterial>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Peripheral blood cells"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminPlasma> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminTypesOfMaterial>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Plasma"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminRNA> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminTypesOfMaterial>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "RNA"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminSaliva> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminTypesOfMaterial>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Saliva"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminSerum> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminTypesOfMaterial>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Serum"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminThroatswab> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminTypesOfMaterial>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Throat swab"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminTissue-cryopreserved> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminTypesOfMaterial>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Tissue, cryo preserved"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminTissue-paraffinpreserved> a
+    skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminTypesOfMaterial>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Tissue, paraffin preserved"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminTissue-stainedsectionsDivslides>
+  a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminTypesOfMaterial>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Tissue (stained sections/slides)"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminUrine> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminTypesOfMaterial>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Urine"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminWholeBlood> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminTypesOfMaterial>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Whole Blood"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminOtherTypesOfMaterial> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminServices>;
+  skos:definition "If selected, supply a text value for the Type of Material."@en;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Other Types Of Material"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminTypesOfData> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:definition "This is a set of controlled terms for the Types of Data category."@en;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:narrower <http://www.fair-data-collective.com/zonmw/projectadminAntibodiestiter-IgMandIgG>,
+    <http://www.fair-data-collective.com/zonmw/projectadminBiologicalsamples>, <http://www.fair-data-collective.com/zonmw/projectadminBloodcountandotherlabresultsespeciallyatthemomentofhospitaladmission>,
+    <http://www.fair-data-collective.com/zonmw/projectadminCTimagingoflungs-alternativelyXray>,
+    <http://www.fair-data-collective.com/zonmw/projectadminDataonclinicalsymptoms>, <http://www.fair-data-collective.com/zonmw/projectadminDataondiseasedurationanddiseaseoutcome>,
+    <http://www.fair-data-collective.com/zonmw/projectadminGenealogicalrecords>, <http://www.fair-data-collective.com/zonmw/projectadminImagingdata>,
+    <http://www.fair-data-collective.com/zonmw/projectadminMedicalrecords>, <http://www.fair-data-collective.com/zonmw/projectadminNationalregistries>,
+    <http://www.fair-data-collective.com/zonmw/projectadminNotavailable>, <http://www.fair-data-collective.com/zonmw/projectadminOtherTypesOfData>,
+    <http://www.fair-data-collective.com/zonmw/projectadminPhysiologicalDivBiochemicalmeasurements>,
+    <http://www.fair-data-collective.com/zonmw/projectadminSurveydata>, <http://www.fair-data-collective.com/zonmw/projectadminTreatmentprotocol-typesofdrugsused>;
+  skos:prefLabel "Types Of Data"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminAntibodiestiter-IgMandIgG>
+  a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminTypesOfData>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Antibodies titer (IgM and IgG)"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminBiologicalsamples> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminTypesOfData>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Biological samples"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminBloodcountandotherlabresultsespeciallyatthemomentofhospitaladmission>
+  a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminTypesOfData>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Blood count and other lab results especially at the moment of hospital admission"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminDataonclinicalsymptoms> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminTypesOfData>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Data on clinical symptoms"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminCTimagingoflungs-alternativelyXray>
+  a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminTypesOfData>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "CT imaging of lungs, alternatively Xray"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminDataondiseasedurationanddiseaseoutcome>
+  a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminTypesOfData>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Data on disease duration and disease outcome"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminGenealogicalrecords> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminTypesOfData>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Genealogical records"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminImagingdata> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminTypesOfData>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Imaging data"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminMedicalrecords> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminTypesOfData>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Medical records"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminNationalregistries> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminTypesOfData>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "National registries"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminPhysiologicalDivBiochemicalmeasurements>
+  a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminTypesOfData>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Physiological/Biochemical measurements"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminSurveydata> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminTypesOfData>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Survey data"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminTreatmentprotocol-typesofdrugsused>
+  a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminTypesOfData>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Treatment protocol (types of drugs used)"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminOtherTypesOfData> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminTypesOfData>;
+  skos:definition "If selected, supply a text value for the Type of Date."@en;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Other Types Of Data"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminTypesOfCollection> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:definition "This is a set of controlled terms for the Types of Collection category."@en;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:narrower <http://www.fair-data-collective.com/zonmw/projectadminBirthcohort>,
+    <http://www.fair-data-collective.com/zonmw/projectadminCase-Control>, <http://www.fair-data-collective.com/zonmw/projectadminCohort>,
+    <http://www.fair-data-collective.com/zonmw/projectadminCross-sectional>, <http://www.fair-data-collective.com/zonmw/projectadminDiseasespecific>,
+    <http://www.fair-data-collective.com/zonmw/projectadminHospital>, <http://www.fair-data-collective.com/zonmw/projectadminImagecollection>,
+    <http://www.fair-data-collective.com/zonmw/projectadminLongitudinal>, <http://www.fair-data-collective.com/zonmw/projectadminNon-human>,
+    <http://www.fair-data-collective.com/zonmw/projectadminOtherTypeofCollection>, <http://www.fair-data-collective.com/zonmw/projectadminPopulation-based>,
+    <http://www.fair-data-collective.com/zonmw/projectadminProspectivestudy>, <http://www.fair-data-collective.com/zonmw/projectadminQualitycontrol>,
+    <http://www.fair-data-collective.com/zonmw/projectadminRarediseasecollection>, <http://www.fair-data-collective.com/zonmw/projectadminSamplecollection>,
+    <http://www.fair-data-collective.com/zonmw/projectadminTwin-study>;
+  skos:prefLabel "Types Of Collection"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminBirthcohort> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminTypesOfCollection>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Birth cohort"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminCase-Control> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminTypesOfCollection>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Case-Control"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminCohort> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminTypesOfCollection>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Cohort"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminCross-sectional> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminTypesOfCollection>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Cross-sectional"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminDiseasespecific> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminTypesOfCollection>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Disease specific"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminHospital> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminTypesOfCollection>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Hospital"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminImagecollection> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminTypesOfCollection>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Image collection"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminLongitudinal> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminTypesOfCollection>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Longitudinal"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminNon-human> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminTypesOfCollection>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Non-human"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminOtherTypeofCollection> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminTypesOfCollection>;
+  skos:definition "If selected, supply a text value for the Type of Collection."@en;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Other Type of Collection"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminPopulation-based> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminTypesOfCollection>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Population-based"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminProspectivestudy> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminTypesOfCollection>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Prospective study"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminQualitycontrol> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminTypesOfCollection>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Quality control"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminRarediseasecollection> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminTypesOfCollection>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Rare disease collection"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminSamplecollection> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminTypesOfCollection>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Sample collection"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminTwin-study> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminTypesOfCollection>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Twin-study"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminPopulation> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:definition "This is a set of controlled terms for the Population category."@en;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:narrower <http://www.fair-data-collective.com/zonmw/projectadminAdults-18-65years>,
+    <http://www.fair-data-collective.com/zonmw/projectadminChildren-0-18years>, <http://www.fair-data-collective.com/zonmw/projectadminElderly-65plus>,
+    <http://www.fair-data-collective.com/zonmw/projectadminMen>, <http://www.fair-data-collective.com/zonmw/projectadminMentallychallengedpeople>,
+    <http://www.fair-data-collective.com/zonmw/projectadminNeonates>, <http://www.fair-data-collective.com/zonmw/projectadminOtherCareProcessPhase>,
+    <http://www.fair-data-collective.com/zonmw/projectadminOtherPopulation>, <http://www.fair-data-collective.com/zonmw/projectadminPeoplewithachronicillness>,
+    <http://www.fair-data-collective.com/zonmw/projectadminPeoplewithalowsocio-economicstatus>,
+    <http://www.fair-data-collective.com/zonmw/projectadminPeoplewithamigrationbackground>,
+    <http://www.fair-data-collective.com/zonmw/projectadminPeoplewithaphysicaldisability>,
+    <http://www.fair-data-collective.com/zonmw/projectadminPeoplewithararecondition>,
+    <http://www.fair-data-collective.com/zonmw/projectadminPeoplewithaspecificethnicbackground>,
+    <http://www.fair-data-collective.com/zonmw/projectadminPopulationwide>, <http://www.fair-data-collective.com/zonmw/projectadminPregnantwomen>,
+    <http://www.fair-data-collective.com/zonmw/projectadminPrimaryschoolchildren-4-12years>,
+    <http://www.fair-data-collective.com/zonmw/projectadminTeenager-12-18years>, <http://www.fair-data-collective.com/zonmw/projectadminTopathletes>,
+    <http://www.fair-data-collective.com/zonmw/projectadminVulnerableelderly>, <http://www.fair-data-collective.com/zonmw/projectadminWomen>,
+    <http://www.fair-data-collective.com/zonmw/projectadminWorkingpeople>, <http://www.fair-data-collective.com/zonmw/projectadminYoungadults18-21years>,
+    <http://www.fair-data-collective.com/zonmw/projectadminYoungpeople-16-27years>;
+  skos:prefLabel "Population"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminPopulationwide> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminPopulation>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Population wide"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminNeonates> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminPopulation>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Neonates"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminChildren-0-18years> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminPopulation>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Children (0-18 years)"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminPrimaryschoolchildren-4-12years>
+  a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminPopulation>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Primary school children (4-12 years)"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminTeenager-12-18years> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminPopulation>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Teenager (12-18 years)"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminYoungpeople-16-27years> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminPopulation>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Young people (16-27 years)"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminYoungadults18-21years> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminPopulation>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Young adults 18-21 years)"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminAdults-18-65years> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminPopulation>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Adults (18-65 years)"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminElderly-65plus> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminPopulation>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Elderly (65+)"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminVulnerableelderly> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminPopulation>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Vulnerable elderly"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminPregnantwomen> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminPopulation>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Pregnant women"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminPeoplewithaspecificethnicbackground>
+  a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminPopulation>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "People with a specific ethnic background"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminPeoplewithamigrationbackground>
+  a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminPopulation>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "People with a migration background"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminPeoplewithachronicillness>
+  a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminPopulation>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "People with a chronic illness"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminPeoplewithaphysicaldisability>
+  a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminPopulation>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "People with a physical disability"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminMentallychallengedpeople> a
+    skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminPopulation>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Mentally challenged people"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminPeoplewithararecondition> a
+    skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminPopulation>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "People with a rare condition"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminPeoplewithalowsocio-economicstatus>
+  a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminPopulation>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "People with a low socio-economic status"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminWorkingpeople> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminPopulation>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Working people"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminTopathletes> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminPopulation>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Top athletes"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminMen> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminPopulation>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Men"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminWomen> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminPopulation>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Women"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminOtherPopulation> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminPopulation>;
+  skos:definition "If selected, supply a text value for the Population."@en;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Other Population"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminCareProcessPhase> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:definition "This is a set of controlled terms for the Care Process Phase category."@en;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:narrower <http://www.fair-data-collective.com/zonmw/projectadminAftercare>, <http://www.fair-data-collective.com/zonmw/projectadminDiagnosis>,
+    <http://www.fair-data-collective.com/zonmw/projectadminEarlydetection&screening>,
+    <http://www.fair-data-collective.com/zonmw/projectadminFollow-up>, <http://www.fair-data-collective.com/zonmw/projectadminInformation>,
+    <http://www.fair-data-collective.com/zonmw/projectadminOrganizationofcare>, <http://www.fair-data-collective.com/zonmw/projectadminPalliative>,
+    <http://www.fair-data-collective.com/zonmw/projectadminPrevention>, <http://www.fair-data-collective.com/zonmw/projectadminTherapy>;
+  skos:prefLabel "Care Process Phase"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminPrevention> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminCareProcessPhase>,
+    <http://www.fair-data-collective.com/zonmw/projectadminSetting>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Prevention"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminDiagnosis> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminCareProcessPhase>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Diagnosis"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminTherapy> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminCareProcessPhase>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Therapy"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminFollow-up> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminCareProcessPhase>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Follow-up"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminAftercare> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminCareProcessPhase>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Aftercare"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminPalliative> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminCareProcessPhase>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Palliative"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminInformation> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminCareProcessPhase>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Information"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminEarlydetection&screening> a
+    skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminCareProcessPhase>,
+    <http://www.fair-data-collective.com/zonmw/projectadminSetting>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Early detection & screening"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminOrganizationofcare> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminCareProcessPhase>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Organization of care"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminOtherCareProcessPhase> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminPopulation>;
+  skos:definition "If selected, supply a text value for the Care Process Phase."@en;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Other Care Process Phase"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminSetting> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:definition "This is a set of controlled terms for the Setting category."@en;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:narrower <http://www.fair-data-collective.com/zonmw/projectadminCare>, <http://www.fair-data-collective.com/zonmw/projectadminCattle>,
+    <http://www.fair-data-collective.com/zonmw/projectadminClientsandDivorpatientorganization>,
+    <http://www.fair-data-collective.com/zonmw/projectadminDisabledcare>, <http://www.fair-data-collective.com/zonmw/projectadminEarlydetection&screening>,
+    <http://www.fair-data-collective.com/zonmw/projectadminEducation-schoolandupbringing>,
+    <http://www.fair-data-collective.com/zonmw/projectadminElderlycare>, <http://www.fair-data-collective.com/zonmw/projectadminExperimentalgarden>,
+    <http://www.fair-data-collective.com/zonmw/projectadminGeneralpractitionercare>, <http://www.fair-data-collective.com/zonmw/projectadminHealthcareinstitution>,
+    <http://www.fair-data-collective.com/zonmw/projectadminHomecare>, <http://www.fair-data-collective.com/zonmw/projectadminHospitalcare>,
+    <http://www.fair-data-collective.com/zonmw/projectadminJustice>, <http://www.fair-data-collective.com/zonmw/projectadminLong-termmentalhealthcare>,
+    <http://www.fair-data-collective.com/zonmw/projectadminMeasuringinstrument>, <http://www.fair-data-collective.com/zonmw/projectadminNeighbourhood>,
+    <http://www.fair-data-collective.com/zonmw/projectadminNursinghomecare>, <http://www.fair-data-collective.com/zonmw/projectadminOtherSetting>,
+    <http://www.fair-data-collective.com/zonmw/projectadminPrevention>, <http://www.fair-data-collective.com/zonmw/projectadminPrimarycare>,
+    <http://www.fair-data-collective.com/zonmw/projectadminSecond-linecare>, <http://www.fair-data-collective.com/zonmw/projectadminSocialSupport>,
+    <http://www.fair-data-collective.com/zonmw/projectadminSocialdomain>, <http://www.fair-data-collective.com/zonmw/projectadminSportDivhealthDivwellness>,
+    <http://www.fair-data-collective.com/zonmw/projectadminTransmural>, <http://www.fair-data-collective.com/zonmw/projectadminWorkandIncome>,
+    <http://www.fair-data-collective.com/zonmw/projectadminYouth>, <http://www.fair-data-collective.com/zonmw/projectadminYouth-healthcare>;
+  skos:prefLabel "Setting"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminPrimarycare> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminSetting>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Primary care"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminSecond-linecare> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminSetting>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Second-line care"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminHealthcareinstitution> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminSetting>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Healthcare institution"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminCattle> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminSetting>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Cattle"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminTransmural> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminSetting>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Transmural"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminNursinghomecare> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminSetting>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Nursing home care"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminHospitalcare> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminSetting>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Hospital care"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminHomecare> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminSetting>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Home care"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminEducation-schoolandupbringing>
+  a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminSetting>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Education (school and upbringing)"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminWorkandIncome> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminSetting>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Work and Income"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminCare> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminSetting>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Care"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminJustice> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminSetting>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Justice"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminSocialdomain> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminSetting>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Social domain"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminYouth> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminSetting>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Youth"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminSocialSupport> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminSetting>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Social Support"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminSportDivhealthDivwellness>
+  a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminSetting>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Sport / health / wellness"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminDisabledcare> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminSetting>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Disabled care"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminLong-termmentalhealthcare>
+  a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminSetting>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Long-term mental health care"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminYouth-healthcare> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminSetting>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Youth (health) care"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminGeneralpractitionercare> a
+    skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminSetting>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "General practitioner care"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminElderlycare> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminSetting>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Elderly care"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminClientsandDivorpatientorganization>
+  a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminSetting>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Clients and / or patient organization"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminMeasuringinstrument> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminSetting>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Measuring instrument"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminExperimentalgarden> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminSetting>;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Experimental garden"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadminOtherSetting> a skos:Concept;
+  skos:broader <http://www.fair-data-collective.com/zonmw/projectadminSetting>;
+  skos:definition "If selected, supply a text value for the Setting."@en;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Other Setting"@en .
