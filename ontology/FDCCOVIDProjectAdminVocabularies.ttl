@@ -25,19 +25,18 @@
   pav:createdOn "2020-10-28T23:30:00-07:00"@en;
   pav:lastUpdatedOn "2020-10-28T23:30:00-07:01"@en;
   pav:version "0.1"@en;
-  skos:hasTopConcept <http://www.fair-data-collective.com/zonmw/projectadmin>;
-  skos:narrower zonmwpa:CareProcessPhase, zonmwpa:Population, zonmwpa:Services, zonmwpa:Setting,
-    zonmwpa:SizeOfCollection, zonmwpa:StudyArea, zonmwpa:TypesOfCollection, zonmwpa:TypesOfData,
-    zonmwpa:TypesOfMaterial;
+  skos:hasTopConcept zonmwpa:CareProcessPhase, zonmwpa:Population, zonmwpa:Services,
+    zonmwpa:Setting, zonmwpa:SizeOfCollection, zonmwpa:StudyArea, zonmwpa:TypesOfCollection,
+    zonmwpa:TypesOfData, zonmwpa:TypesOfMaterial;
   skos:prefLabel "ZonMW Project Administration Terms"@en .
 
 zonmwpa:StudyArea a skos:Concept;
-  skos:broader <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:definition "This is a set of controlled terms for the Study Area category."@en;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:narrower zonmwpa:Multiplemunicipalities, zonmwpa:Neighbourhood, zonmwpa:Provincial,
     zonmwpa:Regional, zonmwpa:Rural, zonmwpa:Township;
-  skos:prefLabel "Study Area"@en .
+  skos:prefLabel "Study Area"@en;
+  skos:topConceptOf <http://www.fair-data-collective.com/zonmw/projectadmin> .
 
 zonmwpa:Township a skos:Concept;
   dct:contributor <https://orcid.org/0000-0001-6875-5360>;
@@ -76,13 +75,13 @@ zonmwpa:OtherStudyArea a skos:Concept;
   skos:prefLabel "OtherStudyArea"@en .
 
 zonmwpa:SizeOfCollection a skos:Concept;
-  skos:broader <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:definition "This is a set of controlled terms for the Size of Collection category."@en;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:narrower zonmwpa:1.000.000-10.000.000, zonmwpa:10-100, zonmwpa:10.000-100.000,
     zonmwpa:10.000.000-100.000.000, zonmwpa:100-1000, zonmwpa:100.000-1.000.000, zonmwpa:100.000.000-1.000.000.000,
     zonmwpa:1000-10.000, zonmwpa:OtherSizeOfCollection, zonmwpa:OtherStudyArea, zonmwpa:Under10;
-  skos:prefLabel "Size Of Collection"@en .
+  skos:prefLabel "Size Of Collection"@en;
+  skos:topConceptOf <http://www.fair-data-collective.com/zonmw/projectadmin> .
 
 zonmwpa:Under10 a skos:Concept;
   skos:broader zonmwpa:SizeOfCollection;
@@ -135,15 +134,15 @@ zonmwpa:OtherSizeOfCollection a skos:Concept;
   skos:prefLabel "Other Size Of Collection"@en .
 
 zonmwpa:Services a skos:Concept;
-  skos:broader <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:definition "This is a set of controlled terms for the Services category."@en;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:narrower zonmwpa:Abilitytosetupclinicaltrials, zonmwpa:AnimalTestingFacility,
     zonmwpa:AntibodyDevelopment, zonmwpa:BSL-2laboratoriesavailable, zonmwpa:BSL-3laboratoriesavailable,
     zonmwpa:LaboratoriesdoingPCR-baseddiagnosis, zonmwpa:MemberCOVID-19Network, zonmwpa:OtherServices,
-    zonmwpa:OtherTypesOfMaterial, zonmwpa:Proteomicsstudiesincludingproteinengineeringandproteininteractions,
-    zonmwpa:Screeningtoolsforsearchingvirusproteasesinhibitors, zonmwpa:VirusSequencingFacility;
-  skos:prefLabel "Services"@en .
+    zonmwpa:Proteomicsstudiesincludingproteinengineeringandproteininteractions, zonmwpa:Screeningtoolsforsearchingvirusproteasesinhibitors,
+    zonmwpa:VirusSequencingFacility;
+  skos:prefLabel "Services"@en;
+  skos:topConceptOf <http://www.fair-data-collective.com/zonmw/projectadmin> .
 
 zonmwpa:BSL-2laboratoriesavailable a skos:Concept;
   skos:broader zonmwpa:Services;
@@ -201,15 +200,15 @@ zonmwpa:OtherServices a skos:Concept;
   skos:prefLabel "Other Services"@en .
 
 zonmwpa:TypesOfMaterial a skos:Concept;
-  skos:broader <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:definition "This is a set of controlled terms for the Types of Material category."@en;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:narrower zonmwpa:BuffyCoat, zonmwpa:Celllines, zonmwpa:DNA, zonmwpa:Faeces, zonmwpa:Nasalswab,
-    zonmwpa:Notavailable, zonmwpa:Pathogen, zonmwpa:Peripheralbloodcells, zonmwpa:Plasma,
-    zonmwpa:RNA, zonmwpa:Saliva, zonmwpa:Serum, zonmwpa:Throatswab, zonmwpa:Tissue-cryopreserved,
+    zonmwpa:Notavailable, zonmwpa:OtherTypesOfMaterial, zonmwpa:Pathogen, zonmwpa:Peripheralbloodcells,
+    zonmwpa:Plasma, zonmwpa:RNA, zonmwpa:Saliva, zonmwpa:Serum, zonmwpa:Throatswab, zonmwpa:Tissue-cryopreserved,
     zonmwpa:Tissue-paraffinpreserved, zonmwpa:Tissue-stainedsectionsDivslides, zonmwpa:Urine,
     zonmwpa:WholeBlood, zonmwpa:cDNADivmRNA, zonmwpa:microRNA;
-  skos:prefLabel "TypesOfMaterial"@en .
+  skos:prefLabel "TypesOfMaterial"@en;
+  skos:topConceptOf <http://www.fair-data-collective.com/zonmw/projectadmin> .
 
 zonmwpa:BuffyCoat a skos:Concept;
   skos:broader zonmwpa:TypesOfMaterial;
@@ -312,12 +311,11 @@ zonmwpa:WholeBlood a skos:Concept;
   skos:prefLabel "Whole Blood"@en .
 
 zonmwpa:OtherTypesOfMaterial a skos:Concept;
-  skos:broader zonmwpa:Services;
+  skos:broader zonmwpa:TypesOfMaterial;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:prefLabel "Other Types Of Material"@en .
 
 zonmwpa:TypesOfData a skos:Concept;
-  skos:broader <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:definition "This is a set of controlled terms for the Types of Data category."@en;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:narrower zonmwpa:Antibodiestiter-IgMandIgG, zonmwpa:Biologicalsamples, zonmwpa:Bloodcountandotherlabresultsespeciallyatthemomentofhospitaladmission,
@@ -325,7 +323,8 @@ zonmwpa:TypesOfData a skos:Concept;
     zonmwpa:Genealogicalrecords, zonmwpa:Imagingdata, zonmwpa:Medicalrecords, zonmwpa:Nationalregistries,
     zonmwpa:Notavailable, zonmwpa:OtherTypesOfData, zonmwpa:PhysiologicalDivBiochemicalmeasurements,
     zonmwpa:Surveydata, zonmwpa:Treatmentprotocol-typesofdrugsused;
-  skos:prefLabel "Types Of Data"@en .
+  skos:prefLabel "Types Of Data"@en;
+  skos:topConceptOf <http://www.fair-data-collective.com/zonmw/projectadmin> .
 
 zonmwpa:Antibodiestiter-IgMandIgG a skos:Concept;
   skos:broader zonmwpa:TypesOfData;
@@ -398,14 +397,14 @@ zonmwpa:OtherTypesOfData a skos:Concept;
   skos:prefLabel "Other Types Of Data"@en .
 
 zonmwpa:TypesOfCollection a skos:Concept;
-  skos:broader <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:definition "This is a set of controlled terms for the Types of Collection category."@en;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:narrower zonmwpa:Birthcohort, zonmwpa:Case-Control, zonmwpa:Cohort, zonmwpa:Cross-sectional,
     zonmwpa:Diseasespecific, zonmwpa:Hospital, zonmwpa:Imagecollection, zonmwpa:Longitudinal,
     zonmwpa:Non-human, zonmwpa:OtherTypeofCollection, zonmwpa:Population-based, zonmwpa:Prospectivestudy,
     zonmwpa:Qualitycontrol, zonmwpa:Rarediseasecollection, zonmwpa:Samplecollection, zonmwpa:Twin-study;
-  skos:prefLabel "Types Of Collection"@en .
+  skos:prefLabel "Types Of Collection"@en;
+  skos:topConceptOf <http://www.fair-data-collective.com/zonmw/projectadmin> .
 
 zonmwpa:Birthcohort a skos:Concept;
   skos:broader zonmwpa:TypesOfCollection;
@@ -488,7 +487,6 @@ zonmwpa:Twin-study a skos:Concept;
   skos:prefLabel "Twin-study"@en .
 
 zonmwpa:Population a skos:Concept;
-  skos:broader <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:definition "This is a set of controlled terms for the Population category."@en;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:narrower zonmwpa:Adults-18-65years, zonmwpa:Children-0-18years, zonmwpa:Elderly-65plus,
@@ -499,7 +497,8 @@ zonmwpa:Population a skos:Concept;
     zonmwpa:Primaryschoolchildren-4-12years, zonmwpa:Teenager-12-18years, zonmwpa:Topathletes,
     zonmwpa:Vulnerableelderly, zonmwpa:Women, zonmwpa:Workingpeople, zonmwpa:Youngadults18-21years,
     zonmwpa:Youngpeople-16-27years;
-  skos:prefLabel "Population"@en .
+  skos:prefLabel "Population"@en;
+  skos:topConceptOf <http://www.fair-data-collective.com/zonmw/projectadmin> .
 
 zonmwpa:Populationwide a skos:Concept;
   skos:broader zonmwpa:Population;
@@ -617,13 +616,13 @@ zonmwpa:OtherPopulation a skos:Concept;
   skos:prefLabel "Other Population"@en .
 
 zonmwpa:CareProcessPhase a skos:Concept;
-  skos:broader <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:definition "This is a set of controlled terms for the Care Process Phase category."@en;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:narrower zonmwpa:Aftercare, zonmwpa:Diagnosis, <http://www.fair-data-collective.com/zonmw/projectadmin/Earlydetection&screening>,
     zonmwpa:Follow-up, zonmwpa:Information, zonmwpa:Organizationofcare, zonmwpa:Palliative,
     zonmwpa:Prevention, zonmwpa:Therapy;
-  skos:prefLabel "Care Process Phase"@en .
+  skos:prefLabel "Care Process Phase"@en;
+  skos:topConceptOf <http://www.fair-data-collective.com/zonmw/projectadmin> .
 
 zonmwpa:Prevention a skos:Concept;
   skos:broader zonmwpa:CareProcessPhase, zonmwpa:Setting;
@@ -677,7 +676,6 @@ zonmwpa:OtherCareProcessPhase a skos:Concept;
   skos:prefLabel "Other Care Process Phase"@en .
 
 zonmwpa:Setting a skos:Concept;
-  skos:broader <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:definition "This is a set of controlled terms for the Setting category."@en;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:narrower zonmwpa:Care, zonmwpa:Cattle, zonmwpa:ClientsandDivorpatientorganization,
@@ -689,7 +687,8 @@ zonmwpa:Setting a skos:Concept;
     zonmwpa:Primarycare, zonmwpa:Second-linecare, zonmwpa:SocialSupport, zonmwpa:Socialdomain,
     zonmwpa:SportDivhealthDivwellness, zonmwpa:Transmural, zonmwpa:WorkandIncome, zonmwpa:Youth,
     zonmwpa:Youth-healthcare;
-  skos:prefLabel "Setting"@en .
+  skos:prefLabel "Setting"@en;
+  skos:topConceptOf <http://www.fair-data-collective.com/zonmw/projectadmin> .
 
 zonmwpa:Primarycare a skos:Concept;
   skos:broader zonmwpa:Setting;
