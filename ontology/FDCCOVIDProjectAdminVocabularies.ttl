@@ -22,24 +22,23 @@
   dct:creator <https://orcid.org/0000-0001-6875-5360>;
   dct:description "Controlled vocabulary of terms used in ZonMV COVID project administrative metadata"@en;
   dct:title "ZonMW Project Administration Terms"@en;
-  pav:createdOn "2020-10-28T23:30:00-07:00"@en;
-  pav:lastUpdatedOn "2020-10-28T23:30:00-07:01"@en;
-  pav:version "0.1"@en;
-  skos:hasTopConcept zonmwpa:CareProcessPhase, zonmwpa:Population, zonmwpa:Services,
-    zonmwpa:Setting, zonmwpa:SizeOfCollection, zonmwpa:StudyArea, zonmwpa:TypesOfCollection,
-    zonmwpa:TypesOfData, zonmwpa:TypesOfMaterial;
+  pav:createdOn "2020-10-30T06:55:00+00:00"@en;
+  pav:lastUpdatedOn "2020-10-30T06:55:00+00:01"@en;
+  pav:version "1.0.0"@en;
+  skos:hasTopConcept zonmwpa:CareProcessPhase, zonmwpa:FocusAreas, zonmwpa:Institution,
+    zonmwpa:Population, zonmwpa:Province, zonmwpa:Service, zonmwpa:Setting, zonmwpa:SizeOfCollection,
+    zonmwpa:StudyArea, zonmwpa:Theme, zonmwpa:TypeOfCollection, zonmwpa:TypeOfData, zonmwpa:TypeOfMaterial;
   skos:prefLabel "ZonMW Project Administration Terms"@en .
 
 zonmwpa:StudyArea a skos:Concept;
   skos:definition "This is a set of controlled terms for the Study Area category."@en;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
-  skos:narrower zonmwpa:Multiplemunicipalities, zonmwpa:Neighbourhood, zonmwpa:Provincial,
-    zonmwpa:Regional, zonmwpa:Rural, zonmwpa:Township;
+  skos:narrower zonmwpa:Multiplemunicipalities, zonmwpa:Neighbourhood, zonmwpa:OtherStudyArea,
+    zonmwpa:Provincial, zonmwpa:Regional, zonmwpa:Rural, zonmwpa:Township;
   skos:prefLabel "Study Area"@en;
   skos:topConceptOf <http://www.fair-data-collective.com/zonmw/projectadmin> .
 
 zonmwpa:Township a skos:Concept;
-  dct:contributor <https://orcid.org/0000-0001-6875-5360>;
   skos:broader zonmwpa:StudyArea;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:prefLabel "Township"@en .
@@ -70,7 +69,7 @@ zonmwpa:Neighbourhood a skos:Concept;
   skos:prefLabel "Neighbourhood"@en .
 
 zonmwpa:OtherStudyArea a skos:Concept;
-  skos:broader zonmwpa:SizeOfCollection;
+  skos:broader zonmwpa:StudyArea;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:prefLabel "OtherStudyArea"@en .
 
@@ -79,7 +78,7 @@ zonmwpa:SizeOfCollection a skos:Concept;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:narrower zonmwpa:1.000.000-10.000.000, zonmwpa:10-100, zonmwpa:10.000-100.000,
     zonmwpa:10.000.000-100.000.000, zonmwpa:100-1000, zonmwpa:100.000-1.000.000, zonmwpa:100.000.000-1.000.000.000,
-    zonmwpa:1000-10.000, zonmwpa:OtherSizeOfCollection, zonmwpa:OtherStudyArea, zonmwpa:Under10;
+    zonmwpa:1000-10.000, zonmwpa:OtherSizeOfCollection, zonmwpa:Under10;
   skos:prefLabel "Size Of Collection"@en;
   skos:topConceptOf <http://www.fair-data-collective.com/zonmw/projectadmin> .
 
@@ -133,356 +132,356 @@ zonmwpa:OtherSizeOfCollection a skos:Concept;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:prefLabel "Other Size Of Collection"@en .
 
-zonmwpa:Services a skos:Concept;
-  skos:definition "This is a set of controlled terms for the Services category."@en;
+zonmwpa:Service a skos:Concept;
+  skos:definition "This is a set of controlled terms for the Service category."@en;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:narrower zonmwpa:Abilitytosetupclinicaltrials, zonmwpa:AnimalTestingFacility,
     zonmwpa:AntibodyDevelopment, zonmwpa:BSL-2laboratoriesavailable, zonmwpa:BSL-3laboratoriesavailable,
     zonmwpa:LaboratoriesdoingPCR-baseddiagnosis, zonmwpa:MemberCOVID-19Network, zonmwpa:OtherServices,
     zonmwpa:Proteomicsstudiesincludingproteinengineeringandproteininteractions, zonmwpa:Screeningtoolsforsearchingvirusproteasesinhibitors,
     zonmwpa:VirusSequencingFacility;
-  skos:prefLabel "Services"@en;
+  skos:prefLabel "Service"@en;
   skos:topConceptOf <http://www.fair-data-collective.com/zonmw/projectadmin> .
 
 zonmwpa:BSL-2laboratoriesavailable a skos:Concept;
-  skos:broader zonmwpa:Services;
+  skos:broader zonmwpa:Service;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:prefLabel "BSL-2 laboratories available"@en .
 
 zonmwpa:BSL-3laboratoriesavailable a skos:Concept;
-  skos:broader zonmwpa:Services;
+  skos:broader zonmwpa:Service;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:prefLabel "BSL-3 laboratories available"@en .
 
 zonmwpa:MemberCOVID-19Network a skos:Concept;
-  skos:broader zonmwpa:Services;
+  skos:broader zonmwpa:Service;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:prefLabel "Member COVID-19 Network"@en .
 
 zonmwpa:AntibodyDevelopment a skos:Concept;
-  skos:broader zonmwpa:Services;
+  skos:broader zonmwpa:Service;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:prefLabel "Antibody Development"@en .
 
 zonmwpa:LaboratoriesdoingPCR-baseddiagnosis a skos:Concept;
-  skos:broader zonmwpa:Services;
+  skos:broader zonmwpa:Service;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:prefLabel "Laboratories doing PCR-based diagnosis"@en .
 
 zonmwpa:Proteomicsstudiesincludingproteinengineeringandproteininteractions a skos:Concept;
-  skos:broader zonmwpa:Services;
+  skos:broader zonmwpa:Service;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:prefLabel "Proteomics studies including protein engineering and protein interactions"@en .
 
 zonmwpa:Screeningtoolsforsearchingvirusproteasesinhibitors a skos:Concept;
-  skos:broader zonmwpa:Services;
+  skos:broader zonmwpa:Service;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:prefLabel "Screening tools for searching virus proteases inhibitors"@en .
 
 zonmwpa:AnimalTestingFacility a skos:Concept;
-  skos:broader zonmwpa:Services;
+  skos:broader zonmwpa:Service;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:prefLabel "Animal Testing Facility"@en .
 
 zonmwpa:Abilitytosetupclinicaltrials a skos:Concept;
-  skos:broader zonmwpa:Services;
+  skos:broader zonmwpa:Service;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:prefLabel "Ability to set up clinical trials"@en .
 
 zonmwpa:VirusSequencingFacility a skos:Concept;
-  skos:broader zonmwpa:Services;
+  skos:broader zonmwpa:Service;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:prefLabel "Virus Sequencing Facility"@en .
 
 zonmwpa:OtherServices a skos:Concept;
-  skos:broader zonmwpa:Services;
+  skos:broader zonmwpa:Service;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:prefLabel "Other Services"@en .
 
-zonmwpa:TypesOfMaterial a skos:Concept;
-  skos:definition "This is a set of controlled terms for the Types of Material category."@en;
+zonmwpa:TypeOfMaterial a skos:Concept;
+  skos:definition "This is a set of controlled terms for the Type of Material category."@en;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:narrower zonmwpa:BuffyCoat, zonmwpa:Celllines, zonmwpa:DNA, zonmwpa:Faeces, zonmwpa:Nasalswab,
     zonmwpa:Notavailable, zonmwpa:OtherTypesOfMaterial, zonmwpa:Pathogen, zonmwpa:Peripheralbloodcells,
     zonmwpa:Plasma, zonmwpa:RNA, zonmwpa:Saliva, zonmwpa:Serum, zonmwpa:Throatswab, zonmwpa:Tissue-cryopreserved,
     zonmwpa:Tissue-paraffinpreserved, zonmwpa:Tissue-stainedsectionsDivslides, zonmwpa:Urine,
     zonmwpa:WholeBlood, zonmwpa:cDNADivmRNA, zonmwpa:microRNA;
-  skos:prefLabel "TypesOfMaterial"@en;
+  skos:prefLabel "Type Of Material"@en;
   skos:topConceptOf <http://www.fair-data-collective.com/zonmw/projectadmin> .
 
 zonmwpa:BuffyCoat a skos:Concept;
-  skos:broader zonmwpa:TypesOfMaterial;
+  skos:broader zonmwpa:TypeOfMaterial;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:prefLabel "Buffy Coat"@en .
 
 zonmwpa:cDNADivmRNA a skos:Concept;
-  skos:broader zonmwpa:TypesOfMaterial;
+  skos:broader zonmwpa:TypeOfMaterial;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:prefLabel "cDNA / mRNA"@en .
 
 zonmwpa:Celllines a skos:Concept;
-  skos:broader zonmwpa:TypesOfMaterial;
+  skos:broader zonmwpa:TypeOfMaterial;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:prefLabel "Cell lines"@en .
 
 zonmwpa:DNA a skos:Concept;
-  skos:broader zonmwpa:TypesOfMaterial;
+  skos:broader zonmwpa:TypeOfMaterial;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:prefLabel "DNA"@en .
 
 zonmwpa:Faeces a skos:Concept;
-  skos:broader zonmwpa:TypesOfMaterial;
+  skos:broader zonmwpa:TypeOfMaterial;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:prefLabel "Faeces"@en .
 
 zonmwpa:microRNA a skos:Concept;
-  skos:broader zonmwpa:TypesOfMaterial;
+  skos:broader zonmwpa:TypeOfMaterial;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:prefLabel "microRNA"@en .
 
 zonmwpa:Nasalswab a skos:Concept;
-  skos:broader zonmwpa:TypesOfMaterial;
+  skos:broader zonmwpa:TypeOfMaterial;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:prefLabel "Nasal swab"@en .
 
 zonmwpa:Notavailable a skos:Concept;
-  skos:broader zonmwpa:TypesOfData, zonmwpa:TypesOfMaterial;
+  skos:broader zonmwpa:TypeOfData, zonmwpa:TypeOfMaterial;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:prefLabel "Not available"@en .
 
 zonmwpa:Pathogen a skos:Concept;
-  skos:broader zonmwpa:TypesOfMaterial;
+  skos:broader zonmwpa:TypeOfMaterial;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:prefLabel "Pathogen"@en .
 
 zonmwpa:Peripheralbloodcells a skos:Concept;
-  skos:broader zonmwpa:TypesOfMaterial;
+  skos:broader zonmwpa:TypeOfMaterial;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:prefLabel "Peripheral blood cells"@en .
 
 zonmwpa:Plasma a skos:Concept;
-  skos:broader zonmwpa:TypesOfMaterial;
+  skos:broader zonmwpa:TypeOfMaterial;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:prefLabel "Plasma"@en .
 
 zonmwpa:RNA a skos:Concept;
-  skos:broader zonmwpa:TypesOfMaterial;
+  skos:broader zonmwpa:TypeOfMaterial;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:prefLabel "RNA"@en .
 
 zonmwpa:Saliva a skos:Concept;
-  skos:broader zonmwpa:TypesOfMaterial;
+  skos:broader zonmwpa:TypeOfMaterial;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:prefLabel "Saliva"@en .
 
 zonmwpa:Serum a skos:Concept;
-  skos:broader zonmwpa:TypesOfMaterial;
+  skos:broader zonmwpa:TypeOfMaterial;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:prefLabel "Serum"@en .
 
 zonmwpa:Throatswab a skos:Concept;
-  skos:broader zonmwpa:TypesOfMaterial;
+  skos:broader zonmwpa:TypeOfMaterial;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:prefLabel "Throat swab"@en .
 
 zonmwpa:Tissue-cryopreserved a skos:Concept;
-  skos:broader zonmwpa:TypesOfMaterial;
+  skos:broader zonmwpa:TypeOfMaterial;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:prefLabel "Tissue, cryo preserved"@en .
 
 zonmwpa:Tissue-paraffinpreserved a skos:Concept;
-  skos:broader zonmwpa:TypesOfMaterial;
+  skos:broader zonmwpa:TypeOfMaterial;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:prefLabel "Tissue, paraffin preserved"@en .
 
 zonmwpa:Tissue-stainedsectionsDivslides a skos:Concept;
-  skos:broader zonmwpa:TypesOfMaterial;
+  skos:broader zonmwpa:TypeOfMaterial;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:prefLabel "Tissue (stained sections/slides)"@en .
 
 zonmwpa:Urine a skos:Concept;
-  skos:broader zonmwpa:TypesOfMaterial;
+  skos:broader zonmwpa:TypeOfMaterial;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:prefLabel "Urine"@en .
 
 zonmwpa:WholeBlood a skos:Concept;
-  skos:broader zonmwpa:TypesOfMaterial;
+  skos:broader zonmwpa:TypeOfMaterial;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:prefLabel "Whole Blood"@en .
 
 zonmwpa:OtherTypesOfMaterial a skos:Concept;
-  skos:broader zonmwpa:TypesOfMaterial;
+  skos:broader zonmwpa:TypeOfMaterial;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:prefLabel "Other Types Of Material"@en .
 
-zonmwpa:TypesOfData a skos:Concept;
-  skos:definition "This is a set of controlled terms for the Types of Data category."@en;
+zonmwpa:TypeOfData a skos:Concept;
+  skos:definition "This is a set of controlled terms for the Type of Data category."@en;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:narrower zonmwpa:Antibodiestiter-IgMandIgG, zonmwpa:Biologicalsamples, zonmwpa:Bloodcountandotherlabresultsespeciallyatthemomentofhospitaladmission,
     zonmwpa:CTimagingoflungs-alternativelyXray, zonmwpa:Dataonclinicalsymptoms, zonmwpa:Dataondiseasedurationanddiseaseoutcome,
     zonmwpa:Genealogicalrecords, zonmwpa:Imagingdata, zonmwpa:Medicalrecords, zonmwpa:Nationalregistries,
     zonmwpa:Notavailable, zonmwpa:OtherTypesOfData, zonmwpa:PhysiologicalDivBiochemicalmeasurements,
     zonmwpa:Surveydata, zonmwpa:Treatmentprotocol-typesofdrugsused;
-  skos:prefLabel "Types Of Data"@en;
+  skos:prefLabel "Type Of Data"@en;
   skos:topConceptOf <http://www.fair-data-collective.com/zonmw/projectadmin> .
 
 zonmwpa:Antibodiestiter-IgMandIgG a skos:Concept;
-  skos:broader zonmwpa:TypesOfData;
+  skos:broader zonmwpa:TypeOfData;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:prefLabel "Antibodies titer (IgM and IgG)"@en .
 
 zonmwpa:Biologicalsamples a skos:Concept;
-  skos:broader zonmwpa:TypesOfData;
+  skos:broader zonmwpa:TypeOfData;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:prefLabel "Biological samples"@en .
 
 zonmwpa:Bloodcountandotherlabresultsespeciallyatthemomentofhospitaladmission a skos:Concept;
-  skos:broader zonmwpa:TypesOfData;
+  skos:broader zonmwpa:TypeOfData;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:prefLabel "Blood count and other lab results especially at the moment of hospital admission"@en .
 
 zonmwpa:Dataonclinicalsymptoms a skos:Concept;
-  skos:broader zonmwpa:TypesOfData;
+  skos:broader zonmwpa:TypeOfData;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:prefLabel "Data on clinical symptoms"@en .
 
 zonmwpa:CTimagingoflungs-alternativelyXray a skos:Concept;
-  skos:broader zonmwpa:TypesOfData;
+  skos:broader zonmwpa:TypeOfData;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:prefLabel "CT imaging of lungs, alternatively Xray"@en .
 
 zonmwpa:Dataondiseasedurationanddiseaseoutcome a skos:Concept;
-  skos:broader zonmwpa:TypesOfData;
+  skos:broader zonmwpa:TypeOfData;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:prefLabel "Data on disease duration and disease outcome"@en .
 
 zonmwpa:Genealogicalrecords a skos:Concept;
-  skos:broader zonmwpa:TypesOfData;
+  skos:broader zonmwpa:TypeOfData;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:prefLabel "Genealogical records"@en .
 
 zonmwpa:Imagingdata a skos:Concept;
-  skos:broader zonmwpa:TypesOfData;
+  skos:broader zonmwpa:TypeOfData;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:prefLabel "Imaging data"@en .
 
 zonmwpa:Medicalrecords a skos:Concept;
-  skos:broader zonmwpa:TypesOfData;
+  skos:broader zonmwpa:TypeOfData;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:prefLabel "Medical records"@en .
 
 zonmwpa:Nationalregistries a skos:Concept;
-  skos:broader zonmwpa:TypesOfData;
+  skos:broader zonmwpa:TypeOfData;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:prefLabel "National registries"@en .
 
 zonmwpa:PhysiologicalDivBiochemicalmeasurements a skos:Concept;
-  skos:broader zonmwpa:TypesOfData;
+  skos:broader zonmwpa:TypeOfData;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:prefLabel "Physiological/Biochemical measurements"@en .
 
 zonmwpa:Surveydata a skos:Concept;
-  skos:broader zonmwpa:TypesOfData;
+  skos:broader zonmwpa:TypeOfData;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:prefLabel "Survey data"@en .
 
 zonmwpa:Treatmentprotocol-typesofdrugsused a skos:Concept;
-  skos:broader zonmwpa:TypesOfData;
+  skos:broader zonmwpa:TypeOfData;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:prefLabel "Treatment protocol (types of drugs used)"@en .
 
 zonmwpa:OtherTypesOfData a skos:Concept;
-  skos:broader zonmwpa:TypesOfData;
+  skos:broader zonmwpa:TypeOfData;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:prefLabel "Other Types Of Data"@en .
 
-zonmwpa:TypesOfCollection a skos:Concept;
-  skos:definition "This is a set of controlled terms for the Types of Collection category."@en;
+zonmwpa:TypeOfCollection a skos:Concept;
+  skos:definition "This is a set of controlled terms for the Type of Collection category."@en;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:narrower zonmwpa:Birthcohort, zonmwpa:Case-Control, zonmwpa:Cohort, zonmwpa:Cross-sectional,
     zonmwpa:Diseasespecific, zonmwpa:Hospital, zonmwpa:Imagecollection, zonmwpa:Longitudinal,
     zonmwpa:Non-human, zonmwpa:OtherTypeofCollection, zonmwpa:Population-based, zonmwpa:Prospectivestudy,
     zonmwpa:Qualitycontrol, zonmwpa:Rarediseasecollection, zonmwpa:Samplecollection, zonmwpa:Twin-study;
-  skos:prefLabel "Types Of Collection"@en;
+  skos:prefLabel "Type Of Collection"@en;
   skos:topConceptOf <http://www.fair-data-collective.com/zonmw/projectadmin> .
 
 zonmwpa:Birthcohort a skos:Concept;
-  skos:broader zonmwpa:TypesOfCollection;
+  skos:broader zonmwpa:TypeOfCollection;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:prefLabel "Birth cohort"@en .
 
 zonmwpa:Case-Control a skos:Concept;
-  skos:broader zonmwpa:TypesOfCollection;
+  skos:broader zonmwpa:TypeOfCollection;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:prefLabel "Case-Control"@en .
 
 zonmwpa:Cohort a skos:Concept;
-  skos:broader zonmwpa:TypesOfCollection;
+  skos:broader zonmwpa:TypeOfCollection;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:prefLabel "Cohort"@en .
 
 zonmwpa:Cross-sectional a skos:Concept;
-  skos:broader zonmwpa:TypesOfCollection;
+  skos:broader zonmwpa:TypeOfCollection;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:prefLabel "Cross-sectional"@en .
 
 zonmwpa:Diseasespecific a skos:Concept;
-  skos:broader zonmwpa:TypesOfCollection;
+  skos:broader zonmwpa:TypeOfCollection;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:prefLabel "Disease specific"@en .
 
 zonmwpa:Hospital a skos:Concept;
-  skos:broader zonmwpa:TypesOfCollection;
+  skos:broader zonmwpa:TypeOfCollection;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:prefLabel "Hospital"@en .
 
 zonmwpa:Imagecollection a skos:Concept;
-  skos:broader zonmwpa:TypesOfCollection;
+  skos:broader zonmwpa:TypeOfCollection;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:prefLabel "Image collection"@en .
 
 zonmwpa:Longitudinal a skos:Concept;
-  skos:broader zonmwpa:TypesOfCollection;
+  skos:broader zonmwpa:TypeOfCollection;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:prefLabel "Longitudinal"@en .
 
 zonmwpa:Non-human a skos:Concept;
-  skos:broader zonmwpa:TypesOfCollection;
+  skos:broader zonmwpa:TypeOfCollection;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:prefLabel "Non-human"@en .
 
 zonmwpa:OtherTypeofCollection a skos:Concept;
-  skos:broader zonmwpa:TypesOfCollection;
+  skos:broader zonmwpa:TypeOfCollection;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:prefLabel "Other Type of Collection"@en .
 
 zonmwpa:Population-based a skos:Concept;
-  skos:broader zonmwpa:TypesOfCollection;
+  skos:broader zonmwpa:TypeOfCollection;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:prefLabel "Population-based"@en .
 
 zonmwpa:Prospectivestudy a skos:Concept;
-  skos:broader zonmwpa:TypesOfCollection;
+  skos:broader zonmwpa:TypeOfCollection;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:prefLabel "Prospective study"@en .
 
 zonmwpa:Qualitycontrol a skos:Concept;
-  skos:broader zonmwpa:TypesOfCollection;
+  skos:broader zonmwpa:TypeOfCollection;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:prefLabel "Quality control"@en .
 
 zonmwpa:Rarediseasecollection a skos:Concept;
-  skos:broader zonmwpa:TypesOfCollection;
+  skos:broader zonmwpa:TypeOfCollection;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:prefLabel "Rare disease collection"@en .
 
 zonmwpa:Samplecollection a skos:Concept;
-  skos:broader zonmwpa:TypesOfCollection;
+  skos:broader zonmwpa:TypeOfCollection;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:prefLabel "Sample collection"@en .
 
 zonmwpa:Twin-study a skos:Concept;
-  skos:broader zonmwpa:TypesOfCollection;
+  skos:broader zonmwpa:TypeOfCollection;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:prefLabel "Twin-study"@en .
 
@@ -490,13 +489,12 @@ zonmwpa:Population a skos:Concept;
   skos:definition "This is a set of controlled terms for the Population category."@en;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:narrower zonmwpa:Adults-18-65years, zonmwpa:Children-0-18years, zonmwpa:Elderly-65plus,
-    zonmwpa:Men, zonmwpa:Mentallychallengedpeople, zonmwpa:Neonates, zonmwpa:OtherCareProcessPhase,
-    zonmwpa:OtherPopulation, zonmwpa:Peoplewithachronicillness, zonmwpa:Peoplewithalowsocio-economicstatus,
-    zonmwpa:Peoplewithamigrationbackground, zonmwpa:Peoplewithaphysicaldisability, zonmwpa:Peoplewithararecondition,
-    zonmwpa:Peoplewithaspecificethnicbackground, zonmwpa:Populationwide, zonmwpa:Pregnantwomen,
-    zonmwpa:Primaryschoolchildren-4-12years, zonmwpa:Teenager-12-18years, zonmwpa:Topathletes,
-    zonmwpa:Vulnerableelderly, zonmwpa:Women, zonmwpa:Workingpeople, zonmwpa:Youngadults18-21years,
-    zonmwpa:Youngpeople-16-27years;
+    zonmwpa:Men, zonmwpa:Mentallychallengedpeople, zonmwpa:Neonates, zonmwpa:OtherPopulation,
+    zonmwpa:Peoplewithachronicillness, zonmwpa:Peoplewithalowsocio-economicstatus, zonmwpa:Peoplewithamigrationbackground,
+    zonmwpa:Peoplewithaphysicaldisability, zonmwpa:Peoplewithararecondition, zonmwpa:Peoplewithaspecificethnicbackground,
+    zonmwpa:Populationwide, zonmwpa:Pregnantwomen, zonmwpa:Primaryschoolchildren-4-12years,
+    zonmwpa:Teenager-12-18years, zonmwpa:Topathletes, zonmwpa:Vulnerableelderly, zonmwpa:Women,
+    zonmwpa:Workingpeople, zonmwpa:Youngadults18-21years, zonmwpa:Youngpeople-16-27years;
   skos:prefLabel "Population"@en;
   skos:topConceptOf <http://www.fair-data-collective.com/zonmw/projectadmin> .
 
@@ -619,8 +617,8 @@ zonmwpa:CareProcessPhase a skos:Concept;
   skos:definition "This is a set of controlled terms for the Care Process Phase category."@en;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:narrower zonmwpa:Aftercare, zonmwpa:Diagnosis, <http://www.fair-data-collective.com/zonmw/projectadmin/Earlydetection&screening>,
-    zonmwpa:Follow-up, zonmwpa:Information, zonmwpa:Organizationofcare, zonmwpa:Palliative,
-    zonmwpa:Prevention, zonmwpa:Therapy;
+    zonmwpa:Follow-up, zonmwpa:Information, zonmwpa:Organizationofcare, zonmwpa:OtherCareProcessPhase,
+    zonmwpa:Palliative, zonmwpa:Prevention, zonmwpa:Therapy;
   skos:prefLabel "Care Process Phase"@en;
   skos:topConceptOf <http://www.fair-data-collective.com/zonmw/projectadmin> .
 
@@ -671,7 +669,7 @@ zonmwpa:Organizationofcare a skos:Concept;
   skos:prefLabel "Organization of care"@en .
 
 zonmwpa:OtherCareProcessPhase a skos:Concept;
-  skos:broader zonmwpa:Population;
+  skos:broader zonmwpa:CareProcessPhase;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:prefLabel "Other Care Process Phase"@en .
 
@@ -814,3 +812,616 @@ zonmwpa:OtherSetting a skos:Concept;
   skos:broader zonmwpa:Setting;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:prefLabel "Other Setting"@en .
+
+zonmwpa:Institution a skos:Concept;
+  skos:definition "This is a set of controlled terms for the Institutions category."@en;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:narrower <http://www.fair-data-collective.com/zonmw/projectadmin/Beroepsvereniging\u000APraktijkverpleegkundigenenPraktijkondersteuners-V&VN>,
+    <http://www.fair-data-collective.com/zonmw/projectadmin/FederatievanMedischWetenschappelijke\u000AVerenigingen-FMWV>,
+    zonmwpa:LandelijkeHuisartsenVereniging-LHV, zonmwpa:NederlandsHuisartsenGenootschap-NHG,
+    zonmwpa:NederlandsOogheelkundigGezelschap-NOG, zonmwpa:NederlandscheInternistenVereeniging-NIV,
+    <http://www.fair-data-collective.com/zonmw/projectadmin/Nederlandse\u000AOrthopaedischeVereniging-NOV>,
+    zonmwpa:NederlandseGenetischeVereniging-NGV, <http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVereniging\u000ACelbiologie-NVvC>,
+    <http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVereniging\u000AvanArtsenvoorRevalidatieenPhysischeGeneeskunde>,
+    <http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVereniging\u000AvanBiochemieenMoleculaireBiologie-NVBMB>,
+    <http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVereniging\u000AvoorAllergologie-NVVA>,
+    <http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVereniging\u000AvoorArbeids-enBedrijfsgeneeskunde-NVAB>,
+    <http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVereniging\u000AvoorDuikgeneeskunde-NVD>,
+    <http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVereniging\u000AvoorFysiologie-NVF>,
+    <http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVereniging\u000AvoorGentherapie-NVGT>,
+    <http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVereniging\u000AvoorHematologie-NVvH>,
+    <http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVereniging\u000AvoorHumaneGenetica-NVHG>,
+    <http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVereniging\u000AvoorImmunologie-NVVI>,
+    <http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVereniging\u000AvoorKindergeneeskunde-NVK>,
+    <http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVereniging\u000AvoorKlinischeChemieenLaboratoriumgeneeskunde-NVKC>,
+    <http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVereniging\u000AvoorKlinischeFarmacologieenBiofarmacie>,
+    <http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVereniging\u000AvoorKlinischeGeriatrie-NVKG>,
+    <http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVereniging\u000AvoorMedischeMicrobiologie-NVMM>,
+    <http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVereniging\u000AvoorMedischeOncologie-NVMO>,
+    <http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVereniging\u000AvoorOncologie-NVvO>,
+    <http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVereniging\u000AvoorParasitologie-NVP>,
+    <http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVereniging\u000AvoorPathologie-NVVP>,
+    <http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVereniging\u000AvoorProefdierkunde-NVP>,
+    <http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVereniging\u000AvoorReumatologie-NVR>,
+    <http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVerenigingKeel-Neus-Oorheelkunde\u000AenHeelkundevanhetHoofdHalsgebied>,
+    <http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVerenigingv.\u000ANeuropathologie-NVVNP>,
+    <http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVerenigingvanArtsenvoor\u000ALongziektenenTuberculose-NVALT>,
+    <http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVerenigingvanArtsenvoor\u000AVerstandelijkGehandicapten>,
+    zonmwpa:NederlandseVerenigingvanDiëtisten, <http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVerenigingvanMaag--Darm-en\u000ALeverartsen-MDL>,
+    <http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVerenigingvanNeurochirurgen\u000A-NVVN>,
+    zonmwpa:NederlandseVerenigingvanNeurologie-NVN, <http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVerenigingvoor\u000AVerzekeringsgeneeskunde-NVVG>,
+    <http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVerenigingvoorAnesthesiologie\u000A-NAV>,
+    <http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVerenigingvoorDermatologieen\u000AVenereologie-NVDV>,
+    <http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVerenigingvoorHeelkunde\u000A-NVvH>,
+    <http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVerenigingvoorNucleaire\u000AGeneeskunde-NVNG>,
+    <http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVerenigingvoorObstetrieen\u000AGynaecologie-NVOG>,
+    zonmwpa:NederlandseVerenigingvoorPlastischeenReconstructieveChirurgie-NVPC, <http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVerenigingvoorPsychiatrie\u000A-NVVP>,
+    <http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVerenigingvoorRadiologie\u000A-NVvR>,
+    <http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVerenigingvoorRadiotherapie\u000AenOncologie-NVRO>,
+    <http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVerenigingvoorThoraxchirurgie\u000A-NVT>,
+    zonmwpa:NederlandseVerenigingvoorUrologie-NVU, zonmwpa:Otherinstitution, <http://www.fair-data-collective.com/zonmw/projectadmin/VerenigingSpecialistenin\u000AOuderengeneeskunde-Verenso>,
+    zonmwpa:VerenigingvanEpidemiologie-VvE, <http://www.fair-data-collective.com/zonmw/projectadmin/VerenigingvanMedisch\u000AWetenschappelijkeOnderzoekers-V.M.W.O.>,
+    <http://www.fair-data-collective.com/zonmw/projectadmin/Verenigingvoor\u000AInformatieverwerkingindeZorg-VMBI>,
+    <http://www.fair-data-collective.com/zonmw/projectadmin/Verenigingvoor\u000ASportgeneeskunde>,
+    zonmwpa:VerenigingvoorInfectieziekten-VIZ;
+  skos:prefLabel "Institution"@en;
+  skos:topConceptOf <http://www.fair-data-collective.com/zonmw/projectadmin> .
+
+<http://www.fair-data-collective.com/zonmw/projectadmin/Beroepsvereniging\u000APraktijkverpleegkundigenenPraktijkondersteuners-V&VN>
+  a skos:Concept;
+  skos:broader zonmwpa:Institution;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel """Beroepsvereniging
+Praktijkverpleegkundigen enPraktijkondersteuners (V&VN)"""@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadmin/FederatievanMedischWetenschappelijke\u000AVerenigingen-FMWV>
+  a skos:Concept;
+  skos:broader zonmwpa:Institution;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel """Federatie van Medisch Wetenschappelijke
+Verenigingen (FMWV)"""@en .
+
+zonmwpa:LandelijkeHuisartsenVereniging-LHV a skos:Concept;
+  skos:broader zonmwpa:Institution;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Landelijke Huisartsen Vereniging (LHV)"@en .
+
+zonmwpa:NederlandsHuisartsenGenootschap-NHG a skos:Concept;
+  skos:broader zonmwpa:Institution;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Nederlands Huisartsen Genootschap (NHG)"@en .
+
+zonmwpa:NederlandsOogheelkundigGezelschap-NOG a skos:Concept;
+  skos:broader zonmwpa:Institution;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Nederlands Oogheelkundig Gezelschap (NOG)"@en .
+
+zonmwpa:NederlandscheInternistenVereeniging-NIV a skos:Concept;
+  skos:broader zonmwpa:Institution;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Nederlandsche Internisten Vereeniging (NIV)"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadmin/Nederlandse\u000AOrthopaedischeVereniging-NOV>
+  a skos:Concept;
+  skos:broader zonmwpa:Institution;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel """Nederlandse
+Orthopaedische Vereniging (NOV)"""@en .
+
+zonmwpa:NederlandseGenetischeVereniging-NGV a skos:Concept;
+  skos:broader zonmwpa:Institution;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Nederlandse Genetische Vereniging (NGV)"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVereniging\u000ACelbiologie-NVvC>
+  a skos:Concept;
+  skos:broader zonmwpa:Institution;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel """Nederlandse Vereniging
+Celbiologie (NVvC)"""@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVereniging\u000AvanArtsenvoorRevalidatieenPhysischeGeneeskunde>
+  a skos:Concept;
+  skos:broader zonmwpa:Institution;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel """Nederlandse Vereniging
+van Artsen voor Revalidatie en Physische Geneeskunde"""@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVereniging\u000AvanBiochemieenMoleculaireBiologie-NVBMB>
+  a skos:Concept;
+  skos:broader zonmwpa:Institution;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel """Nederlandse Vereniging
+van Biochemie en Moleculaire Biologie (NVBMB)"""@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVereniging\u000AvoorAllergologie-NVVA>
+  a skos:Concept;
+  skos:broader zonmwpa:Institution;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel """Nederlandse Vereniging
+voor Allergologie (NVVA)"""@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVereniging\u000AvoorArbeids-enBedrijfsgeneeskunde-NVAB>
+  a skos:Concept;
+  skos:broader zonmwpa:Institution;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel """Nederlandse Vereniging
+voor Arbeids- en Bedrijfsgeneeskunde (NVAB)"""@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVereniging\u000AvoorDuikgeneeskunde-NVD>
+  a skos:Concept;
+  skos:broader zonmwpa:Institution;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel """Nederlandse Vereniging
+voor Duikgeneeskunde (NVD)"""@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVereniging\u000AvoorFysiologie-NVF>
+  a skos:Concept;
+  skos:broader zonmwpa:Institution;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel """Nederlandse Vereniging
+voor Fysiologie (NVF)"""@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVereniging\u000AvoorGentherapie-NVGT>
+  a skos:Concept;
+  skos:broader zonmwpa:Institution;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel """Nederlandse Vereniging
+voor Gentherapie (NVGT)"""@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVereniging\u000AvoorHematologie-NVvH>
+  a skos:Concept;
+  skos:broader zonmwpa:Institution;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel """Nederlandse Vereniging
+voor Hematologie (NVvH)"""@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVereniging\u000AvoorHumaneGenetica-NVHG>
+  a skos:Concept;
+  skos:broader zonmwpa:Institution;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel """Nederlandse Vereniging
+voor Humane Genetica (NVHG)"""@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVereniging\u000AvoorImmunologie-NVVI>
+  a skos:Concept;
+  skos:broader zonmwpa:Institution;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel """Nederlandse Vereniging
+voor Immunologie (NVVI)"""@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVereniging\u000AvoorKindergeneeskunde-NVK>
+  a skos:Concept;
+  skos:broader zonmwpa:Institution;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel """Nederlandse Vereniging
+voor Kindergeneeskunde (NVK)"""@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVereniging\u000AvoorKlinischeChemieenLaboratoriumgeneeskunde-NVKC>
+  a skos:Concept;
+  skos:broader zonmwpa:Institution;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel """Nederlandse Vereniging
+voor Klinische Chemie en Laboratoriumgeneeskunde (NVKC)"""@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVereniging\u000AvoorKlinischeFarmacologieenBiofarmacie>
+  a skos:Concept;
+  skos:broader zonmwpa:Institution;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel """Nederlandse Vereniging
+voor Klinische Farmacologie en Biofarmacie"""@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVereniging\u000AvoorKlinischeGeriatrie-NVKG>
+  a skos:Concept;
+  skos:broader zonmwpa:Institution;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel """Nederlandse Vereniging
+voor Klinische Geriatrie (NVKG)"""@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVereniging\u000AvoorMedischeMicrobiologie-NVMM>
+  a skos:Concept;
+  skos:broader zonmwpa:Institution;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel """Nederlandse Vereniging
+voor Medische Microbiologie (NVMM)"""@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVereniging\u000AvoorMedischeOncologie-NVMO>
+  a skos:Concept;
+  skos:broader zonmwpa:Institution;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel """Nederlandse Vereniging
+voor Medische Oncologie (NVMO)"""@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVereniging\u000AvoorOncologie-NVvO>
+  a skos:Concept;
+  skos:broader zonmwpa:Institution;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel """Nederlandse Vereniging
+voor Oncologie (NVvO)"""@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVereniging\u000AvoorParasitologie-NVP>
+  a skos:Concept;
+  skos:broader zonmwpa:Institution;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel """Nederlandse Vereniging
+voor Parasitologie (NVP)"""@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVereniging\u000AvoorPathologie-NVVP>
+  a skos:Concept;
+  skos:broader zonmwpa:Institution;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel """Nederlandse Vereniging
+voor Pathologie (NVVP)"""@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVereniging\u000AvoorProefdierkunde-NVP>
+  a skos:Concept;
+  skos:broader zonmwpa:Institution;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel """Nederlandse Vereniging
+voor Proefdierkunde (NVP)"""@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVereniging\u000AvoorReumatologie-NVR>
+  a skos:Concept;
+  skos:broader zonmwpa:Institution;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel """Nederlandse Vereniging
+voor Reumatologie (NVR)"""@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVerenigingKeel-Neus-Oorheelkunde\u000AenHeelkundevanhetHoofdHalsgebied>
+  a skos:Concept;
+  skos:broader zonmwpa:Institution;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel """Nederlandse Vereniging Keel-Neus-Oorheelkunde
+en Heelkunde van het Hoofd Halsgebied"""@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVerenigingv.\u000ANeuropathologie-NVVNP>
+  a skos:Concept;
+  skos:broader zonmwpa:Institution;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel """Nederlandse Vereniging v.
+Neuropathologie (NVVNP)"""@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVerenigingvanArtsenvoor\u000ALongziektenenTuberculose-NVALT>
+  a skos:Concept;
+  skos:broader zonmwpa:Institution;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel """Nederlandse Vereniging van Artsen voor
+Longziekten en Tuberculose (NVALT)"""@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVerenigingvanArtsenvoor\u000AVerstandelijkGehandicapten>
+  a skos:Concept;
+  skos:broader zonmwpa:Institution;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel """Nederlandse Vereniging van Artsen voor
+Verstandelijk Gehandicapten"""@en .
+
+zonmwpa:NederlandseVerenigingvanDiëtisten a skos:Concept;
+  skos:broader zonmwpa:Institution;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Nederlandse Vereniging van Diëtisten"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVerenigingvanMaag--Darm-en\u000ALeverartsen-MDL>
+  a skos:Concept;
+  skos:broader zonmwpa:Institution;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel """Nederlandse Vereniging van Maag-, Darm- en
+Leverartsen (MDL)"""@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVerenigingvanNeurochirurgen\u000A-NVVN>
+  a skos:Concept;
+  skos:broader zonmwpa:Institution;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel """Nederlandse Vereniging van Neurochirurgen
+(NVVN)"""@en .
+
+zonmwpa:NederlandseVerenigingvanNeurologie-NVN a skos:Concept;
+  skos:broader zonmwpa:Institution;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Nederlandse Vereniging van Neurologie (NVN)"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVerenigingvoor\u000AVerzekeringsgeneeskunde-NVVG>
+  a skos:Concept;
+  skos:broader zonmwpa:Institution;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel """Nederlandse Vereniging voor
+Verzekeringsgeneeskunde (NVVG)"""@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVerenigingvoorAnesthesiologie\u000A-NAV>
+  a skos:Concept;
+  skos:broader zonmwpa:Institution;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel """Nederlandse Vereniging voor Anesthesiologie
+(NAV)"""@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVerenigingvoorDermatologieen\u000AVenereologie-NVDV>
+  a skos:Concept;
+  skos:broader zonmwpa:Institution;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel """Nederlandse Vereniging voor Dermatologie en
+Venereologie (NVDV)"""@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVerenigingvoorHeelkunde\u000A-NVvH>
+  a skos:Concept;
+  skos:broader zonmwpa:Institution;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel """Nederlandse Vereniging voor Heelkunde
+(NVvH)"""@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVerenigingvoorNucleaire\u000AGeneeskunde-NVNG>
+  a skos:Concept;
+  skos:broader zonmwpa:Institution;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel """Nederlandse Vereniging voor Nucleaire
+Geneeskunde (NVNG)"""@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVerenigingvoorObstetrieen\u000AGynaecologie-NVOG>
+  a skos:Concept;
+  skos:broader zonmwpa:Institution;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel """Nederlandse Vereniging voor Obstetrie en
+Gynaecologie (NVOG)"""@en .
+
+zonmwpa:NederlandseVerenigingvoorPlastischeenReconstructieveChirurgie-NVPC a skos:Concept;
+  skos:broader zonmwpa:Institution;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Nederlandse Vereniging voor Plastische en Reconstructieve Chirurgie (NVPC)"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVerenigingvoorPsychiatrie\u000A-NVVP>
+  a skos:Concept;
+  skos:broader zonmwpa:Institution;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel """Nederlandse Vereniging voor Psychiatrie
+(NVVP)"""@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVerenigingvoorRadiologie\u000A-NVvR>
+  a skos:Concept;
+  skos:broader zonmwpa:Institution;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel """Nederlandse Vereniging voor Radiologie
+(NVvR)"""@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVerenigingvoorRadiotherapie\u000AenOncologie-NVRO>
+  a skos:Concept;
+  skos:broader zonmwpa:Institution;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel """Nederlandse Vereniging voor Radiotherapie
+en Oncologie (NVRO)"""@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVerenigingvoorThoraxchirurgie\u000A-NVT>
+  a skos:Concept;
+  skos:broader zonmwpa:Institution;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel """Nederlandse Vereniging voor Thoraxchirurgie
+(NVT)"""@en .
+
+zonmwpa:NederlandseVerenigingvoorUrologie-NVU a skos:Concept;
+  skos:broader zonmwpa:Institution;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Nederlandse Vereniging voor Urologie (NVU)"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadmin/VerenigingSpecialistenin\u000AOuderengeneeskunde-Verenso>
+  a skos:Concept;
+  skos:broader zonmwpa:Institution;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel """Vereniging Specialisten in
+Ouderengeneeskunde (Verenso)"""@en .
+
+zonmwpa:VerenigingvanEpidemiologie-VvE a skos:Concept;
+  skos:broader zonmwpa:Institution;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Vereniging van Epidemiologie (VvE)"@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadmin/VerenigingvanMedisch\u000AWetenschappelijkeOnderzoekers-V.M.W.O.>
+  a skos:Concept;
+  skos:broader zonmwpa:Institution;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel """Vereniging van Medisch
+Wetenschappelijke Onderzoekers (V.M.W.O.)"""@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadmin/Verenigingvoor\u000AInformatieverwerkingindeZorg-VMBI>
+  a skos:Concept;
+  skos:broader zonmwpa:Institution;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel """Vereniging voor
+Informatieverwerking in de Zorg (VMBI)"""@en .
+
+<http://www.fair-data-collective.com/zonmw/projectadmin/Verenigingvoor\u000ASportgeneeskunde>
+  a skos:Concept;
+  skos:broader zonmwpa:Institution;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel """Vereniging voor
+Sportgeneeskunde"""@en .
+
+zonmwpa:VerenigingvoorInfectieziekten-VIZ a skos:Concept;
+  skos:broader zonmwpa:Institution;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Vereniging voor Infectieziekten (VIZ)"@en .
+
+zonmwpa:Otherinstitution a skos:Concept;
+  skos:broader zonmwpa:Institution;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Other institution"@en .
+
+zonmwpa:FocusAreas a skos:Concept;
+  skos:definition "This is a set of controlled terms for the Focus Areas category."@en;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Focus Areas"@en;
+  skos:topConceptOf <http://www.fair-data-collective.com/zonmw/projectadmin> .
+
+zonmwpa:Predictivediagnosticsandtreatment a skos:Concept;
+  skos:broader zonmwpa:FocusArea;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Predictive diagnostics and treatment"@en .
+
+zonmwpa:Careandprevention a skos:Concept;
+  skos:broader zonmwpa:FocusArea;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Care and prevention"@en .
+
+zonmwpa:Effectsonsociety a skos:Concept;
+  skos:broader zonmwpa:FocusArea;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Effects on society"@en .
+
+zonmwpa:OtherFocusArea a skos:Concept;
+  skos:broader zonmwpa:FocusArea;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Other Focus Area"@en .
+
+zonmwpa:Theme a skos:Concept;
+  skos:definition "This is a set of controlled terms for the Themes category."@en;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:narrower zonmwpa:Animalfreeinnovations, zonmwpa:Careandpreventionforvulnerablecitizens,
+    zonmwpa:Clinicaltreatment, zonmwpa:Diagnosticsofinfection, zonmwpa:Economicresilience,
+    zonmwpa:Impactofmeasuresorstrategies, zonmwpa:Organisationofcareandprevention, zonmwpa:OtherTheme,
+    zonmwpa:Palliativecare, zonmwpa:Resilienceofsociety, zonmwpa:Riskanalysisandprognostics,
+    zonmwpa:Transmissionandepidemiology, zonmwpa:Treatment, zonmwpa:Virus-immunity-immuneresponseandpathogenesis;
+  skos:prefLabel "Theme"@en;
+  skos:topConceptOf <http://www.fair-data-collective.com/zonmw/projectadmin> .
+
+zonmwpa:Treatment a skos:Concept;
+  skos:broader zonmwpa:Theme;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Treatment"@en .
+
+zonmwpa:Diagnosticsofinfection a skos:Concept;
+  skos:broader zonmwpa:Theme;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Diagnostics of infection"@en .
+
+zonmwpa:Riskanalysisandprognostics a skos:Concept;
+  skos:broader zonmwpa:Theme;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Risk analysis and prognostics"@en .
+
+zonmwpa:Virus-immunity-immuneresponseandpathogenesis a skos:Concept;
+  skos:broader zonmwpa:Theme;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Virus, immunity, immune response and pathogenesis"@en .
+
+zonmwpa:Clinicaltreatment a skos:Concept;
+  skos:broader zonmwpa:Theme;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Clinical treatment"@en .
+
+zonmwpa:Animalfreeinnovations a skos:Concept;
+  skos:broader zonmwpa:Theme;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Animal free innovations"@en .
+
+zonmwpa:Organisationofcareandprevention a skos:Concept;
+  skos:broader zonmwpa:Theme;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Organisation of care and prevention"@en .
+
+zonmwpa:Careandpreventionforvulnerablecitizens a skos:Concept;
+  skos:broader zonmwpa:Theme;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Care and prevention for vulnerable citizens"@en .
+
+zonmwpa:Transmissionandepidemiology a skos:Concept;
+  skos:broader zonmwpa:Theme;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Transmission and epidemiology"@en .
+
+zonmwpa:Palliativecare a skos:Concept;
+  skos:broader zonmwpa:Theme;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Palliative care"@en .
+
+zonmwpa:Impactofmeasuresorstrategies a skos:Concept;
+  skos:broader zonmwpa:Theme;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Impact of measures or strategies"@en .
+
+zonmwpa:Resilienceofsociety a skos:Concept;
+  skos:broader zonmwpa:Theme;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Resilience of society"@en .
+
+zonmwpa:Economicresilience a skos:Concept;
+  skos:broader zonmwpa:Theme;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Economic resilience"@en .
+
+zonmwpa:OtherTheme a skos:Concept;
+  skos:broader zonmwpa:Theme;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Other Theme"@en .
+
+zonmwpa:Province a skos:Concept;
+  skos:definition "This is a set of controlled terms for the Province category."@en;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:narrower zonmwpa:Drenthe, zonmwpa:Flevoland, zonmwpa:Friesland, zonmwpa:Gelderland,
+    zonmwpa:Groningen, zonmwpa:Limburg, zonmwpa:Noord-Brabant, zonmwpa:Noord-Holland,
+    zonmwpa:OtherProvince, zonmwpa:Overijssel, zonmwpa:Utrecht, zonmwpa:Zeeland, zonmwpa:Zuid-Holland;
+  skos:prefLabel "Province"@en;
+  skos:topConceptOf <http://www.fair-data-collective.com/zonmw/projectadmin> .
+
+zonmwpa:Drenthe a skos:Concept;
+  skos:broader zonmwpa:Province;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Drenthe"@en .
+
+zonmwpa:Flevoland a skos:Concept;
+  skos:broader zonmwpa:Province;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Flevoland"@en .
+
+zonmwpa:Friesland a skos:Concept;
+  skos:broader zonmwpa:Province;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Friesland"@en .
+
+zonmwpa:Gelderland a skos:Concept;
+  skos:broader zonmwpa:Province;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Gelderland"@en .
+
+zonmwpa:Groningen a skos:Concept;
+  skos:broader zonmwpa:Province;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Groningen"@en .
+
+zonmwpa:Limburg a skos:Concept;
+  skos:broader zonmwpa:Province;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Limburg"@en .
+
+zonmwpa:Noord-Brabant a skos:Concept;
+  skos:broader zonmwpa:Province;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Noord-Brabant"@en .
+
+zonmwpa:Noord-Holland a skos:Concept;
+  skos:broader zonmwpa:Province;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Noord-Holland"@en .
+
+zonmwpa:Overijssel a skos:Concept;
+  skos:broader zonmwpa:Province;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Overijssel"@en .
+
+zonmwpa:Utrecht a skos:Concept;
+  skos:broader zonmwpa:Province;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Utrecht"@en .
+
+zonmwpa:Zeeland a skos:Concept;
+  skos:broader zonmwpa:Province;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Zeeland"@en .
+
+zonmwpa:Zuid-Holland a skos:Concept;
+  skos:broader zonmwpa:Province;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Zuid-Holland"@en .
+
+zonmwpa:OtherProvince a skos:Concept;
+  skos:broader zonmwpa:Province;
+  skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
+  skos:prefLabel "Other Province"@en .
+
+zonmwpa:FocusArea skos:narrower zonmwpa:Careandprevention, zonmwpa:Effectsonsociety,
+    zonmwpa:OtherFocusArea, zonmwpa:Predictivediagnosticsandtreatment .
