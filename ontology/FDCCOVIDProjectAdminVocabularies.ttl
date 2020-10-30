@@ -24,7 +24,7 @@
   dct:title "ZonMW Project Administration Terms"@en;
   pav:createdOn "2020-10-30T06:55:00+00:00"@en;
   pav:lastUpdatedOn "2020-10-30T06:55:00+00:01"@en;
-  pav:version "1.0.0"@en;
+  pav:version "1.1.0"@en;
   skos:hasTopConcept zonmwpa:CareProcessPhase, zonmwpa:FocusArea, zonmwpa:Institution,
     zonmwpa:Population, zonmwpa:Province, zonmwpa:Service, zonmwpa:Setting, zonmwpa:SizeOfCollection,
     zonmwpa:StudyArea, zonmwpa:Theme, zonmwpa:TypeOfCollection, zonmwpa:TypeOfData, zonmwpa:TypeOfMaterial;
@@ -616,7 +616,7 @@ zonmwpa:OtherPopulation a skos:Concept;
 zonmwpa:CareProcessPhase a skos:Concept;
   skos:definition "This is a set of controlled terms for the Care Process Phase category."@en;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
-  skos:narrower zonmwpa:Aftercare, zonmwpa:Diagnosis, <http://www.fair-data-collective.com/zonmw/projectadmin/Earlydetection&screening>,
+  skos:narrower zonmwpa:Aftercare, zonmwpa:Diagnosis, zonmwpa:Earlydetection-screening,
     zonmwpa:Follow-up, zonmwpa:Information, zonmwpa:Organizationofcare, zonmwpa:OtherCareProcessPhase,
     zonmwpa:Palliative, zonmwpa:Prevention, zonmwpa:Therapy;
   skos:prefLabel "Care Process Phase"@en;
@@ -657,8 +657,7 @@ zonmwpa:Information a skos:Concept;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:prefLabel "Information"@en .
 
-<http://www.fair-data-collective.com/zonmw/projectadmin/Earlydetection&screening>
-  a skos:Concept;
+zonmwpa:Earlydetection-screening a skos:Concept;
   skos:broader zonmwpa:CareProcessPhase, zonmwpa:Setting;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:prefLabel "Early detection & screening"@en .
@@ -677,14 +676,13 @@ zonmwpa:Setting a skos:Concept;
   skos:definition "This is a set of controlled terms for the Setting category."@en;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:narrower zonmwpa:Care, zonmwpa:Cattle, zonmwpa:ClientsandDivorpatientorganization,
-    zonmwpa:Disabledcare, <http://www.fair-data-collective.com/zonmw/projectadmin/Earlydetection&screening>,
-    zonmwpa:Education-schoolandupbringing, zonmwpa:Elderlycare, zonmwpa:Experimentalgarden,
-    zonmwpa:Generalpractitionercare, zonmwpa:Healthcareinstitution, zonmwpa:Homecare,
-    zonmwpa:Hospitalcare, zonmwpa:Justice, zonmwpa:Long-termmentalhealthcare, zonmwpa:Measuringinstrument,
-    zonmwpa:Neighbourhood, zonmwpa:Nursinghomecare, zonmwpa:OtherSetting, zonmwpa:Prevention,
-    zonmwpa:Primarycare, zonmwpa:Second-linecare, zonmwpa:SocialSupport, zonmwpa:Socialdomain,
-    zonmwpa:SportDivhealthDivwellness, zonmwpa:Transmural, zonmwpa:WorkandIncome, zonmwpa:Youth,
-    zonmwpa:Youth-healthcare;
+    zonmwpa:Disabledcare, zonmwpa:Earlydetection-screening, zonmwpa:Education-schoolandupbringing,
+    zonmwpa:Elderlycare, zonmwpa:Experimentalgarden, zonmwpa:Generalpractitionercare,
+    zonmwpa:Healthcareinstitution, zonmwpa:Homecare, zonmwpa:Hospitalcare, zonmwpa:Justice,
+    zonmwpa:Long-termmentalhealthcare, zonmwpa:Measuringinstrument, zonmwpa:Neighbourhood,
+    zonmwpa:Nursinghomecare, zonmwpa:OtherSetting, zonmwpa:Prevention, zonmwpa:Primarycare,
+    zonmwpa:Second-linecare, zonmwpa:SocialSupport, zonmwpa:Socialdomain, zonmwpa:SportDivhealthDivwellness,
+    zonmwpa:Transmural, zonmwpa:WorkandIncome, zonmwpa:Youth, zonmwpa:Youth-healthcare;
   skos:prefLabel "Setting"@en;
   skos:topConceptOf <http://www.fair-data-collective.com/zonmw/projectadmin> .
 
@@ -816,7 +814,7 @@ zonmwpa:OtherSetting a skos:Concept;
 zonmwpa:Institution a skos:Concept;
   skos:definition "This is a set of controlled terms for the Institutions category."@en;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
-  skos:narrower <http://www.fair-data-collective.com/zonmw/projectadmin/Beroepsvereniging\u000APraktijkverpleegkundigenenPraktijkondersteuners-V&VN>,
+  skos:narrower <http://www.fair-data-collective.com/zonmw/projectadmin/Beroepsvereniging\u000APraktijkverpleegkundigenenPraktijkondersteuners-V-VN>,
     <http://www.fair-data-collective.com/zonmw/projectadmin/FederatievanMedischWetenschappelijke\u000AVerenigingen-FMWV>,
     zonmwpa:LandelijkeHuisartsenVereniging-LHV, zonmwpa:NederlandsHuisartsenGenootschap-NHG,
     zonmwpa:NederlandsOogheelkundigGezelschap-NOG, zonmwpa:NederlandscheInternistenVereeniging-NIV,
@@ -847,7 +845,7 @@ zonmwpa:Institution a skos:Concept;
     <http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVerenigingv.\u000ANeuropathologie-NVVNP>,
     <http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVerenigingvanArtsenvoor\u000ALongziektenenTuberculose-NVALT>,
     <http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVerenigingvanArtsenvoor\u000AVerstandelijkGehandicapten>,
-    zonmwpa:NederlandseVerenigingvanDiëtisten, <http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVerenigingvanMaag--Darm-en\u000ALeverartsen-MDL>,
+    zonmwpa:NederlandseVerenigingvanDietisten, <http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVerenigingvanMaag-Darm-en\u000ALeverartsen-MDL>,
     <http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVerenigingvanNeurochirurgen\u000A-NVVN>,
     zonmwpa:NederlandseVerenigingvanNeurologie-NVN, <http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVerenigingvoor\u000AVerzekeringsgeneeskunde-NVVG>,
     <http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVerenigingvoorAnesthesiologie\u000A-NAV>,
@@ -867,7 +865,7 @@ zonmwpa:Institution a skos:Concept;
   skos:prefLabel "Institution"@en;
   skos:topConceptOf <http://www.fair-data-collective.com/zonmw/projectadmin> .
 
-<http://www.fair-data-collective.com/zonmw/projectadmin/Beroepsvereniging\u000APraktijkverpleegkundigenenPraktijkondersteuners-V&VN>
+<http://www.fair-data-collective.com/zonmw/projectadmin/Beroepsvereniging\u000APraktijkverpleegkundigenenPraktijkondersteuners-V-VN>
   a skos:Concept;
   skos:broader zonmwpa:Institution;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
@@ -1095,12 +1093,12 @@ Longziekten en Tuberculose (NVALT)"""@en .
   skos:prefLabel """Nederlandse Vereniging van Artsen voor
 Verstandelijk Gehandicapten"""@en .
 
-zonmwpa:NederlandseVerenigingvanDiëtisten a skos:Concept;
+zonmwpa:NederlandseVerenigingvanDietisten a skos:Concept;
   skos:broader zonmwpa:Institution;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:prefLabel "Nederlandse Vereniging van Diëtisten"@en .
 
-<http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVerenigingvanMaag--Darm-en\u000ALeverartsen-MDL>
+<http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVerenigingvanMaag-Darm-en\u000ALeverartsen-MDL>
   a skos:Concept;
   skos:broader zonmwpa:Institution;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
