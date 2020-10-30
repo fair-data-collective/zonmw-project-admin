@@ -22,9 +22,9 @@
   dct:creator <https://orcid.org/0000-0001-6875-5360>;
   dct:description "Controlled vocabulary of terms used in ZonMV COVID project administrative metadata"@en;
   dct:title "ZonMW Project Administration Terms"@en;
-  pav:createdOn "2020-10-30T06:55:00+00:00"@en;
-  pav:lastUpdatedOn "2020-10-30T06:55:00+00:01"@en;
-  pav:version "1.1.0"@en;
+  pav:createdOn "2020-10-30T13:43:00+00:00"@en;
+  pav:lastUpdatedOn "2020-10-30T13:43:00+00:00"@en;
+  pav:version "1.1.2"@en;
   skos:hasTopConcept zonmwpa:CareProcessPhase, zonmwpa:FocusArea, zonmwpa:Institution,
     zonmwpa:Population, zonmwpa:Province, zonmwpa:Service, zonmwpa:Setting, zonmwpa:SizeOfCollection,
     zonmwpa:StudyArea, zonmwpa:Theme, zonmwpa:TypeOfCollection, zonmwpa:TypeOfData, zonmwpa:TypeOfMaterial;
@@ -845,7 +845,7 @@ zonmwpa:Institution a skos:Concept;
     <http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVerenigingv.\u000ANeuropathologie-NVVNP>,
     <http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVerenigingvanArtsenvoor\u000ALongziektenenTuberculose-NVALT>,
     <http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVerenigingvanArtsenvoor\u000AVerstandelijkGehandicapten>,
-    zonmwpa:NederlandseVerenigingvanDietisten, <http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVerenigingvanMaag-Darm-en\u000ALeverartsen-MDL>,
+    zonmwpa:NederlandseVerenigingvanDiëtisten, <http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVerenigingvanMaag-Darm-en\u000ALeverartsen-MDL>,
     <http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVerenigingvanNeurochirurgen\u000A-NVVN>,
     zonmwpa:NederlandseVerenigingvanNeurologie-NVN, <http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVerenigingvoor\u000AVerzekeringsgeneeskunde-NVVG>,
     <http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVerenigingvoorAnesthesiologie\u000A-NAV>,
@@ -1093,7 +1093,7 @@ Longziekten en Tuberculose (NVALT)"""@en .
   skos:prefLabel """Nederlandse Vereniging van Artsen voor
 Verstandelijk Gehandicapten"""@en .
 
-zonmwpa:NederlandseVerenigingvanDietisten a skos:Concept;
+zonmwpa:NederlandseVerenigingvanDiëtisten a skos:Concept;
   skos:broader zonmwpa:Institution;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:prefLabel "Nederlandse Vereniging van Diëtisten"@en .
