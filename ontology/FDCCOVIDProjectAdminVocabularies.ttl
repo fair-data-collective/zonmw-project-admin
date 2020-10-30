@@ -814,70 +814,48 @@ zonmwpa:OtherSetting a skos:Concept;
 zonmwpa:Institution a skos:Concept;
   skos:definition "This is a set of controlled terms for the Institutions category."@en;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
-  skos:narrower <http://www.fair-data-collective.com/zonmw/projectadmin/Beroepsvereniging\u000APraktijkverpleegkundigenenPraktijkondersteuners-V-VN>,
-    <http://www.fair-data-collective.com/zonmw/projectadmin/FederatievanMedischWetenschappelijke\u000AVerenigingen-FMWV>,
-    zonmwpa:LandelijkeHuisartsenVereniging-LHV, zonmwpa:NederlandsHuisartsenGenootschap-NHG,
-    zonmwpa:NederlandsOogheelkundigGezelschap-NOG, zonmwpa:NederlandscheInternistenVereeniging-NIV,
-    <http://www.fair-data-collective.com/zonmw/projectadmin/Nederlandse\u000AOrthopaedischeVereniging-NOV>,
-    zonmwpa:NederlandseGenetischeVereniging-NGV, <http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVereniging\u000ACelbiologie-NVvC>,
-    <http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVereniging\u000AvanArtsenvoorRevalidatieenPhysischeGeneeskunde>,
-    <http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVereniging\u000AvanBiochemieenMoleculaireBiologie-NVBMB>,
-    <http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVereniging\u000AvoorAllergologie-NVVA>,
-    <http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVereniging\u000AvoorArbeids-enBedrijfsgeneeskunde-NVAB>,
-    <http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVereniging\u000AvoorDuikgeneeskunde-NVD>,
-    <http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVereniging\u000AvoorFysiologie-NVF>,
-    <http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVereniging\u000AvoorGentherapie-NVGT>,
-    <http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVereniging\u000AvoorHematologie-NVvH>,
-    <http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVereniging\u000AvoorHumaneGenetica-NVHG>,
-    <http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVereniging\u000AvoorImmunologie-NVVI>,
-    <http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVereniging\u000AvoorKindergeneeskunde-NVK>,
-    <http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVereniging\u000AvoorKlinischeChemieenLaboratoriumgeneeskunde-NVKC>,
-    <http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVereniging\u000AvoorKlinischeFarmacologieenBiofarmacie>,
-    <http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVereniging\u000AvoorKlinischeGeriatrie-NVKG>,
-    <http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVereniging\u000AvoorMedischeMicrobiologie-NVMM>,
-    <http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVereniging\u000AvoorMedischeOncologie-NVMO>,
-    <http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVereniging\u000AvoorOncologie-NVvO>,
-    <http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVereniging\u000AvoorParasitologie-NVP>,
-    <http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVereniging\u000AvoorPathologie-NVVP>,
-    <http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVereniging\u000AvoorProefdierkunde-NVP>,
-    <http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVereniging\u000AvoorReumatologie-NVR>,
-    <http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVerenigingKeel-Neus-Oorheelkunde\u000AenHeelkundevanhetHoofdHalsgebied>,
-    <http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVerenigingv.\u000ANeuropathologie-NVVNP>,
-    <http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVerenigingvanArtsenvoor\u000ALongziektenenTuberculose-NVALT>,
-    <http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVerenigingvanArtsenvoor\u000AVerstandelijkGehandicapten>,
-    zonmwpa:NederlandseVerenigingvanDiëtisten, <http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVerenigingvanMaag-Darm-en\u000ALeverartsen-MDL>,
-    <http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVerenigingvanNeurochirurgen\u000A-NVVN>,
-    zonmwpa:NederlandseVerenigingvanNeurologie-NVN, <http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVerenigingvoor\u000AVerzekeringsgeneeskunde-NVVG>,
-    <http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVerenigingvoorAnesthesiologie\u000A-NAV>,
-    <http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVerenigingvoorDermatologieen\u000AVenereologie-NVDV>,
-    <http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVerenigingvoorHeelkunde\u000A-NVvH>,
-    <http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVerenigingvoorNucleaire\u000AGeneeskunde-NVNG>,
-    <http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVerenigingvoorObstetrieen\u000AGynaecologie-NVOG>,
-    zonmwpa:NederlandseVerenigingvoorPlastischeenReconstructieveChirurgie-NVPC, <http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVerenigingvoorPsychiatrie\u000A-NVVP>,
-    <http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVerenigingvoorRadiologie\u000A-NVvR>,
-    <http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVerenigingvoorRadiotherapie\u000AenOncologie-NVRO>,
-    <http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVerenigingvoorThoraxchirurgie\u000A-NVT>,
-    zonmwpa:NederlandseVerenigingvoorUrologie-NVU, zonmwpa:Otherinstitution, <http://www.fair-data-collective.com/zonmw/projectadmin/VerenigingSpecialistenin\u000AOuderengeneeskunde-Verenso>,
-    zonmwpa:VerenigingvanEpidemiologie-VvE, <http://www.fair-data-collective.com/zonmw/projectadmin/VerenigingvanMedisch\u000AWetenschappelijkeOnderzoekers-V.M.W.O.>,
-    <http://www.fair-data-collective.com/zonmw/projectadmin/Verenigingvoor\u000AInformatieverwerkingindeZorg-VMBI>,
-    <http://www.fair-data-collective.com/zonmw/projectadmin/Verenigingvoor\u000ASportgeneeskunde>,
-    zonmwpa:VerenigingvoorInfectieziekten-VIZ;
+  skos:narrower zonmwpa:BeroepsverenigingPraktijkverpleegkundigenenPraktijkondersteuners-V-VN,
+    zonmwpa:FederatievanMedischWetenschappelijkeVerenigingen-FMWV, zonmwpa:LandelijkeHuisartsenVereniging-LHV,
+    zonmwpa:NederlandsHuisartsenGenootschap-NHG, zonmwpa:NederlandsOogheelkundigGezelschap-NOG,
+    zonmwpa:NederlandscheInternistenVereeniging-NIV, zonmwpa:NederlandseGenetischeVereniging-NGV,
+    zonmwpa:NederlandseOrthopaedischeVereniging-NOV, zonmwpa:NederlandseVerenigingCelbiologie-NVvC,
+    zonmwpa:NederlandseVerenigingKeel-Neus-OorheelkundeenHeelkundevanhetHoofdHalsgebied,
+    zonmwpa:NederlandseVerenigingv.Neuropathologie-NVVNP, zonmwpa:NederlandseVerenigingvanArtsenvoorLongziektenenTuberculose-NVALT,
+    zonmwpa:NederlandseVerenigingvanArtsenvoorRevalidatieenPhysischeGeneeskunde, zonmwpa:NederlandseVerenigingvanArtsenvoorVerstandelijkGehandicapten,
+    zonmwpa:NederlandseVerenigingvanBiochemieenMoleculaireBiologie-NVBMB, zonmwpa:NederlandseVerenigingvanDiëtisten,
+    zonmwpa:NederlandseVerenigingvanMaag-Darm-enLeverartsen-MDL, zonmwpa:NederlandseVerenigingvanNeurochirurgen-NVVN,
+    zonmwpa:NederlandseVerenigingvanNeurologie-NVN, zonmwpa:NederlandseVerenigingvoorAllergologie-NVVA,
+    zonmwpa:NederlandseVerenigingvoorAnesthesiologie-NAV, zonmwpa:NederlandseVerenigingvoorArbeids-enBedrijfsgeneeskunde-NVAB,
+    zonmwpa:NederlandseVerenigingvoorDermatologieenVenereologie-NVDV, zonmwpa:NederlandseVerenigingvoorDuikgeneeskunde-NVD,
+    zonmwpa:NederlandseVerenigingvoorFysiologie-NVF, zonmwpa:NederlandseVerenigingvoorGentherapie-NVGT,
+    zonmwpa:NederlandseVerenigingvoorHeelkunde-NVvH, zonmwpa:NederlandseVerenigingvoorHematologie-NVvH,
+    zonmwpa:NederlandseVerenigingvoorHumaneGenetica-NVHG, zonmwpa:NederlandseVerenigingvoorImmunologie-NVVI,
+    zonmwpa:NederlandseVerenigingvoorKindergeneeskunde-NVK, zonmwpa:NederlandseVerenigingvoorKlinischeChemieenLaboratoriumgeneeskunde-NVKC,
+    zonmwpa:NederlandseVerenigingvoorKlinischeFarmacologieenBiofarmacie, zonmwpa:NederlandseVerenigingvoorKlinischeGeriatrie-NVKG,
+    zonmwpa:NederlandseVerenigingvoorMedischeMicrobiologie-NVMM, zonmwpa:NederlandseVerenigingvoorMedischeOncologie-NVMO,
+    zonmwpa:NederlandseVerenigingvoorNucleaireGeneeskunde-NVNG, zonmwpa:NederlandseVerenigingvoorObstetrieenGynaecologie-NVOG,
+    zonmwpa:NederlandseVerenigingvoorOncologie-NVvO, zonmwpa:NederlandseVerenigingvoorParasitologie-NVP,
+    zonmwpa:NederlandseVerenigingvoorPathologie-NVVP, zonmwpa:NederlandseVerenigingvoorPlastischeenReconstructieveChirurgie-NVPC,
+    zonmwpa:NederlandseVerenigingvoorProefdierkunde-NVP, zonmwpa:NederlandseVerenigingvoorPsychiatrie-NVVP,
+    zonmwpa:NederlandseVerenigingvoorRadiologie-NVvR, zonmwpa:NederlandseVerenigingvoorRadiotherapieenOncologie-NVRO,
+    zonmwpa:NederlandseVerenigingvoorReumatologie-NVR, zonmwpa:NederlandseVerenigingvoorThoraxchirurgie-NVT,
+    zonmwpa:NederlandseVerenigingvoorUrologie-NVU, zonmwpa:NederlandseVerenigingvoorVerzekeringsgeneeskunde-NVVG,
+    zonmwpa:Otherinstitution, zonmwpa:VerenigingSpecialisteninOuderengeneeskunde-Verenso,
+    zonmwpa:VerenigingvanEpidemiologie-VvE, <http://www.fair-data-collective.com/zonmw/projectadmin/VerenigingvanMedischWetenschappelijkeOnderzoekers-V.M.W.O.>,
+    zonmwpa:VerenigingvoorInfectieziekten-VIZ, zonmwpa:VerenigingvoorInformatieverwerkingindeZorg-VMBI,
+    zonmwpa:VerenigingvoorSportgeneeskunde;
   skos:prefLabel "Institution"@en;
   skos:topConceptOf <http://www.fair-data-collective.com/zonmw/projectadmin> .
 
-<http://www.fair-data-collective.com/zonmw/projectadmin/Beroepsvereniging\u000APraktijkverpleegkundigenenPraktijkondersteuners-V-VN>
-  a skos:Concept;
+zonmwpa:BeroepsverenigingPraktijkverpleegkundigenenPraktijkondersteuners-V-VN a skos:Concept;
   skos:broader zonmwpa:Institution;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
-  skos:prefLabel """Beroepsvereniging
-Praktijkverpleegkundigen enPraktijkondersteuners (V&VN)"""@en .
+  skos:prefLabel "Beroepsvereniging Praktijkverpleegkundigen enPraktijkondersteuners (V&VN)"@en .
 
-<http://www.fair-data-collective.com/zonmw/projectadmin/FederatievanMedischWetenschappelijke\u000AVerenigingen-FMWV>
-  a skos:Concept;
+zonmwpa:FederatievanMedischWetenschappelijkeVerenigingen-FMWV a skos:Concept;
   skos:broader zonmwpa:Institution;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
-  skos:prefLabel """Federatie van Medisch Wetenschappelijke
-Verenigingen (FMWV)"""@en .
+  skos:prefLabel "Federatie van Medisch Wetenschappelijke Verenigingen (FMWV)"@en .
 
 zonmwpa:LandelijkeHuisartsenVereniging-LHV a skos:Concept;
   skos:broader zonmwpa:Institution;
@@ -899,336 +877,252 @@ zonmwpa:NederlandscheInternistenVereeniging-NIV a skos:Concept;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:prefLabel "Nederlandsche Internisten Vereeniging (NIV)"@en .
 
-<http://www.fair-data-collective.com/zonmw/projectadmin/Nederlandse\u000AOrthopaedischeVereniging-NOV>
-  a skos:Concept;
+zonmwpa:NederlandseOrthopaedischeVereniging-NOV a skos:Concept;
   skos:broader zonmwpa:Institution;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
-  skos:prefLabel """Nederlandse
-Orthopaedische Vereniging (NOV)"""@en .
+  skos:prefLabel "Nederlandse Orthopaedische Vereniging (NOV)"@en .
 
 zonmwpa:NederlandseGenetischeVereniging-NGV a skos:Concept;
   skos:broader zonmwpa:Institution;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:prefLabel "Nederlandse Genetische Vereniging (NGV)"@en .
 
-<http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVereniging\u000ACelbiologie-NVvC>
-  a skos:Concept;
+zonmwpa:NederlandseVerenigingCelbiologie-NVvC a skos:Concept;
   skos:broader zonmwpa:Institution;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
-  skos:prefLabel """Nederlandse Vereniging
-Celbiologie (NVvC)"""@en .
+  skos:prefLabel "Nederlandse Vereniging Celbiologie (NVvC)"@en .
 
-<http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVereniging\u000AvanArtsenvoorRevalidatieenPhysischeGeneeskunde>
-  a skos:Concept;
+zonmwpa:NederlandseVerenigingvanArtsenvoorRevalidatieenPhysischeGeneeskunde a skos:Concept;
   skos:broader zonmwpa:Institution;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
-  skos:prefLabel """Nederlandse Vereniging
-van Artsen voor Revalidatie en Physische Geneeskunde"""@en .
+  skos:prefLabel "Nederlandse Vereniging van Artsen voor Revalidatie en Physische Geneeskunde"@en .
 
-<http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVereniging\u000AvanBiochemieenMoleculaireBiologie-NVBMB>
-  a skos:Concept;
+zonmwpa:NederlandseVerenigingvanBiochemieenMoleculaireBiologie-NVBMB a skos:Concept;
   skos:broader zonmwpa:Institution;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
-  skos:prefLabel """Nederlandse Vereniging
-van Biochemie en Moleculaire Biologie (NVBMB)"""@en .
+  skos:prefLabel "Nederlandse Vereniging van Biochemie en Moleculaire Biologie (NVBMB)"@en .
 
-<http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVereniging\u000AvoorAllergologie-NVVA>
-  a skos:Concept;
+zonmwpa:NederlandseVerenigingvoorAllergologie-NVVA a skos:Concept;
   skos:broader zonmwpa:Institution;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
-  skos:prefLabel """Nederlandse Vereniging
-voor Allergologie (NVVA)"""@en .
+  skos:prefLabel "Nederlandse Vereniging voor Allergologie (NVVA)"@en .
 
-<http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVereniging\u000AvoorArbeids-enBedrijfsgeneeskunde-NVAB>
-  a skos:Concept;
+zonmwpa:NederlandseVerenigingvoorArbeids-enBedrijfsgeneeskunde-NVAB a skos:Concept;
   skos:broader zonmwpa:Institution;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
-  skos:prefLabel """Nederlandse Vereniging
-voor Arbeids- en Bedrijfsgeneeskunde (NVAB)"""@en .
+  skos:prefLabel "Nederlandse Vereniging voor Arbeids- en Bedrijfsgeneeskunde (NVAB)"@en .
 
-<http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVereniging\u000AvoorDuikgeneeskunde-NVD>
-  a skos:Concept;
+zonmwpa:NederlandseVerenigingvoorDuikgeneeskunde-NVD a skos:Concept;
   skos:broader zonmwpa:Institution;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
-  skos:prefLabel """Nederlandse Vereniging
-voor Duikgeneeskunde (NVD)"""@en .
+  skos:prefLabel "Nederlandse Vereniging voor Duikgeneeskunde (NVD)"@en .
 
-<http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVereniging\u000AvoorFysiologie-NVF>
-  a skos:Concept;
+zonmwpa:NederlandseVerenigingvoorFysiologie-NVF a skos:Concept;
   skos:broader zonmwpa:Institution;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
-  skos:prefLabel """Nederlandse Vereniging
-voor Fysiologie (NVF)"""@en .
+  skos:prefLabel "Nederlandse Vereniging voor Fysiologie (NVF)"@en .
 
-<http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVereniging\u000AvoorGentherapie-NVGT>
-  a skos:Concept;
+zonmwpa:NederlandseVerenigingvoorGentherapie-NVGT a skos:Concept;
   skos:broader zonmwpa:Institution;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
-  skos:prefLabel """Nederlandse Vereniging
-voor Gentherapie (NVGT)"""@en .
+  skos:prefLabel "Nederlandse Vereniging voor Gentherapie (NVGT)"@en .
 
-<http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVereniging\u000AvoorHematologie-NVvH>
-  a skos:Concept;
+zonmwpa:NederlandseVerenigingvoorHematologie-NVvH a skos:Concept;
   skos:broader zonmwpa:Institution;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
-  skos:prefLabel """Nederlandse Vereniging
-voor Hematologie (NVvH)"""@en .
+  skos:prefLabel "Nederlandse Vereniging voor Hematologie (NVvH)"@en .
 
-<http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVereniging\u000AvoorHumaneGenetica-NVHG>
-  a skos:Concept;
+zonmwpa:NederlandseVerenigingvoorHumaneGenetica-NVHG a skos:Concept;
   skos:broader zonmwpa:Institution;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
-  skos:prefLabel """Nederlandse Vereniging
-voor Humane Genetica (NVHG)"""@en .
+  skos:prefLabel "Nederlandse Vereniging voor Humane Genetica (NVHG)"@en .
 
-<http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVereniging\u000AvoorImmunologie-NVVI>
-  a skos:Concept;
+zonmwpa:NederlandseVerenigingvoorImmunologie-NVVI a skos:Concept;
   skos:broader zonmwpa:Institution;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
-  skos:prefLabel """Nederlandse Vereniging
-voor Immunologie (NVVI)"""@en .
+  skos:prefLabel "Nederlandse Vereniging voor Immunologie (NVVI)"@en .
 
-<http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVereniging\u000AvoorKindergeneeskunde-NVK>
-  a skos:Concept;
+zonmwpa:NederlandseVerenigingvoorKindergeneeskunde-NVK a skos:Concept;
   skos:broader zonmwpa:Institution;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
-  skos:prefLabel """Nederlandse Vereniging
-voor Kindergeneeskunde (NVK)"""@en .
+  skos:prefLabel "Nederlandse Vereniging voor Kindergeneeskunde (NVK)"@en .
 
-<http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVereniging\u000AvoorKlinischeChemieenLaboratoriumgeneeskunde-NVKC>
-  a skos:Concept;
+zonmwpa:NederlandseVerenigingvoorKlinischeChemieenLaboratoriumgeneeskunde-NVKC a skos:Concept;
   skos:broader zonmwpa:Institution;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
-  skos:prefLabel """Nederlandse Vereniging
-voor Klinische Chemie en Laboratoriumgeneeskunde (NVKC)"""@en .
+  skos:prefLabel "Nederlandse Vereniging voor Klinische Chemie en Laboratoriumgeneeskunde (NVKC)"@en .
 
-<http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVereniging\u000AvoorKlinischeFarmacologieenBiofarmacie>
-  a skos:Concept;
+zonmwpa:NederlandseVerenigingvoorKlinischeFarmacologieenBiofarmacie a skos:Concept;
   skos:broader zonmwpa:Institution;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
-  skos:prefLabel """Nederlandse Vereniging
-voor Klinische Farmacologie en Biofarmacie"""@en .
+  skos:prefLabel "Nederlandse Vereniging voor Klinische Farmacologie en Biofarmacie"@en .
 
-<http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVereniging\u000AvoorKlinischeGeriatrie-NVKG>
-  a skos:Concept;
+zonmwpa:NederlandseVerenigingvoorKlinischeGeriatrie-NVKG a skos:Concept;
   skos:broader zonmwpa:Institution;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
-  skos:prefLabel """Nederlandse Vereniging
-voor Klinische Geriatrie (NVKG)"""@en .
+  skos:prefLabel "Nederlandse Vereniging voor Klinische Geriatrie (NVKG)"@en .
 
-<http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVereniging\u000AvoorMedischeMicrobiologie-NVMM>
-  a skos:Concept;
+zonmwpa:NederlandseVerenigingvoorMedischeMicrobiologie-NVMM a skos:Concept;
   skos:broader zonmwpa:Institution;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
-  skos:prefLabel """Nederlandse Vereniging
-voor Medische Microbiologie (NVMM)"""@en .
+  skos:prefLabel "Nederlandse Vereniging voor Medische Microbiologie (NVMM)"@en .
 
-<http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVereniging\u000AvoorMedischeOncologie-NVMO>
-  a skos:Concept;
+zonmwpa:NederlandseVerenigingvoorMedischeOncologie-NVMO a skos:Concept;
   skos:broader zonmwpa:Institution;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
-  skos:prefLabel """Nederlandse Vereniging
-voor Medische Oncologie (NVMO)"""@en .
+  skos:prefLabel "Nederlandse Vereniging voor Medische Oncologie (NVMO)"@en .
 
-<http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVereniging\u000AvoorOncologie-NVvO>
-  a skos:Concept;
+zonmwpa:NederlandseVerenigingvoorOncologie-NVvO a skos:Concept;
   skos:broader zonmwpa:Institution;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
-  skos:prefLabel """Nederlandse Vereniging
-voor Oncologie (NVvO)"""@en .
+  skos:prefLabel "Nederlandse Vereniging voor Oncologie (NVvO)"@en .
 
-<http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVereniging\u000AvoorParasitologie-NVP>
-  a skos:Concept;
+zonmwpa:NederlandseVerenigingvoorParasitologie-NVP a skos:Concept;
   skos:broader zonmwpa:Institution;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
-  skos:prefLabel """Nederlandse Vereniging
-voor Parasitologie (NVP)"""@en .
+  skos:prefLabel "Nederlandse Vereniging voor Parasitologie (NVP)"@en .
 
-<http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVereniging\u000AvoorPathologie-NVVP>
-  a skos:Concept;
+zonmwpa:NederlandseVerenigingvoorPathologie-NVVP a skos:Concept;
   skos:broader zonmwpa:Institution;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
-  skos:prefLabel """Nederlandse Vereniging
-voor Pathologie (NVVP)"""@en .
+  skos:prefLabel "Nederlandse Vereniging voor Pathologie (NVVP)"@en .
 
-<http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVereniging\u000AvoorProefdierkunde-NVP>
-  a skos:Concept;
+zonmwpa:NederlandseVerenigingvoorProefdierkunde-NVP a skos:Concept;
   skos:broader zonmwpa:Institution;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
-  skos:prefLabel """Nederlandse Vereniging
-voor Proefdierkunde (NVP)"""@en .
+  skos:prefLabel "Nederlandse Vereniging voor Proefdierkunde (NVP)"@en .
 
-<http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVereniging\u000AvoorReumatologie-NVR>
-  a skos:Concept;
+zonmwpa:NederlandseVerenigingvoorReumatologie-NVR a skos:Concept;
   skos:broader zonmwpa:Institution;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
-  skos:prefLabel """Nederlandse Vereniging
-voor Reumatologie (NVR)"""@en .
+  skos:prefLabel "Nederlandse Vereniging voor Reumatologie (NVR)"@en .
 
-<http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVerenigingKeel-Neus-Oorheelkunde\u000AenHeelkundevanhetHoofdHalsgebied>
+zonmwpa:NederlandseVerenigingKeel-Neus-OorheelkundeenHeelkundevanhetHoofdHalsgebied
   a skos:Concept;
   skos:broader zonmwpa:Institution;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
-  skos:prefLabel """Nederlandse Vereniging Keel-Neus-Oorheelkunde
-en Heelkunde van het Hoofd Halsgebied"""@en .
+  skos:prefLabel "Nederlandse Vereniging Keel-Neus-Oorheelkunde en Heelkunde van het Hoofd Halsgebied"@en .
 
-<http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVerenigingv.\u000ANeuropathologie-NVVNP>
-  a skos:Concept;
+zonmwpa:NederlandseVerenigingv.Neuropathologie-NVVNP a skos:Concept;
   skos:broader zonmwpa:Institution;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
-  skos:prefLabel """Nederlandse Vereniging v.
-Neuropathologie (NVVNP)"""@en .
+  skos:prefLabel "Nederlandse Vereniging v. Neuropathologie (NVVNP)"@en .
 
-<http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVerenigingvanArtsenvoor\u000ALongziektenenTuberculose-NVALT>
-  a skos:Concept;
+zonmwpa:NederlandseVerenigingvanArtsenvoorLongziektenenTuberculose-NVALT a skos:Concept;
   skos:broader zonmwpa:Institution;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
-  skos:prefLabel """Nederlandse Vereniging van Artsen voor
-Longziekten en Tuberculose (NVALT)"""@en .
+  skos:prefLabel "Nederlandse Vereniging van Artsen voor Longziekten en Tuberculose (NVALT)"@en .
 
-<http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVerenigingvanArtsenvoor\u000AVerstandelijkGehandicapten>
-  a skos:Concept;
+zonmwpa:NederlandseVerenigingvanArtsenvoorVerstandelijkGehandicapten a skos:Concept;
   skos:broader zonmwpa:Institution;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
-  skos:prefLabel """Nederlandse Vereniging van Artsen voor
-Verstandelijk Gehandicapten"""@en .
+  skos:prefLabel "Nederlandse Vereniging van Artsen voor Verstandelijk Gehandicapten"@en .
 
 zonmwpa:NederlandseVerenigingvanDiëtisten a skos:Concept;
   skos:broader zonmwpa:Institution;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:prefLabel "Nederlandse Vereniging van Diëtisten"@en .
 
-<http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVerenigingvanMaag-Darm-en\u000ALeverartsen-MDL>
-  a skos:Concept;
+zonmwpa:NederlandseVerenigingvanMaag-Darm-enLeverartsen-MDL a skos:Concept;
   skos:broader zonmwpa:Institution;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
-  skos:prefLabel """Nederlandse Vereniging van Maag-, Darm- en
-Leverartsen (MDL)"""@en .
+  skos:prefLabel "Nederlandse Vereniging van Maag-, Darm- en Leverartsen (MDL)"@en .
 
-<http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVerenigingvanNeurochirurgen\u000A-NVVN>
-  a skos:Concept;
+zonmwpa:NederlandseVerenigingvanNeurochirurgen-NVVN a skos:Concept;
   skos:broader zonmwpa:Institution;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
-  skos:prefLabel """Nederlandse Vereniging van Neurochirurgen
-(NVVN)"""@en .
+  skos:prefLabel "Nederlandse Vereniging van Neurochirurgen (NVVN)"@en .
 
 zonmwpa:NederlandseVerenigingvanNeurologie-NVN a skos:Concept;
   skos:broader zonmwpa:Institution;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:prefLabel "Nederlandse Vereniging van Neurologie (NVN)"@en .
 
-<http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVerenigingvoor\u000AVerzekeringsgeneeskunde-NVVG>
-  a skos:Concept;
+zonmwpa:NederlandseVerenigingvoorVerzekeringsgeneeskunde-NVVG a skos:Concept;
   skos:broader zonmwpa:Institution;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
-  skos:prefLabel """Nederlandse Vereniging voor
-Verzekeringsgeneeskunde (NVVG)"""@en .
+  skos:prefLabel "Nederlandse Vereniging voor Verzekeringsgeneeskunde (NVVG)"@en .
 
-<http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVerenigingvoorAnesthesiologie\u000A-NAV>
-  a skos:Concept;
+zonmwpa:NederlandseVerenigingvoorAnesthesiologie-NAV a skos:Concept;
   skos:broader zonmwpa:Institution;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
-  skos:prefLabel """Nederlandse Vereniging voor Anesthesiologie
-(NAV)"""@en .
+  skos:prefLabel "Nederlandse Vereniging voor Anesthesiologie (NAV)"@en .
 
-<http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVerenigingvoorDermatologieen\u000AVenereologie-NVDV>
-  a skos:Concept;
+zonmwpa:NederlandseVerenigingvoorDermatologieenVenereologie-NVDV a skos:Concept;
   skos:broader zonmwpa:Institution;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
-  skos:prefLabel """Nederlandse Vereniging voor Dermatologie en
-Venereologie (NVDV)"""@en .
+  skos:prefLabel "Nederlandse Vereniging voor Dermatologie en Venereologie (NVDV)"@en .
 
-<http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVerenigingvoorHeelkunde\u000A-NVvH>
-  a skos:Concept;
+zonmwpa:NederlandseVerenigingvoorHeelkunde-NVvH a skos:Concept;
   skos:broader zonmwpa:Institution;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
-  skos:prefLabel """Nederlandse Vereniging voor Heelkunde
-(NVvH)"""@en .
+  skos:prefLabel "Nederlandse Vereniging voor Heelkunde (NVvH)"@en .
 
-<http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVerenigingvoorNucleaire\u000AGeneeskunde-NVNG>
-  a skos:Concept;
+zonmwpa:NederlandseVerenigingvoorNucleaireGeneeskunde-NVNG a skos:Concept;
   skos:broader zonmwpa:Institution;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
-  skos:prefLabel """Nederlandse Vereniging voor Nucleaire
-Geneeskunde (NVNG)"""@en .
+  skos:prefLabel "Nederlandse Vereniging voor Nucleaire Geneeskunde (NVNG)"@en .
 
-<http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVerenigingvoorObstetrieen\u000AGynaecologie-NVOG>
-  a skos:Concept;
+zonmwpa:NederlandseVerenigingvoorObstetrieenGynaecologie-NVOG a skos:Concept;
   skos:broader zonmwpa:Institution;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
-  skos:prefLabel """Nederlandse Vereniging voor Obstetrie en
-Gynaecologie (NVOG)"""@en .
+  skos:prefLabel "Nederlandse Vereniging voor Obstetrie en Gynaecologie (NVOG)"@en .
 
 zonmwpa:NederlandseVerenigingvoorPlastischeenReconstructieveChirurgie-NVPC a skos:Concept;
   skos:broader zonmwpa:Institution;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:prefLabel "Nederlandse Vereniging voor Plastische en Reconstructieve Chirurgie (NVPC)"@en .
 
-<http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVerenigingvoorPsychiatrie\u000A-NVVP>
-  a skos:Concept;
+zonmwpa:NederlandseVerenigingvoorPsychiatrie-NVVP a skos:Concept;
   skos:broader zonmwpa:Institution;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
-  skos:prefLabel """Nederlandse Vereniging voor Psychiatrie
-(NVVP)"""@en .
+  skos:prefLabel "Nederlandse Vereniging voor Psychiatrie (NVVP)"@en .
 
-<http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVerenigingvoorRadiologie\u000A-NVvR>
-  a skos:Concept;
+zonmwpa:NederlandseVerenigingvoorRadiologie-NVvR a skos:Concept;
   skos:broader zonmwpa:Institution;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
-  skos:prefLabel """Nederlandse Vereniging voor Radiologie
-(NVvR)"""@en .
+  skos:prefLabel "Nederlandse Vereniging voor Radiologie (NVvR)"@en .
 
-<http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVerenigingvoorRadiotherapie\u000AenOncologie-NVRO>
-  a skos:Concept;
+zonmwpa:NederlandseVerenigingvoorRadiotherapieenOncologie-NVRO a skos:Concept;
   skos:broader zonmwpa:Institution;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
-  skos:prefLabel """Nederlandse Vereniging voor Radiotherapie
-en Oncologie (NVRO)"""@en .
+  skos:prefLabel "Nederlandse Vereniging voor Radiotherapie en Oncologie (NVRO)"@en .
 
-<http://www.fair-data-collective.com/zonmw/projectadmin/NederlandseVerenigingvoorThoraxchirurgie\u000A-NVT>
-  a skos:Concept;
+zonmwpa:NederlandseVerenigingvoorThoraxchirurgie-NVT a skos:Concept;
   skos:broader zonmwpa:Institution;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
-  skos:prefLabel """Nederlandse Vereniging voor Thoraxchirurgie
-(NVT)"""@en .
+  skos:prefLabel "Nederlandse Vereniging voor Thoraxchirurgie (NVT)"@en .
 
 zonmwpa:NederlandseVerenigingvoorUrologie-NVU a skos:Concept;
   skos:broader zonmwpa:Institution;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:prefLabel "Nederlandse Vereniging voor Urologie (NVU)"@en .
 
-<http://www.fair-data-collective.com/zonmw/projectadmin/VerenigingSpecialistenin\u000AOuderengeneeskunde-Verenso>
-  a skos:Concept;
+zonmwpa:VerenigingSpecialisteninOuderengeneeskunde-Verenso a skos:Concept;
   skos:broader zonmwpa:Institution;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
-  skos:prefLabel """Vereniging Specialisten in
-Ouderengeneeskunde (Verenso)"""@en .
+  skos:prefLabel "Vereniging Specialisten in Ouderengeneeskunde (Verenso)"@en .
 
 zonmwpa:VerenigingvanEpidemiologie-VvE a skos:Concept;
   skos:broader zonmwpa:Institution;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:prefLabel "Vereniging van Epidemiologie (VvE)"@en .
 
-<http://www.fair-data-collective.com/zonmw/projectadmin/VerenigingvanMedisch\u000AWetenschappelijkeOnderzoekers-V.M.W.O.>
+<http://www.fair-data-collective.com/zonmw/projectadmin/VerenigingvanMedischWetenschappelijkeOnderzoekers-V.M.W.O.>
   a skos:Concept;
   skos:broader zonmwpa:Institution;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
-  skos:prefLabel """Vereniging van Medisch
-Wetenschappelijke Onderzoekers (V.M.W.O.)"""@en .
+  skos:prefLabel "Vereniging van Medisch Wetenschappelijke Onderzoekers (V.M.W.O.)"@en .
 
-<http://www.fair-data-collective.com/zonmw/projectadmin/Verenigingvoor\u000AInformatieverwerkingindeZorg-VMBI>
-  a skos:Concept;
+zonmwpa:VerenigingvoorInformatieverwerkingindeZorg-VMBI a skos:Concept;
   skos:broader zonmwpa:Institution;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
-  skos:prefLabel """Vereniging voor
-Informatieverwerking in de Zorg (VMBI)"""@en .
+  skos:prefLabel "Vereniging voor Informatieverwerking in de Zorg (VMBI)"@en .
 
-<http://www.fair-data-collective.com/zonmw/projectadmin/Verenigingvoor\u000ASportgeneeskunde>
-  a skos:Concept;
+zonmwpa:VerenigingvoorSportgeneeskunde a skos:Concept;
   skos:broader zonmwpa:Institution;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
-  skos:prefLabel """Vereniging voor
-Sportgeneeskunde"""@en .
+  skos:prefLabel "Vereniging voor Sportgeneeskunde"@en .
 
 zonmwpa:VerenigingvoorInfectieziekten-VIZ a skos:Concept;
   skos:broader zonmwpa:Institution;
