@@ -25,7 +25,7 @@
   pav:createdOn "2020-10-30T06:55:00+00:00"@en;
   pav:lastUpdatedOn "2020-10-30T06:55:00+00:01"@en;
   pav:version "1.0.0"@en;
-  skos:hasTopConcept zonmwpa:CareProcessPhase, zonmwpa:FocusAreas, zonmwpa:Institution,
+  skos:hasTopConcept zonmwpa:CareProcessPhase, zonmwpa:FocusArea, zonmwpa:Institution,
     zonmwpa:Population, zonmwpa:Province, zonmwpa:Service, zonmwpa:Setting, zonmwpa:SizeOfCollection,
     zonmwpa:StudyArea, zonmwpa:Theme, zonmwpa:TypeOfCollection, zonmwpa:TypeOfData, zonmwpa:TypeOfMaterial;
   skos:prefLabel "ZonMW Project Administration Terms"@en .
@@ -1242,10 +1242,12 @@ zonmwpa:Otherinstitution a skos:Concept;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:prefLabel "Other institution"@en .
 
-zonmwpa:FocusAreas a skos:Concept;
-  skos:definition "This is a set of controlled terms for the Focus Areas category."@en;
+zonmwpa:FocusArea a skos:Concept;
+  skos:definition "This is a set of controlled terms for the Focus Area category."@en;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
-  skos:prefLabel "Focus Areas"@en;
+  skos:narrower zonmwpa:Careandprevention, zonmwpa:Effectsonsociety, zonmwpa:OtherFocusArea,
+    zonmwpa:Predictivediagnosticsandtreatment;
+  skos:prefLabel "Focus Area"@en;
   skos:topConceptOf <http://www.fair-data-collective.com/zonmw/projectadmin> .
 
 zonmwpa:Predictivediagnosticsandtreatment a skos:Concept;
@@ -1269,7 +1271,7 @@ zonmwpa:OtherFocusArea a skos:Concept;
   skos:prefLabel "Other Focus Area"@en .
 
 zonmwpa:Theme a skos:Concept;
-  skos:definition "This is a set of controlled terms for the Themes category."@en;
+  skos:definition "This is a set of controlled terms for the Theme category."@en;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:narrower zonmwpa:Animalfreeinnovations, zonmwpa:Careandpreventionforvulnerablecitizens,
     zonmwpa:Clinicaltreatment, zonmwpa:Diagnosticsofinfection, zonmwpa:Economicresilience,
@@ -1422,6 +1424,3 @@ zonmwpa:OtherProvince a skos:Concept;
   skos:broader zonmwpa:Province;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
   skos:prefLabel "Other Province"@en .
-
-zonmwpa:FocusArea skos:narrower zonmwpa:Careandprevention, zonmwpa:Effectsonsociety,
-    zonmwpa:OtherFocusArea, zonmwpa:Predictivediagnosticsandtreatment .
