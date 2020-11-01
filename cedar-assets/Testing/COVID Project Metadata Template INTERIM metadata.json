@@ -1,0 +1,266 @@
+{
+  "@context": {
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "pav": "http://purl.org/pav/",
+    "schema": "http://schema.org/",
+    "oslc": "http://open-services.net/ns/core#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "rdfs:label": {
+      "@type": "xsd:string"
+    },
+    "schema:isBasedOn": {
+      "@type": "@id"
+    },
+    "schema:name": {
+      "@type": "xsd:string"
+    },
+    "schema:description": {
+      "@type": "xsd:string"
+    },
+    "pav:derivedFrom": {
+      "@type": "@id"
+    },
+    "pav:createdOn": {
+      "@type": "xsd:dateTime"
+    },
+    "pav:createdBy": {
+      "@type": "@id"
+    },
+    "pav:lastUpdatedOn": {
+      "@type": "xsd:dateTime"
+    },
+    "oslc:modifiedBy": {
+      "@type": "@id"
+    },
+    "skos:notation": {
+      "@type": "xsd:string"
+    },
+    "Project Title": "https://schema.metadatacenter.org/properties/e9312186-8e2e-4ece-9aff-90530dbc38c4",
+    "Acronym-Short Title": "https://schema.metadatacenter.org/properties/8442ac4d-4476-4e13-b631-858b4be7ee05",
+    "Project ID": "https://schema.metadatacenter.org/properties/f63fb5ee-d434-40c8-940f-ab73b0a01e6f",
+    "Project Website": "https://schema.metadatacenter.org/properties/a9e93c38-5a81-4b05-9555-2ca0e4616f24",
+    "FunderInformation": "https://schema.metadatacenter.org/properties/555078b4-c467-434a-8cd2-2a94c479a8bb",
+    "Start date": "https://schema.metadatacenter.org/properties/cc1d1f6a-efc1-4d94-84a3-7471854f1303",
+    "Expected end date": "https://schema.metadatacenter.org/properties/c8d8541f-07c2-428c-800b-364b6d512254",
+    "Project duration": "https://schema.metadatacenter.org/properties/f2332176-915a-4d55-801f-e94427173f03",
+    "Lead Institution": "https://schema.metadatacenter.org/properties/bbb44300-e6ab-4cd7-adbb-1e93cc994e5a",
+    "Principal Investigator": "https://schema.metadatacenter.org/properties/6b1ed535-2fc0-46de-9972-efdddec58228",
+    "Project Partner": "https://schema.metadatacenter.org/properties/f90d9bd7-5653-485f-841c-0acf6de2322c",
+    "Country": "https://schema.metadatacenter.org/properties/1be3a003-31e4-43a3-a271-0ea8affd6f56",
+    "Province": "https://schema.metadatacenter.org/properties/719f743b-5bcb-4a7a-bad4-c3dd3147a125",
+    "Study Area": "https://schema.metadatacenter.org/properties/28e10f62-799b-497c-a296-dd8c399b791a",
+    "Focus Area": "https://schema.metadatacenter.org/properties/1b22c6ba-9a2a-475d-8c57-2d80d794fa16",
+    "Theme": "https://schema.metadatacenter.org/properties/b7ba59ba-e219-4ddc-bfb1-ba9ce9fe8296",
+    "Care Process Phase": "https://schema.metadatacenter.org/properties/795a42ac-3684-4b5d-80d5-8e5b43d1fce9",
+    "Type of Collection": "https://schema.metadatacenter.org/properties/6f9c329c-c418-491e-a2b2-1f73287c6655",
+    "Type of Data": "https://schema.metadatacenter.org/properties/65f8009a-1670-4221-9ba7-3608071ce6b2",
+    "Size of Collection": "https://schema.metadatacenter.org/properties/a9b85ccb-858a-4394-a6cd-9ba819b64fb4"
+  },
+  "Project Title": [
+    {
+      "@context": {
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "languageTag": "https://schema.metadatacenter.org/properties/bfa4a9d1-83f3-40af-a699-be7bef5661fa"
+      },
+      "title": {
+        "@value": "Test Project"
+      },
+      "languageTag": {
+        "@id": "https://www.omg.org/spec/LCC/Languages/LaISO639-1-LanguageCodes/en",
+        "rdfs:label": "en"
+      },
+      "@id": "https://repo.metadatacenter.org/template-element-instances/c9491b21-0440-456b-bdd2-d830bacac8b1"
+    }
+  ],
+  "Acronym-Short Title": {
+    "@value": "TestProj"
+  },
+  "Project ID": {
+    "@context": {
+      "Project ID": "https://schema.metadatacenter.org/properties/cbf67c11-a9c9-479b-99e0-0a47ec9044b7"
+    },
+    "Project ID": {
+      "@value": "10N111"
+    },
+    "@id": "https://repo.metadatacenter.org/template-element-instances/ec721909-dd59-4868-9f6b-9742b93fde72"
+  },
+  "Project Website": [
+    {
+      "@value": "https://example.com/unique_digital_object_identifier"
+    }
+  ],
+  "FunderInformation": [
+    {
+      "@context": {
+        "funderName": "https://schema.metadatacenter.org/properties/0eb27432-1ede-44a1-87c2-bed2081cab5c",
+        "awardPageIRI": "https://schema.metadatacenter.org/properties/41a72a33-f1c7-4c0b-8b26-129bc1793ea8"
+      },
+      "funderName": {
+        "@value": "ZonMw"
+      },
+      "awardPageIRI": {
+        "@value": "https://example.com/unique_digital_object_identifier"
+      },
+      "@id": "https://repo.metadatacenter.org/template-element-instances/697bed5a-d282-4f5c-86e5-dc1c840566e2"
+    }
+  ],
+  "Start date": {
+    "@value": "2020-10-31T05:55:07-08:00",
+    "@type": "xsd:dateTime"
+  },
+  "Expected end date": {
+    "@value": "2020-11-30T04:56:03-08:00",
+    "@type": "xsd:dateTime"
+  },
+  "Project duration": {
+    "@value": "12",
+    "@type": "xsd:decimal"
+  },
+  "Lead Institution": {
+    "@context": {
+      "Name of the lead insitution": "https://schema.metadatacenter.org/properties/9f774ee2-3723-498e-81b6-d9f30017d07e",
+      "Lead institution GRID reference": "https://schema.metadatacenter.org/properties/853f58fb-c9de-4907-bf31-ddd282a871b2"
+    },
+    "Name of the lead insitution": {
+      "@value": "GO FAIR Foundation"
+    },
+    "Lead institution GRID reference": {
+      "@value": "Good Question"
+    },
+    "@id": "https://repo.metadatacenter.org/template-element-instances/a392372c-212e-435b-a5d8-1d8ba50d8442"
+  },
+  "Principal Investigator": {
+    "@context": {
+      "Principle Investigator Email": "http://xmlns.com/foaf/0.1/mbox",
+      "Principal Investigator Name": "http://purl.org/dc/terms/creator",
+      "Principle Investigator ORCID": "https://schema.metadatacenter.org/properties/ee24c19a-1bb5-4693-8775-52ab7716108c",
+      "Principal Investigator Surname": "http://xmlns.com/foaf/0.1/familyName",
+      "Principal Investigator First Name": "http://xmlns.com/foaf/0.1/givenName"
+    },
+    "Principle Investigator Email": {
+      "@value": "thest@example.org"
+    },
+    "Principal Investigator Name": {
+      "@value": "Erik Schultes"
+    },
+    "Principle Investigator ORCID": {
+      "@value": "https://orcid.org/0000-0001-6875-5360"
+    },
+    "Principal Investigator Surname": [
+      {
+        "@value": "Schultes"
+      }
+    ],
+    "Principal Investigator First Name": [
+      {
+        "@value": "Erik"
+      }
+    ],
+    "@id": "https://repo.metadatacenter.org/template-element-instances/fb29de70-4e8b-4fb0-961b-4f32ba8f14e9"
+  },
+  "Project Partner": [
+    {
+      "@context": {
+        "Project partner institution name": "https://schema.metadatacenter.org/properties/8f874831-9e03-4480-a0bd-54c59d047a60"
+      },
+      "Project partner institution name": {
+        "@value": "Stanford University"
+      },
+      "@id": "https://repo.metadatacenter.org/template-element-instances/23a032c9-af22-4ef0-bdbf-29e0cdbae459"
+    }
+  ],
+  "Country": [
+    {
+      "@id": "http://purl.bioontology.org/ontology/SNOMEDCT/223688001",
+      "rdfs:label": "United States of America"
+    }
+  ],
+  "Province": [
+    {
+      "@value": "To Be Provided"
+    }
+  ],
+  "Study Area": [
+    {
+      "@id": "http://www.fair-data-collective.com/zonmw/projectadmin/Rural",
+      "rdfs:label": "Rural"
+    },
+    {
+      "@id": "http://www.fair-data-collective.com/zonmw/projectadmin/Provincial",
+      "rdfs:label": "Provincial"
+    }
+  ],
+  "Focus Area": {
+    "@value": "To Be Provided"
+  },
+  "Theme": {
+    "@value": "To Be Provided"
+  },
+  "Care Process Phase": [
+    {
+      "@id": "http://www.fair-data-collective.com/zonmw/projectadmin/Aftercare",
+      "rdfs:label": "Aftercare"
+    },
+    {
+      "@id": "http://www.fair-data-collective.com/zonmw/projectadmin/Information",
+      "rdfs:label": "Information"
+    },
+    {
+      "@id": "http://www.fair-data-collective.com/zonmw/projectadmin/Palliative",
+      "rdfs:label": "Palliative"
+    }
+  ],
+  "Type of Collection": {
+    "@context": {
+      "Type of Collection CV Term": "https://schema.metadatacenter.org/properties/b48d766d-3c04-4ac2-8ca3-c3d45f23ba5c",
+      "Types of Collection": "https://schema.metadatacenter.org/properties/a3026932-7cd7-41a5-98ae-46d422fb9e47"
+    },
+    "Type of Collection CV Term": [
+      {
+        "@value": "To Be Provided"
+      },
+      {
+        "@value": "Other Type of Collection"
+      }
+    ],
+    "Types of Collection": [
+      {
+        "@value": "My Free Text"
+      },
+      {
+        "@value": "More of my free text"
+      }
+    ],
+    "@id": "https://repo.metadatacenter.org/template-element-instances/fb096317-0e29-4b05-8c56-5a29a2e43a8a"
+  },
+  "Type of Data": {
+    "@context": {
+      "Type of Data CV Term": "https://schema.metadatacenter.org/properties/b48d766d-3c04-4ac2-8ca3-c3d45f23ba5c",
+      "Type of Data String": "https://schema.metadatacenter.org/properties/a3026932-7cd7-41a5-98ae-46d422fb9e47"
+    },
+    "Type of Data CV Term": [
+      {
+        "@value": "To Be Provided"
+      }
+    ],
+    "Type of Data String": [
+      {
+        "@value": "Nothing to see here"
+      }
+    ],
+    "@id": "https://repo.metadatacenter.org/template-element-instances/9df60e60-1fe3-4692-8e6c-7972bb904c3e"
+  },
+  "Size of Collection": {
+    "@id": "http://www.fair-data-collective.com/zonmw/projectadmin/10-100",
+    "rdfs:label": "10 - 100"
+  },
+  "schema:isBasedOn": "https://repo.metadatacenter.org/templates/1950fed8-dcfc-4ae2-a59f-382338329e5b",
+  "schema:name": "COVID Project Metadata Template INTERIM metadata",
+  "schema:description": "A metadata template for COVID 19 projects funded by ZonMw",
+  "pav:createdOn": "2020-10-30T04:59:53-07:00",
+  "pav:createdBy": "https://metadatacenter.org/users/1adf5ee5-cee0-47d1-9769-efbe00cdebee",
+  "pav:lastUpdatedOn": "2020-10-30T04:59:53-07:00",
+  "oslc:modifiedBy": "https://metadatacenter.org/users/1adf5ee5-cee0-47d1-9769-efbe00cdebee",
+  "@id": "https://repo.metadatacenter.org/template-instances/008edaca-0f1a-4019-a64b-49a9d8e848da"
+}
