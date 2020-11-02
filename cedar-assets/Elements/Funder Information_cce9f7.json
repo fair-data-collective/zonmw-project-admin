@@ -164,9 +164,9 @@
             ],
             "schema:name": "funderName",
             "schema:description": "Name of the organization providing the funding for the described project ('funding provider').",
-            "pav:createdOn": "2020-11-02T14:19:59-08:00",
+            "pav:createdOn": "2020-11-02T14:36:28-08:00",
             "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
-            "pav:lastUpdatedOn": "2020-11-02T14:19:59-08:00",
+            "pav:lastUpdatedOn": "2020-11-02T14:36:28-08:00",
             "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
@@ -215,7 +215,8 @@
                 "inputType": "textfield"
             },
             "_valueConstraints": {
-                "requiredValue": false
+                "requiredValue": false,
+                "defaultValue": "grid.438427.e"
             },
             "properties": {
                 "@type": {
@@ -253,9 +254,9 @@
             ],
             "schema:name": "Funder GRID reference",
             "schema:description": "The GRID reference of the funder see https://www.grid.ac/",
-            "pav:createdOn": "2020-11-02T14:19:59-08:00",
+            "pav:createdOn": "2020-11-02T14:36:28-08:00",
             "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
-            "pav:lastUpdatedOn": "2020-11-02T14:19:59-08:00",
+            "pav:lastUpdatedOn": "2020-11-02T14:36:28-08:00",
             "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
@@ -274,7 +275,7 @@
     ],
     "pav:createdOn": "2020-10-29T04:38:06-07:00",
     "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
-    "pav:lastUpdatedOn": "2020-11-02T14:19:59-08:00",
+    "pav:lastUpdatedOn": "2020-11-02T14:36:28-08:00",
     "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
     "schema:schemaVersion": "1.6.0",
     "additionalProperties": false,
