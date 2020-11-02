@@ -45,7 +45,7 @@
             "Project Partner Institution",
             "Principal Investigator1",
             "Data Steward1",
-            "Project Participant GUPRI",
+            "Project Participant ORCID",
             "Country",
             "Province"
         ],
@@ -55,7 +55,6 @@
             "End date": "End date",
             "Project duration": "Project duration",
             "Principal Investigator1": "Principal Investigator",
-            "Project Participant GUPRI": "Project Participant GUPRI",
             "Project Partner Institution": "Project Partner Institution",
             "Province": "Province",
             "Acronym/Short Title": "Acronym/Short Title",
@@ -66,7 +65,8 @@
             "Lead Institution GRID reference": "Lead Institution GRID reference",
             "Project Website": "Project Website",
             "Project GUPRI": "Project GUPRI",
-            "Country": "Country"
+            "Country": "Country",
+            "Project Participant ORCID": "Project Participant ORCID"
         },
         "propertyDescriptions": {
             "Project ID": "",
@@ -76,7 +76,6 @@
             "End date": "The date the project is expected to end",
             "Project duration": "Enter project duration in months",
             "Principal Investigator1": "The principal investigator of the project",
-            "Project Participant GUPRI": "Enter the GUPRI of the participant",
             "Project Partner Institution": "Enter the project partner institution name",
             "Province": "Enter the name of the provinces involved in the project",
             "Acronym/Short Title": "Enter optional acronym/short title for the study",
@@ -87,7 +86,8 @@
             "Lead Institution GRID reference": "Enter the GRID reference of the lead institution",
             "Project Website": "Enter the URL of the project's website",
             "Project GUPRI": "Enter the Global Unique Persistent and Resolvable Identifier (GUPRI) you minted with Nanobench",
-            "Country": "Enter the name of the countries involved in the project"
+            "Country": "Enter the name of the countries involved in the project",
+            "Project Participant ORCID": "Enter the ORCID of the participant"
         }
     },
     "properties": {
@@ -271,11 +271,6 @@
                         "https://schema.metadatacenter.org/properties/aa4eeca4-f526-40a6-9f34-fbf0bbe77cf8"
                     ]
                 },
-                "Project Participant GUPRI": {
-                    "enum": [
-                        "https://schema.metadatacenter.org/properties/7028c4cd-43f1-4954-b104-890b6e209f8d"
-                    ]
-                },
                 "Project Partner Institution": {
                     "enum": [
                         "https://schema.metadatacenter.org/properties/3991ec34-e0b5-4a0f-bd9b-b7b7b6590b97"
@@ -329,6 +324,11 @@
                 "Country": {
                     "enum": [
                         "https://schema.metadatacenter.org/properties/1914e90b-f765-4ac7-aef1-944e0207b5bf"
+                    ]
+                },
+                "Project Participant ORCID": {
+                    "enum": [
+                        "https://schema.metadatacenter.org/properties/7028c4cd-43f1-4954-b104-890b6e209f8d"
                     ]
                 }
             },
@@ -500,10 +500,10 @@
             ],
             "schema:name": "Start date",
             "schema:description": "The date the project started or is expected to start",
-            "pav:createdOn": "2020-11-02T06:48:50-08:00",
-            "pav:createdBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
-            "pav:lastUpdatedOn": "2020-11-02T06:48:50-08:00",
-            "oslc:modifiedBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
+            "pav:createdOn": "2020-11-02T10:24:25-08:00",
+            "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
+            "pav:lastUpdatedOn": "2020-11-02T10:24:25-08:00",
+            "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
             "skos:prefLabel": "Start date",
@@ -794,10 +794,10 @@
                     "language"
                 ],
                 "additionalProperties": false,
-                "pav:createdOn": "2020-11-02T06:48:50-08:00",
-                "pav:createdBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
-                "pav:lastUpdatedOn": "2020-11-02T06:48:50-08:00",
-                "oslc:modifiedBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
+                "pav:createdOn": "2020-11-02T10:24:25-08:00",
+                "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
+                "pav:lastUpdatedOn": "2020-11-02T10:24:25-08:00",
+                "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
                 "schema:schemaVersion": "1.6.0",
                 "schema:name": "Project Title",
                 "schema:description": "A name or title by which the project being described is known",
@@ -887,10 +887,10 @@
             ],
             "schema:name": "End date",
             "schema:description": "The date the project is expected to end",
-            "pav:createdOn": "2020-11-02T06:48:50-08:00",
-            "pav:createdBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
-            "pav:lastUpdatedOn": "2020-11-02T06:48:50-08:00",
-            "oslc:modifiedBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
+            "pav:createdOn": "2020-11-02T10:24:25-08:00",
+            "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
+            "pav:lastUpdatedOn": "2020-11-02T10:24:25-08:00",
+            "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
             "skos:prefLabel": "End date",
@@ -965,10 +965,10 @@
             ],
             "schema:name": "Project duration",
             "schema:description": "Enter project duration in months",
-            "pav:createdOn": "2020-11-02T06:48:50-08:00",
-            "pav:createdBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
-            "pav:lastUpdatedOn": "2020-11-02T06:48:50-08:00",
-            "oslc:modifiedBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
+            "pav:createdOn": "2020-11-02T10:24:25-08:00",
+            "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
+            "pav:lastUpdatedOn": "2020-11-02T10:24:25-08:00",
+            "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
             "@id": "https://repo.metadatacenter.org/template-fields/492e4056-9ef6-4d6e-8de2-40e2f88b6316",
@@ -1148,10 +1148,10 @@
                 "@id",
                 "Principle Investigator ORCID"
             ],
-            "pav:createdOn": "2020-11-02T06:48:50-08:00",
-            "pav:createdBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
-            "pav:lastUpdatedOn": "2020-11-02T06:48:50-08:00",
-            "oslc:modifiedBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
+            "pav:createdOn": "2020-11-02T10:24:25-08:00",
+            "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
+            "pav:lastUpdatedOn": "2020-11-02T10:24:25-08:00",
+            "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
             "pav:version": "0.0.1",
@@ -1159,98 +1159,6 @@
             "pav:derivedFrom": "https://repo.metadatacenter.org/template-elements/8a24cdba-89ac-4873-a57d-6d0282c6e2e4",
             "@id": "https://repo.metadatacenter.org/template-elements/79cb6243-998f-4b32-b8ee-295fdaf95d4e",
             "$schema": "http://json-schema.org/draft-04/schema#"
-        },
-        "Project Participant GUPRI": {
-            "type": "array",
-            "minItems": 1,
-            "items": {
-                "type": "object",
-                "@type": "https://schema.metadatacenter.org/core/TemplateField",
-                "@context": {
-                    "xsd": "http://www.w3.org/2001/XMLSchema#",
-                    "pav": "http://purl.org/pav/",
-                    "bibo": "http://purl.org/ontology/bibo/",
-                    "oslc": "http://open-services.net/ns/core#",
-                    "schema": "http://schema.org/",
-                    "skos": "http://www.w3.org/2004/02/skos/core#",
-                    "schema:name": {
-                        "@type": "xsd:string"
-                    },
-                    "schema:description": {
-                        "@type": "xsd:string"
-                    },
-                    "skos:prefLabel": {
-                        "@type": "xsd:string"
-                    },
-                    "skos:altLabel": {
-                        "@type": "xsd:string"
-                    },
-                    "pav:createdOn": {
-                        "@type": "xsd:dateTime"
-                    },
-                    "pav:createdBy": {
-                        "@type": "@id"
-                    },
-                    "pav:lastUpdatedOn": {
-                        "@type": "xsd:dateTime"
-                    },
-                    "oslc:modifiedBy": {
-                        "@type": "@id"
-                    }
-                },
-                "title": "Project Participant GUPRI field schema",
-                "description": "Project Participant GUPRI field schema generated by the CEDAR Template Editor 2.5.11",
-                "_ui": {
-                    "inputType": "textfield"
-                },
-                "_valueConstraints": {
-                    "requiredValue": false
-                },
-                "properties": {
-                    "@type": {
-                        "oneOf": [
-                            {
-                                "type": "string",
-                                "format": "uri"
-                            },
-                            {
-                                "type": "array",
-                                "minItems": 1,
-                                "items": {
-                                    "type": "string",
-                                    "format": "uri"
-                                },
-                                "uniqueItems": true
-                            }
-                        ]
-                    },
-                    "@value": {
-                        "type": [
-                            "string",
-                            "null"
-                        ]
-                    },
-                    "rdfs:label": {
-                        "type": [
-                            "string",
-                            "null"
-                        ]
-                    }
-                },
-                "required": [
-                    "@value"
-                ],
-                "additionalProperties": false,
-                "pav:createdOn": "2020-11-02T06:48:50-08:00",
-                "pav:createdBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
-                "pav:lastUpdatedOn": "2020-11-02T06:48:50-08:00",
-                "oslc:modifiedBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
-                "schema:schemaVersion": "1.6.0",
-                "schema:name": "Project Participant GUPRI",
-                "schema:description": "Enter the GUPRI of the participant",
-                "@id": "https://repo.metadatacenter.org/template-fields/8baa050a-3cd9-4f6e-b473-ffb9fb068863",
-                "$schema": "http://json-schema.org/draft-04/schema#"
-            }
         },
         "Project Partner Institution": {
             "type": "array",
@@ -1341,10 +1249,10 @@
                     }
                 },
                 "additionalProperties": false,
-                "pav:createdOn": "2020-11-02T06:48:50-08:00",
-                "pav:createdBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
-                "pav:lastUpdatedOn": "2020-11-02T06:48:50-08:00",
-                "oslc:modifiedBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
+                "pav:createdOn": "2020-11-02T10:24:25-08:00",
+                "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
+                "pav:lastUpdatedOn": "2020-11-02T10:24:25-08:00",
+                "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
                 "schema:schemaVersion": "1.6.0",
                 "schema:name": "Project Partner Institution",
                 "schema:description": "Enter the project partner institution name",
@@ -1396,7 +1304,7 @@
                     "inputType": "textfield"
                 },
                 "_valueConstraints": {
-                    "requiredValue": true,
+                    "requiredValue": false,
                     "ontologies": [],
                     "valueSets": [],
                     "classes": [],
@@ -1441,10 +1349,10 @@
                     }
                 },
                 "additionalProperties": false,
-                "pav:createdOn": "2020-11-02T06:48:50-08:00",
-                "pav:createdBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
-                "pav:lastUpdatedOn": "2020-11-02T06:48:50-08:00",
-                "oslc:modifiedBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
+                "pav:createdOn": "2020-11-02T10:24:25-08:00",
+                "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
+                "pav:lastUpdatedOn": "2020-11-02T10:24:25-08:00",
+                "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
                 "schema:schemaVersion": "1.6.0",
                 "schema:name": "Province",
                 "schema:description": "Enter the name of the provinces involved in the project",
@@ -1531,10 +1439,10 @@
             ],
             "schema:name": "Acronym/Short Title",
             "schema:description": "Enter optional acronym/short title for the study",
-            "pav:createdOn": "2020-11-02T06:48:50-08:00",
-            "pav:createdBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
-            "pav:lastUpdatedOn": "2020-11-02T06:48:50-08:00",
-            "oslc:modifiedBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
+            "pav:createdOn": "2020-11-02T10:24:25-08:00",
+            "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
+            "pav:lastUpdatedOn": "2020-11-02T10:24:25-08:00",
+            "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
             "skos:prefLabel": "Acronym/short title",
@@ -1819,10 +1727,10 @@
                     "Award Page URL"
                 ],
                 "additionalProperties": false,
-                "pav:createdOn": "2020-11-02T06:48:50-08:00",
-                "pav:createdBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
-                "pav:lastUpdatedOn": "2020-11-02T06:48:50-08:00",
-                "oslc:modifiedBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
+                "pav:createdOn": "2020-11-02T10:24:25-08:00",
+                "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
+                "pav:lastUpdatedOn": "2020-11-02T10:24:25-08:00",
+                "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
                 "schema:schemaVersion": "1.6.0",
                 "schema:name": "Funder Information",
                 "schema:description": "Information about the organization providing the funding for the described project ('funding provider').",
@@ -2006,10 +1914,10 @@
                 "@id",
                 "Project ID"
             ],
-            "pav:createdOn": "2020-11-02T06:48:50-08:00",
-            "pav:createdBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
-            "pav:lastUpdatedOn": "2020-11-02T06:48:50-08:00",
-            "oslc:modifiedBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
+            "pav:createdOn": "2020-11-02T10:24:25-08:00",
+            "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
+            "pav:lastUpdatedOn": "2020-11-02T10:24:25-08:00",
+            "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
             "pav:version": "0.0.1",
@@ -2017,106 +1925,209 @@
             "$schema": "http://json-schema.org/draft-04/schema#"
         },
         "Data Steward1": {
-            "@id": "https://repo.metadatacenter.org/template-elements/3833d32f-1d1c-46e4-836e-9b223c74df44",
-            "@type": "https://schema.metadatacenter.org/core/TemplateElement",
-            "@context": {
-                "xsd": "http://www.w3.org/2001/XMLSchema#",
-                "pav": "http://purl.org/pav/",
-                "bibo": "http://purl.org/ontology/bibo/",
-                "oslc": "http://open-services.net/ns/core#",
-                "schema": "http://schema.org/",
-                "schema:name": {
-                    "@type": "xsd:string"
-                },
-                "schema:description": {
-                    "@type": "xsd:string"
-                },
-                "pav:createdOn": {
-                    "@type": "xsd:dateTime"
-                },
-                "pav:createdBy": {
-                    "@type": "@id"
-                },
-                "pav:lastUpdatedOn": {
-                    "@type": "xsd:dateTime"
-                },
-                "oslc:modifiedBy": {
-                    "@type": "@id"
-                }
-            },
-            "type": "object",
-            "title": "Data steward element schema",
-            "description": "Data steward element schema generated by the CEDAR Template Editor 2.5.11",
-            "_ui": {
-                "order": [
-                    "Data Steward ORCID",
-                    "Data Steward Role",
-                    "Data Steward Focus"
-                ],
-                "propertyLabels": {
-                    "Data Steward Focus": "Data Steward Focus",
-                    "Data Steward Role": "Data Steward Role",
-                    "Data Steward ORCID": "Data Steward ORCID"
-                },
-                "propertyDescriptions": {
-                    "Data Steward Focus": "Choose any option that applies",
-                    "Data Steward Role": "Choose between options.",
-                    "Data Steward ORCID": "Enter the ORCID of the Data Steward"
-                }
-            },
-            "properties": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+                "type": "object",
+                "@id": "https://repo.metadatacenter.org/template-elements/3833d32f-1d1c-46e4-836e-9b223c74df44",
+                "@type": "https://schema.metadatacenter.org/core/TemplateElement",
                 "@context": {
-                    "type": "object",
-                    "properties": {
-                        "Data Steward Focus": {
-                            "enum": [
-                                "https://schema.metadatacenter.org/properties/f870684f-b57f-45a8-8cac-ac6e5414340c"
-                            ]
-                        },
-                        "Data Steward Role": {
-                            "enum": [
-                                "https://schema.metadatacenter.org/properties/a3c160b3-9f1d-48a8-b376-d4ff2a469783"
-                            ]
-                        },
-                        "Data Steward ORCID": {
-                            "enum": [
-                                "https://schema.metadatacenter.org/properties/e16f9c29-5c34-4812-8899-f6c6524abd8c"
-                            ]
-                        }
+                    "xsd": "http://www.w3.org/2001/XMLSchema#",
+                    "pav": "http://purl.org/pav/",
+                    "bibo": "http://purl.org/ontology/bibo/",
+                    "oslc": "http://open-services.net/ns/core#",
+                    "schema": "http://schema.org/",
+                    "schema:name": {
+                        "@type": "xsd:string"
                     },
-                    "additionalProperties": false,
-                    "required": [
+                    "schema:description": {
+                        "@type": "xsd:string"
+                    },
+                    "pav:createdOn": {
+                        "@type": "xsd:dateTime"
+                    },
+                    "pav:createdBy": {
+                        "@type": "@id"
+                    },
+                    "pav:lastUpdatedOn": {
+                        "@type": "xsd:dateTime"
+                    },
+                    "oslc:modifiedBy": {
+                        "@type": "@id"
+                    }
+                },
+                "title": "Data Steward field schema",
+                "description": "Data Steward field schema generated by the CEDAR Template Editor 2.5.11",
+                "_ui": {
+                    "order": [
                         "Data Steward ORCID",
-                        "Data Steward Focus",
-                        "Data Steward Role"
-                    ]
+                        "Data Steward Role",
+                        "Data Steward Focus"
+                    ],
+                    "propertyLabels": {
+                        "Data Steward Focus": "Data Steward Focus",
+                        "Data Steward Role": "Data Steward Role",
+                        "Data Steward ORCID": "Data Steward ORCID"
+                    },
+                    "propertyDescriptions": {
+                        "Data Steward Focus": "Choose any option that applies",
+                        "Data Steward Role": "Choose between options.",
+                        "Data Steward ORCID": "Enter the ORCID of the Data Steward"
+                    }
                 },
-                "@id": {
-                    "type": "string",
-                    "format": "uri"
-                },
-                "@type": {
-                    "oneOf": [
-                        {
-                            "type": "string",
-                            "format": "uri"
+                "properties": {
+                    "@context": {
+                        "type": "object",
+                        "properties": {
+                            "Data Steward Focus": {
+                                "enum": [
+                                    "https://schema.metadatacenter.org/properties/f870684f-b57f-45a8-8cac-ac6e5414340c"
+                                ]
+                            },
+                            "Data Steward Role": {
+                                "enum": [
+                                    "https://schema.metadatacenter.org/properties/a3c160b3-9f1d-48a8-b376-d4ff2a469783"
+                                ]
+                            },
+                            "Data Steward ORCID": {
+                                "enum": [
+                                    "https://schema.metadatacenter.org/properties/e16f9c29-5c34-4812-8899-f6c6524abd8c"
+                                ]
+                            }
                         },
-                        {
-                            "type": "array",
-                            "minItems": 1,
-                            "items": {
+                        "additionalProperties": false,
+                        "required": [
+                            "Data Steward ORCID",
+                            "Data Steward Focus",
+                            "Data Steward Role"
+                        ]
+                    },
+                    "@id": {
+                        "type": "string",
+                        "format": "uri"
+                    },
+                    "@type": {
+                        "oneOf": [
+                            {
                                 "type": "string",
                                 "format": "uri"
                             },
-                            "uniqueItems": true
+                            {
+                                "type": "array",
+                                "minItems": 1,
+                                "items": {
+                                    "type": "string",
+                                    "format": "uri"
+                                },
+                                "uniqueItems": true
+                            }
+                        ]
+                    },
+                    "Data Steward Focus": {
+                        "type": "array",
+                        "minItems": 1,
+                        "items": {
+                            "type": "object",
+                            "@type": "https://schema.metadatacenter.org/core/TemplateField",
+                            "@context": {
+                                "xsd": "http://www.w3.org/2001/XMLSchema#",
+                                "pav": "http://purl.org/pav/",
+                                "bibo": "http://purl.org/ontology/bibo/",
+                                "oslc": "http://open-services.net/ns/core#",
+                                "schema": "http://schema.org/",
+                                "skos": "http://www.w3.org/2004/02/skos/core#",
+                                "schema:name": {
+                                    "@type": "xsd:string"
+                                },
+                                "schema:description": {
+                                    "@type": "xsd:string"
+                                },
+                                "skos:prefLabel": {
+                                    "@type": "xsd:string"
+                                },
+                                "skos:altLabel": {
+                                    "@type": "xsd:string"
+                                },
+                                "pav:createdOn": {
+                                    "@type": "xsd:dateTime"
+                                },
+                                "pav:createdBy": {
+                                    "@type": "@id"
+                                },
+                                "pav:lastUpdatedOn": {
+                                    "@type": "xsd:dateTime"
+                                },
+                                "oslc:modifiedBy": {
+                                    "@type": "@id"
+                                }
+                            },
+                            "title": "Data Steward Focus field schema",
+                            "description": "Data Steward Focus field schema generated by the CEDAR Template Editor 2.5.11",
+                            "_ui": {
+                                "inputType": "checkbox"
+                            },
+                            "_valueConstraints": {
+                                "requiredValue": true,
+                                "multipleChoice": true,
+                                "literals": [
+                                    {
+                                        "label": "policy oriented"
+                                    },
+                                    {
+                                        "label": "research oriented"
+                                    },
+                                    {
+                                        "label": "intrastructure oriented"
+                                    }
+                                ]
+                            },
+                            "properties": {
+                                "@type": {
+                                    "oneOf": [
+                                        {
+                                            "type": "string",
+                                            "format": "uri"
+                                        },
+                                        {
+                                            "type": "array",
+                                            "minItems": 1,
+                                            "items": {
+                                                "type": "string",
+                                                "format": "uri"
+                                            },
+                                            "uniqueItems": true
+                                        }
+                                    ]
+                                },
+                                "@value": {
+                                    "type": [
+                                        "string",
+                                        "null"
+                                    ]
+                                },
+                                "rdfs:label": {
+                                    "type": [
+                                        "string",
+                                        "null"
+                                    ]
+                                }
+                            },
+                            "required": [
+                                "@value"
+                            ],
+                            "additionalProperties": false,
+                            "pav:createdOn": "2020-11-01T17:07:02-08:00",
+                            "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
+                            "pav:lastUpdatedOn": "2020-11-01T17:07:02-08:00",
+                            "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
+                            "schema:schemaVersion": "1.6.0",
+                            "schema:name": "Data Steward Focus",
+                            "schema:description": "Choose any option that applies",
+                            "@id": "https://repo.metadatacenter.org/template-fields/e0b41356-3f78-4ab8-a306-52e829169e89",
+                            "$schema": "http://json-schema.org/draft-04/schema#"
                         }
-                    ]
-                },
-                "Data Steward Focus": {
-                    "type": "array",
-                    "minItems": 1,
-                    "items": {
-                        "type": "object",
+                    },
+                    "Data Steward Role": {
                         "@type": "https://schema.metadatacenter.org/core/TemplateField",
                         "@context": {
                             "xsd": "http://www.w3.org/2001/XMLSchema#",
@@ -2150,23 +2161,21 @@
                                 "@type": "@id"
                             }
                         },
-                        "title": "Data Steward Focus field schema",
-                        "description": "Data Steward Focus field schema generated by the CEDAR Template Editor 2.5.11",
+                        "type": "object",
+                        "title": "Data Steward Role field schema",
+                        "description": "Data Steward Role field schema generated by the CEDAR Template Editor 2.5.11",
                         "_ui": {
-                            "inputType": "checkbox"
+                            "inputType": "radio"
                         },
                         "_valueConstraints": {
                             "requiredValue": true,
-                            "multipleChoice": true,
+                            "multipleChoice": false,
                             "literals": [
                                 {
-                                    "label": "policy oriented"
+                                    "label": "embedded in the project (specifically working for this project)"
                                 },
                                 {
-                                    "label": "research oriented"
-                                },
-                                {
-                                    "label": "intrastructure oriented"
+                                    "label": "generic (working in a general support department, responsible for more than one project)"
                                 }
                             ]
                         },
@@ -2204,222 +2213,125 @@
                         "required": [
                             "@value"
                         ],
-                        "additionalProperties": false,
+                        "schema:name": "Data Steward Role",
+                        "schema:description": "Choose between options.",
                         "pav:createdOn": "2020-11-01T17:07:02-08:00",
                         "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
                         "pav:lastUpdatedOn": "2020-11-01T17:07:02-08:00",
                         "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
                         "schema:schemaVersion": "1.6.0",
-                        "schema:name": "Data Steward Focus",
-                        "schema:description": "Choose any option that applies",
-                        "@id": "https://repo.metadatacenter.org/template-fields/e0b41356-3f78-4ab8-a306-52e829169e89",
+                        "additionalProperties": false,
+                        "@id": "https://repo.metadatacenter.org/template-fields/3e28c82e-6df7-4702-a676-b49c18991509",
+                        "$schema": "http://json-schema.org/draft-04/schema#"
+                    },
+                    "Data Steward ORCID": {
+                        "@type": "https://schema.metadatacenter.org/core/TemplateField",
+                        "@context": {
+                            "xsd": "http://www.w3.org/2001/XMLSchema#",
+                            "pav": "http://purl.org/pav/",
+                            "bibo": "http://purl.org/ontology/bibo/",
+                            "oslc": "http://open-services.net/ns/core#",
+                            "schema": "http://schema.org/",
+                            "skos": "http://www.w3.org/2004/02/skos/core#",
+                            "schema:name": {
+                                "@type": "xsd:string"
+                            },
+                            "schema:description": {
+                                "@type": "xsd:string"
+                            },
+                            "skos:prefLabel": {
+                                "@type": "xsd:string"
+                            },
+                            "skos:altLabel": {
+                                "@type": "xsd:string"
+                            },
+                            "pav:createdOn": {
+                                "@type": "xsd:dateTime"
+                            },
+                            "pav:createdBy": {
+                                "@type": "@id"
+                            },
+                            "pav:lastUpdatedOn": {
+                                "@type": "xsd:dateTime"
+                            },
+                            "oslc:modifiedBy": {
+                                "@type": "@id"
+                            }
+                        },
+                        "type": "object",
+                        "title": "Data Steward ORCID field schema",
+                        "description": "Data Steward ORCID field schema generated by the CEDAR Template Editor 2.5.11",
+                        "_ui": {
+                            "inputType": "textfield"
+                        },
+                        "_valueConstraints": {
+                            "requiredValue": true
+                        },
+                        "properties": {
+                            "@type": {
+                                "oneOf": [
+                                    {
+                                        "type": "string",
+                                        "format": "uri"
+                                    },
+                                    {
+                                        "type": "array",
+                                        "minItems": 1,
+                                        "items": {
+                                            "type": "string",
+                                            "format": "uri"
+                                        },
+                                        "uniqueItems": true
+                                    }
+                                ]
+                            },
+                            "@value": {
+                                "type": [
+                                    "string",
+                                    "null"
+                                ]
+                            },
+                            "rdfs:label": {
+                                "type": [
+                                    "string",
+                                    "null"
+                                ]
+                            }
+                        },
+                        "required": [
+                            "@value"
+                        ],
+                        "schema:name": "Data Steward ORCID",
+                        "schema:description": "Enter the ORCID of the Data Steward",
+                        "pav:createdOn": "2020-11-01T17:07:02-08:00",
+                        "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
+                        "pav:lastUpdatedOn": "2020-11-01T17:07:02-08:00",
+                        "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
+                        "schema:schemaVersion": "1.6.0",
+                        "additionalProperties": false,
+                        "@id": "https://repo.metadatacenter.org/template-fields/50b4ae7a-4397-4ba7-866c-a8f3e4620ee7",
                         "$schema": "http://json-schema.org/draft-04/schema#"
                     }
                 },
-                "Data Steward Role": {
-                    "@type": "https://schema.metadatacenter.org/core/TemplateField",
-                    "@context": {
-                        "xsd": "http://www.w3.org/2001/XMLSchema#",
-                        "pav": "http://purl.org/pav/",
-                        "bibo": "http://purl.org/ontology/bibo/",
-                        "oslc": "http://open-services.net/ns/core#",
-                        "schema": "http://schema.org/",
-                        "skos": "http://www.w3.org/2004/02/skos/core#",
-                        "schema:name": {
-                            "@type": "xsd:string"
-                        },
-                        "schema:description": {
-                            "@type": "xsd:string"
-                        },
-                        "skos:prefLabel": {
-                            "@type": "xsd:string"
-                        },
-                        "skos:altLabel": {
-                            "@type": "xsd:string"
-                        },
-                        "pav:createdOn": {
-                            "@type": "xsd:dateTime"
-                        },
-                        "pav:createdBy": {
-                            "@type": "@id"
-                        },
-                        "pav:lastUpdatedOn": {
-                            "@type": "xsd:dateTime"
-                        },
-                        "oslc:modifiedBy": {
-                            "@type": "@id"
-                        }
-                    },
-                    "type": "object",
-                    "title": "Data Steward Role field schema",
-                    "description": "Data Steward Role field schema generated by the CEDAR Template Editor 2.5.11",
-                    "_ui": {
-                        "inputType": "radio"
-                    },
-                    "_valueConstraints": {
-                        "requiredValue": true,
-                        "multipleChoice": false,
-                        "literals": [
-                            {
-                                "label": "embedded in the project (specifically working for this project)"
-                            },
-                            {
-                                "label": "generic (working in a general support department, responsible for more than one project)"
-                            }
-                        ]
-                    },
-                    "properties": {
-                        "@type": {
-                            "oneOf": [
-                                {
-                                    "type": "string",
-                                    "format": "uri"
-                                },
-                                {
-                                    "type": "array",
-                                    "minItems": 1,
-                                    "items": {
-                                        "type": "string",
-                                        "format": "uri"
-                                    },
-                                    "uniqueItems": true
-                                }
-                            ]
-                        },
-                        "@value": {
-                            "type": [
-                                "string",
-                                "null"
-                            ]
-                        },
-                        "rdfs:label": {
-                            "type": [
-                                "string",
-                                "null"
-                            ]
-                        }
-                    },
-                    "required": [
-                        "@value"
-                    ],
-                    "schema:name": "Data Steward Role",
-                    "schema:description": "Choose between options.",
-                    "pav:createdOn": "2020-11-01T17:07:02-08:00",
-                    "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
-                    "pav:lastUpdatedOn": "2020-11-01T17:07:02-08:00",
-                    "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
-                    "schema:schemaVersion": "1.6.0",
-                    "additionalProperties": false,
-                    "@id": "https://repo.metadatacenter.org/template-fields/3e28c82e-6df7-4702-a676-b49c18991509",
-                    "$schema": "http://json-schema.org/draft-04/schema#"
-                },
-                "Data Steward ORCID": {
-                    "@type": "https://schema.metadatacenter.org/core/TemplateField",
-                    "@context": {
-                        "xsd": "http://www.w3.org/2001/XMLSchema#",
-                        "pav": "http://purl.org/pav/",
-                        "bibo": "http://purl.org/ontology/bibo/",
-                        "oslc": "http://open-services.net/ns/core#",
-                        "schema": "http://schema.org/",
-                        "skos": "http://www.w3.org/2004/02/skos/core#",
-                        "schema:name": {
-                            "@type": "xsd:string"
-                        },
-                        "schema:description": {
-                            "@type": "xsd:string"
-                        },
-                        "skos:prefLabel": {
-                            "@type": "xsd:string"
-                        },
-                        "skos:altLabel": {
-                            "@type": "xsd:string"
-                        },
-                        "pav:createdOn": {
-                            "@type": "xsd:dateTime"
-                        },
-                        "pav:createdBy": {
-                            "@type": "@id"
-                        },
-                        "pav:lastUpdatedOn": {
-                            "@type": "xsd:dateTime"
-                        },
-                        "oslc:modifiedBy": {
-                            "@type": "@id"
-                        }
-                    },
-                    "type": "object",
-                    "title": "Data Steward ORCID field schema",
-                    "description": "Data Steward ORCID field schema generated by the CEDAR Template Editor 2.5.11",
-                    "_ui": {
-                        "inputType": "textfield"
-                    },
-                    "_valueConstraints": {
-                        "requiredValue": true
-                    },
-                    "properties": {
-                        "@type": {
-                            "oneOf": [
-                                {
-                                    "type": "string",
-                                    "format": "uri"
-                                },
-                                {
-                                    "type": "array",
-                                    "minItems": 1,
-                                    "items": {
-                                        "type": "string",
-                                        "format": "uri"
-                                    },
-                                    "uniqueItems": true
-                                }
-                            ]
-                        },
-                        "@value": {
-                            "type": [
-                                "string",
-                                "null"
-                            ]
-                        },
-                        "rdfs:label": {
-                            "type": [
-                                "string",
-                                "null"
-                            ]
-                        }
-                    },
-                    "required": [
-                        "@value"
-                    ],
-                    "schema:name": "Data Steward ORCID",
-                    "schema:description": "Enter the ORCID of the Data Steward",
-                    "pav:createdOn": "2020-11-01T17:07:02-08:00",
-                    "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
-                    "pav:lastUpdatedOn": "2020-11-01T17:07:02-08:00",
-                    "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
-                    "schema:schemaVersion": "1.6.0",
-                    "additionalProperties": false,
-                    "@id": "https://repo.metadatacenter.org/template-fields/50b4ae7a-4397-4ba7-866c-a8f3e4620ee7",
-                    "$schema": "http://json-schema.org/draft-04/schema#"
-                }
-            },
-            "schema:name": "Data Steward",
-            "schema:description": "",
-            "required": [
-                "@context",
-                "@id",
-                "Data Steward ORCID",
-                "Data Steward Focus",
-                "Data Steward Role"
-            ],
-            "pav:createdOn": "2020-11-02T06:48:50-08:00",
-            "pav:createdBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
-            "pav:lastUpdatedOn": "2020-11-02T06:48:50-08:00",
-            "oslc:modifiedBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
-            "schema:schemaVersion": "1.6.0",
-            "additionalProperties": false,
-            "pav:version": "0.0.1",
-            "bibo:status": "bibo:draft",
-            "$schema": "http://json-schema.org/draft-04/schema#"
+                "required": [
+                    "@context",
+                    "@id",
+                    "Data Steward ORCID",
+                    "Data Steward Focus",
+                    "Data Steward Role"
+                ],
+                "additionalProperties": false,
+                "pav:createdOn": "2020-11-02T10:24:25-08:00",
+                "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
+                "pav:lastUpdatedOn": "2020-11-02T10:24:25-08:00",
+                "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
+                "schema:schemaVersion": "1.6.0",
+                "schema:name": "Data Steward",
+                "schema:description": "",
+                "pav:version": "0.0.1",
+                "bibo:status": "bibo:draft",
+                "$schema": "http://json-schema.org/draft-04/schema#"
+            }
         },
         "Lead Institution": {
             "@type": "https://schema.metadatacenter.org/core/TemplateField",
@@ -2508,10 +2420,10 @@
             },
             "schema:name": "Lead Institution",
             "schema:description": "Choose the lead institution name",
-            "pav:createdOn": "2020-11-02T06:48:50-08:00",
-            "pav:createdBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
-            "pav:lastUpdatedOn": "2020-11-02T06:48:50-08:00",
-            "oslc:modifiedBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
+            "pav:createdOn": "2020-11-02T10:24:25-08:00",
+            "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
+            "pav:lastUpdatedOn": "2020-11-02T10:24:25-08:00",
+            "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
             "@id": "https://repo.metadatacenter.org/template-fields/89631fc6-77c1-46df-a311-4e123641a8f2",
@@ -2596,10 +2508,10 @@
             ],
             "schema:name": "Lead Institution GRID reference",
             "schema:description": "Enter the GRID reference of the lead institution",
-            "pav:createdOn": "2020-11-02T06:48:50-08:00",
-            "pav:createdBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
-            "pav:lastUpdatedOn": "2020-11-02T06:48:50-08:00",
-            "oslc:modifiedBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
+            "pav:createdOn": "2020-11-02T10:24:25-08:00",
+            "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
+            "pav:lastUpdatedOn": "2020-11-02T10:24:25-08:00",
+            "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
             "@id": "https://repo.metadatacenter.org/template-fields/b28ff89b-9656-4dbd-88dd-7cc4a1617c16",
@@ -2684,10 +2596,10 @@
             ],
             "schema:name": "Project Website",
             "schema:description": "Enter the URL of the project's website",
-            "pav:createdOn": "2020-11-02T06:48:50-08:00",
-            "pav:createdBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
-            "pav:lastUpdatedOn": "2020-11-02T06:48:50-08:00",
-            "oslc:modifiedBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
+            "pav:createdOn": "2020-11-02T10:24:25-08:00",
+            "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
+            "pav:lastUpdatedOn": "2020-11-02T10:24:25-08:00",
+            "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
             "@id": "https://repo.metadatacenter.org/template-fields/3ef8419d-a714-43ea-ab3f-8e7f5ff834d3",
@@ -2772,10 +2684,10 @@
             ],
             "schema:name": "Project GUPRI",
             "schema:description": "Enter the Global Unique Persistent and Resolvable Identifier (GUPRI) you minted with Nanobench",
-            "pav:createdOn": "2020-11-02T06:48:50-08:00",
-            "pav:createdBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
-            "pav:lastUpdatedOn": "2020-11-02T06:48:50-08:00",
-            "oslc:modifiedBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
+            "pav:createdOn": "2020-11-02T10:24:25-08:00",
+            "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
+            "pav:lastUpdatedOn": "2020-11-02T10:24:25-08:00",
+            "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
             "@id": "https://repo.metadatacenter.org/template-fields/51a34efa-c448-45d3-836b-d556c150da6a",
@@ -2838,7 +2750,11 @@
                             "maxDepth": 0
                         }
                     ],
-                    "multipleChoice": false
+                    "multipleChoice": false,
+                    "defaultValue": {
+                        "termUri": "http://purl.bioontology.org/ontology/MESH/D009426",
+                        "rdfs:label": "Netherlands"
+                    }
                 },
                 "properties": {
                     "@type": {
@@ -2870,14 +2786,106 @@
                     }
                 },
                 "additionalProperties": false,
-                "pav:createdOn": "2020-11-02T06:48:50-08:00",
-                "pav:createdBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
-                "pav:lastUpdatedOn": "2020-11-02T06:48:50-08:00",
-                "oslc:modifiedBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
+                "pav:createdOn": "2020-11-02T10:24:25-08:00",
+                "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
+                "pav:lastUpdatedOn": "2020-11-02T10:24:25-08:00",
+                "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
                 "schema:schemaVersion": "1.6.0",
                 "schema:name": "Country",
                 "schema:description": "Enter the name of the countries involved in the project",
                 "@id": "https://repo.metadatacenter.org/template-fields/15068a21-5bb2-4cfd-ba90-117e19643d48",
+                "$schema": "http://json-schema.org/draft-04/schema#"
+            }
+        },
+        "Project Participant ORCID": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+                "type": "object",
+                "@type": "https://schema.metadatacenter.org/core/TemplateField",
+                "@context": {
+                    "xsd": "http://www.w3.org/2001/XMLSchema#",
+                    "pav": "http://purl.org/pav/",
+                    "bibo": "http://purl.org/ontology/bibo/",
+                    "oslc": "http://open-services.net/ns/core#",
+                    "schema": "http://schema.org/",
+                    "skos": "http://www.w3.org/2004/02/skos/core#",
+                    "schema:name": {
+                        "@type": "xsd:string"
+                    },
+                    "schema:description": {
+                        "@type": "xsd:string"
+                    },
+                    "skos:prefLabel": {
+                        "@type": "xsd:string"
+                    },
+                    "skos:altLabel": {
+                        "@type": "xsd:string"
+                    },
+                    "pav:createdOn": {
+                        "@type": "xsd:dateTime"
+                    },
+                    "pav:createdBy": {
+                        "@type": "@id"
+                    },
+                    "pav:lastUpdatedOn": {
+                        "@type": "xsd:dateTime"
+                    },
+                    "oslc:modifiedBy": {
+                        "@type": "@id"
+                    }
+                },
+                "title": "Project Participant ORCID field schema",
+                "description": "Project Participant ORCID field schema generated by the CEDAR Template Editor 2.5.11",
+                "_ui": {
+                    "inputType": "textfield"
+                },
+                "_valueConstraints": {
+                    "requiredValue": false
+                },
+                "properties": {
+                    "@type": {
+                        "oneOf": [
+                            {
+                                "type": "string",
+                                "format": "uri"
+                            },
+                            {
+                                "type": "array",
+                                "minItems": 1,
+                                "items": {
+                                    "type": "string",
+                                    "format": "uri"
+                                },
+                                "uniqueItems": true
+                            }
+                        ]
+                    },
+                    "@value": {
+                        "type": [
+                            "string",
+                            "null"
+                        ]
+                    },
+                    "rdfs:label": {
+                        "type": [
+                            "string",
+                            "null"
+                        ]
+                    }
+                },
+                "required": [
+                    "@value"
+                ],
+                "additionalProperties": false,
+                "pav:createdOn": "2020-11-02T10:24:25-08:00",
+                "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
+                "pav:lastUpdatedOn": "2020-11-02T10:24:25-08:00",
+                "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
+                "schema:schemaVersion": "1.6.0",
+                "schema:name": "Project Participant ORCID",
+                "schema:description": "Enter the ORCID of the participant",
+                "@id": "https://repo.metadatacenter.org/template-fields/8baa050a-3cd9-4f6e-b473-ffb9fb068863",
                 "$schema": "http://json-schema.org/draft-04/schema#"
             }
         }
@@ -2901,7 +2909,7 @@
         "Project duration",
         "Project GUPRI",
         "Principal Investigator1",
-        "Project Participant GUPRI",
+        "Project Participant ORCID",
         "Project Partner Institution",
         "Funder Information1",
         "Project ID1",
@@ -2914,8 +2922,8 @@
     "schema:description": "A project admin metadata template for COVID 19 projects funded by ZonMw",
     "pav:createdOn": "2020-11-01T16:09:30-08:00",
     "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
-    "pav:lastUpdatedOn": "2020-11-02T06:48:50-08:00",
-    "oslc:modifiedBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
+    "pav:lastUpdatedOn": "2020-11-02T10:24:25-08:00",
+    "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
     "schema:schemaVersion": "1.6.0",
     "additionalProperties": false,
     "pav:version": "0.0.1",
