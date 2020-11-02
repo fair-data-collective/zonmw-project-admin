@@ -32,7 +32,7 @@
         "pages": [],
         "order": [
             "Project Title",
-            "Acronym/Short Title",
+            "Project Acronym",
             "Project ID1",
             "Project GUPRI",
             "Project Website",
@@ -57,7 +57,6 @@
             "Principal Investigator1": "Principal Investigator",
             "Project Partner Institution": "Project Partner Institution",
             "Province": "Province",
-            "Acronym/Short Title": "Acronym/Short Title",
             "Funder Information1": "Funder Information",
             "Project ID1": "Project ID",
             "Data Steward1": "Data Steward",
@@ -66,7 +65,8 @@
             "Project Website": "Project Website",
             "Project GUPRI": "Project GUPRI",
             "Country": "Country",
-            "Project Participant ORCID": "Project Participant ORCID"
+            "Project Participant ORCID": "Project Participant ORCID",
+            "Project Acronym": "Project Acronym"
         },
         "propertyDescriptions": {
             "Project ID": "",
@@ -78,7 +78,6 @@
             "Principal Investigator1": "The principal investigator of the project",
             "Project Partner Institution": "Enter the project partner institution name",
             "Province": "Enter the name of the provinces involved in the project",
-            "Acronym/Short Title": "Enter optional acronym/short title for the study",
             "Funder Information1": "Information about the organization providing the funding for the described project ('funding provider').",
             "Project ID1": "",
             "Data Steward1": "",
@@ -87,7 +86,8 @@
             "Project Website": "Enter the URL of the project's website",
             "Project GUPRI": "Enter the Global Unique Persistent and Resolvable Identifier (GUPRI) you minted with Nanobench",
             "Country": "Enter the name of the countries involved in the project",
-            "Project Participant ORCID": "Enter the ORCID of the participant"
+            "Project Participant ORCID": "Enter the ORCID of the participant",
+            "Project Acronym": "Enter acronym for the project if available"
         }
     },
     "properties": {
@@ -281,11 +281,6 @@
                         "http://www.isibang.ac.in/ns/codo#hasProvince"
                     ]
                 },
-                "Acronym/Short Title": {
-                    "enum": [
-                        "https://schema.metadatacenter.org/properties/dbbef5fd-0a6f-41ab-8dbc-9dfbf1c2ca36"
-                    ]
-                },
                 "Funder Information1": {
                     "enum": [
                         "https://schema.metadatacenter.org/properties/0f7b8ba7-ed2b-429e-ae95-26008b1746d2"
@@ -329,6 +324,11 @@
                 "Project Participant ORCID": {
                     "enum": [
                         "https://schema.metadatacenter.org/properties/7028c4cd-43f1-4954-b104-890b6e209f8d"
+                    ]
+                },
+                "Project Acronym": {
+                    "enum": [
+                        "https://schema.metadatacenter.org/properties/dbbef5fd-0a6f-41ab-8dbc-9dfbf1c2ca36"
                     ]
                 }
             },
@@ -500,9 +500,9 @@
             ],
             "schema:name": "Start date",
             "schema:description": "The date the project started or is expected to start",
-            "pav:createdOn": "2020-11-02T10:24:25-08:00",
+            "pav:createdOn": "2020-11-02T11:07:16-08:00",
             "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
-            "pav:lastUpdatedOn": "2020-11-02T10:24:25-08:00",
+            "pav:lastUpdatedOn": "2020-11-02T11:07:16-08:00",
             "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
@@ -794,9 +794,9 @@
                     "language"
                 ],
                 "additionalProperties": false,
-                "pav:createdOn": "2020-11-02T10:24:25-08:00",
+                "pav:createdOn": "2020-11-02T11:07:16-08:00",
                 "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
-                "pav:lastUpdatedOn": "2020-11-02T10:24:25-08:00",
+                "pav:lastUpdatedOn": "2020-11-02T11:07:16-08:00",
                 "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
                 "schema:schemaVersion": "1.6.0",
                 "schema:name": "Project Title",
@@ -887,9 +887,9 @@
             ],
             "schema:name": "End date",
             "schema:description": "The date the project is expected to end",
-            "pav:createdOn": "2020-11-02T10:24:25-08:00",
+            "pav:createdOn": "2020-11-02T11:07:16-08:00",
             "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
-            "pav:lastUpdatedOn": "2020-11-02T10:24:25-08:00",
+            "pav:lastUpdatedOn": "2020-11-02T11:07:16-08:00",
             "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
@@ -965,9 +965,9 @@
             ],
             "schema:name": "Project duration",
             "schema:description": "Enter project duration in months",
-            "pav:createdOn": "2020-11-02T10:24:25-08:00",
+            "pav:createdOn": "2020-11-02T11:07:16-08:00",
             "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
-            "pav:lastUpdatedOn": "2020-11-02T10:24:25-08:00",
+            "pav:lastUpdatedOn": "2020-11-02T11:07:16-08:00",
             "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
@@ -1148,9 +1148,9 @@
                 "@id",
                 "Principle Investigator ORCID"
             ],
-            "pav:createdOn": "2020-11-02T10:24:25-08:00",
+            "pav:createdOn": "2020-11-02T11:07:16-08:00",
             "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
-            "pav:lastUpdatedOn": "2020-11-02T10:24:25-08:00",
+            "pav:lastUpdatedOn": "2020-11-02T11:07:16-08:00",
             "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
@@ -1249,9 +1249,9 @@
                     }
                 },
                 "additionalProperties": false,
-                "pav:createdOn": "2020-11-02T10:24:25-08:00",
+                "pav:createdOn": "2020-11-02T11:07:16-08:00",
                 "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
-                "pav:lastUpdatedOn": "2020-11-02T10:24:25-08:00",
+                "pav:lastUpdatedOn": "2020-11-02T11:07:16-08:00",
                 "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
                 "schema:schemaVersion": "1.6.0",
                 "schema:name": "Project Partner Institution",
@@ -1349,9 +1349,9 @@
                     }
                 },
                 "additionalProperties": false,
-                "pav:createdOn": "2020-11-02T10:24:25-08:00",
+                "pav:createdOn": "2020-11-02T11:07:16-08:00",
                 "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
-                "pav:lastUpdatedOn": "2020-11-02T10:24:25-08:00",
+                "pav:lastUpdatedOn": "2020-11-02T11:07:16-08:00",
                 "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
                 "schema:schemaVersion": "1.6.0",
                 "schema:name": "Province",
@@ -1359,95 +1359,6 @@
                 "@id": "https://repo.metadatacenter.org/template-fields/28bc7dd2-2876-4a87-a3e3-a9b5a733bad0",
                 "$schema": "http://json-schema.org/draft-04/schema#"
             }
-        },
-        "Acronym/Short Title": {
-            "@type": "https://schema.metadatacenter.org/core/TemplateField",
-            "@context": {
-                "xsd": "http://www.w3.org/2001/XMLSchema#",
-                "pav": "http://purl.org/pav/",
-                "bibo": "http://purl.org/ontology/bibo/",
-                "oslc": "http://open-services.net/ns/core#",
-                "schema": "http://schema.org/",
-                "skos": "http://www.w3.org/2004/02/skos/core#",
-                "schema:name": {
-                    "@type": "xsd:string"
-                },
-                "schema:description": {
-                    "@type": "xsd:string"
-                },
-                "skos:prefLabel": {
-                    "@type": "xsd:string"
-                },
-                "skos:altLabel": {
-                    "@type": "xsd:string"
-                },
-                "pav:createdOn": {
-                    "@type": "xsd:dateTime"
-                },
-                "pav:createdBy": {
-                    "@type": "@id"
-                },
-                "pav:lastUpdatedOn": {
-                    "@type": "xsd:dateTime"
-                },
-                "oslc:modifiedBy": {
-                    "@type": "@id"
-                }
-            },
-            "type": "object",
-            "title": "Acronym/Short Title field schema",
-            "description": "Acronym/Short Title field schema generated by the CEDAR Template Editor 2.5.11",
-            "_ui": {
-                "inputType": "textfield"
-            },
-            "_valueConstraints": {
-                "requiredValue": false
-            },
-            "properties": {
-                "@type": {
-                    "oneOf": [
-                        {
-                            "type": "string",
-                            "format": "uri"
-                        },
-                        {
-                            "type": "array",
-                            "minItems": 1,
-                            "items": {
-                                "type": "string",
-                                "format": "uri"
-                            },
-                            "uniqueItems": true
-                        }
-                    ]
-                },
-                "@value": {
-                    "type": [
-                        "string",
-                        "null"
-                    ]
-                },
-                "rdfs:label": {
-                    "type": [
-                        "string",
-                        "null"
-                    ]
-                }
-            },
-            "required": [
-                "@value"
-            ],
-            "schema:name": "Acronym/Short Title",
-            "schema:description": "Enter optional acronym/short title for the study",
-            "pav:createdOn": "2020-11-02T10:24:25-08:00",
-            "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
-            "pav:lastUpdatedOn": "2020-11-02T10:24:25-08:00",
-            "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
-            "schema:schemaVersion": "1.6.0",
-            "additionalProperties": false,
-            "skos:prefLabel": "Acronym/short title",
-            "@id": "https://repo.metadatacenter.org/template-fields/c70d7055-efae-4390-90b1-975341fbc00a",
-            "$schema": "http://json-schema.org/draft-04/schema#"
         },
         "Funder Information1": {
             "type": "array",
@@ -1727,9 +1638,9 @@
                     "Award Page URL"
                 ],
                 "additionalProperties": false,
-                "pav:createdOn": "2020-11-02T10:24:25-08:00",
+                "pav:createdOn": "2020-11-02T11:07:16-08:00",
                 "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
-                "pav:lastUpdatedOn": "2020-11-02T10:24:25-08:00",
+                "pav:lastUpdatedOn": "2020-11-02T11:07:16-08:00",
                 "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
                 "schema:schemaVersion": "1.6.0",
                 "schema:name": "Funder Information",
@@ -1914,9 +1825,9 @@
                 "@id",
                 "Project ID"
             ],
-            "pav:createdOn": "2020-11-02T10:24:25-08:00",
+            "pav:createdOn": "2020-11-02T11:07:16-08:00",
             "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
-            "pav:lastUpdatedOn": "2020-11-02T10:24:25-08:00",
+            "pav:lastUpdatedOn": "2020-11-02T11:07:16-08:00",
             "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
@@ -2321,9 +2232,9 @@
                     "Data Steward Role"
                 ],
                 "additionalProperties": false,
-                "pav:createdOn": "2020-11-02T10:24:25-08:00",
+                "pav:createdOn": "2020-11-02T11:07:16-08:00",
                 "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
-                "pav:lastUpdatedOn": "2020-11-02T10:24:25-08:00",
+                "pav:lastUpdatedOn": "2020-11-02T11:07:16-08:00",
                 "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
                 "schema:schemaVersion": "1.6.0",
                 "schema:name": "Data Steward",
@@ -2420,9 +2331,9 @@
             },
             "schema:name": "Lead Institution",
             "schema:description": "Choose the lead institution name",
-            "pav:createdOn": "2020-11-02T10:24:25-08:00",
+            "pav:createdOn": "2020-11-02T11:07:16-08:00",
             "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
-            "pav:lastUpdatedOn": "2020-11-02T10:24:25-08:00",
+            "pav:lastUpdatedOn": "2020-11-02T11:07:16-08:00",
             "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
@@ -2508,9 +2419,9 @@
             ],
             "schema:name": "Lead Institution GRID reference",
             "schema:description": "Enter the GRID reference of the lead institution",
-            "pav:createdOn": "2020-11-02T10:24:25-08:00",
+            "pav:createdOn": "2020-11-02T11:07:16-08:00",
             "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
-            "pav:lastUpdatedOn": "2020-11-02T10:24:25-08:00",
+            "pav:lastUpdatedOn": "2020-11-02T11:07:16-08:00",
             "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
@@ -2596,9 +2507,9 @@
             ],
             "schema:name": "Project Website",
             "schema:description": "Enter the URL of the project's website",
-            "pav:createdOn": "2020-11-02T10:24:25-08:00",
+            "pav:createdOn": "2020-11-02T11:07:16-08:00",
             "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
-            "pav:lastUpdatedOn": "2020-11-02T10:24:25-08:00",
+            "pav:lastUpdatedOn": "2020-11-02T11:07:16-08:00",
             "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
@@ -2684,9 +2595,9 @@
             ],
             "schema:name": "Project GUPRI",
             "schema:description": "Enter the Global Unique Persistent and Resolvable Identifier (GUPRI) you minted with Nanobench",
-            "pav:createdOn": "2020-11-02T10:24:25-08:00",
+            "pav:createdOn": "2020-11-02T11:07:16-08:00",
             "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
-            "pav:lastUpdatedOn": "2020-11-02T10:24:25-08:00",
+            "pav:lastUpdatedOn": "2020-11-02T11:07:16-08:00",
             "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
@@ -2786,9 +2697,9 @@
                     }
                 },
                 "additionalProperties": false,
-                "pav:createdOn": "2020-11-02T10:24:25-08:00",
+                "pav:createdOn": "2020-11-02T11:07:16-08:00",
                 "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
-                "pav:lastUpdatedOn": "2020-11-02T10:24:25-08:00",
+                "pav:lastUpdatedOn": "2020-11-02T11:07:16-08:00",
                 "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
                 "schema:schemaVersion": "1.6.0",
                 "schema:name": "Country",
@@ -2878,9 +2789,9 @@
                     "@value"
                 ],
                 "additionalProperties": false,
-                "pav:createdOn": "2020-11-02T10:24:25-08:00",
+                "pav:createdOn": "2020-11-02T11:07:16-08:00",
                 "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
-                "pav:lastUpdatedOn": "2020-11-02T10:24:25-08:00",
+                "pav:lastUpdatedOn": "2020-11-02T11:07:16-08:00",
                 "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
                 "schema:schemaVersion": "1.6.0",
                 "schema:name": "Project Participant ORCID",
@@ -2888,6 +2799,95 @@
                 "@id": "https://repo.metadatacenter.org/template-fields/8baa050a-3cd9-4f6e-b473-ffb9fb068863",
                 "$schema": "http://json-schema.org/draft-04/schema#"
             }
+        },
+        "Project Acronym": {
+            "@type": "https://schema.metadatacenter.org/core/TemplateField",
+            "@context": {
+                "xsd": "http://www.w3.org/2001/XMLSchema#",
+                "pav": "http://purl.org/pav/",
+                "bibo": "http://purl.org/ontology/bibo/",
+                "oslc": "http://open-services.net/ns/core#",
+                "schema": "http://schema.org/",
+                "skos": "http://www.w3.org/2004/02/skos/core#",
+                "schema:name": {
+                    "@type": "xsd:string"
+                },
+                "schema:description": {
+                    "@type": "xsd:string"
+                },
+                "skos:prefLabel": {
+                    "@type": "xsd:string"
+                },
+                "skos:altLabel": {
+                    "@type": "xsd:string"
+                },
+                "pav:createdOn": {
+                    "@type": "xsd:dateTime"
+                },
+                "pav:createdBy": {
+                    "@type": "@id"
+                },
+                "pav:lastUpdatedOn": {
+                    "@type": "xsd:dateTime"
+                },
+                "oslc:modifiedBy": {
+                    "@type": "@id"
+                }
+            },
+            "type": "object",
+            "title": "Project Acronym field schema",
+            "description": "Project Acronym field schema generated by the CEDAR Template Editor 2.5.11",
+            "_ui": {
+                "inputType": "textfield"
+            },
+            "_valueConstraints": {
+                "requiredValue": false
+            },
+            "properties": {
+                "@type": {
+                    "oneOf": [
+                        {
+                            "type": "string",
+                            "format": "uri"
+                        },
+                        {
+                            "type": "array",
+                            "minItems": 1,
+                            "items": {
+                                "type": "string",
+                                "format": "uri"
+                            },
+                            "uniqueItems": true
+                        }
+                    ]
+                },
+                "@value": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "rdfs:label": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                }
+            },
+            "required": [
+                "@value"
+            ],
+            "schema:name": "Project Acronym",
+            "schema:description": "Enter acronym for the project if available",
+            "pav:createdOn": "2020-11-02T11:07:16-08:00",
+            "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
+            "pav:lastUpdatedOn": "2020-11-02T11:07:16-08:00",
+            "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
+            "schema:schemaVersion": "1.6.0",
+            "additionalProperties": false,
+            "skos:prefLabel": "Project Acronym",
+            "@id": "https://repo.metadatacenter.org/template-fields/c70d7055-efae-4390-90b1-975341fbc00a",
+            "$schema": "http://json-schema.org/draft-04/schema#"
         }
     },
     "required": [
@@ -2900,7 +2900,7 @@
         "pav:createdBy",
         "pav:lastUpdatedOn",
         "oslc:modifiedBy",
-        "Acronym/Short Title",
+        "Project Acronym",
         "Start date",
         "End date",
         "Project Website",
@@ -2922,7 +2922,7 @@
     "schema:description": "A project admin metadata template for COVID 19 projects funded by ZonMw",
     "pav:createdOn": "2020-11-01T16:09:30-08:00",
     "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
-    "pav:lastUpdatedOn": "2020-11-02T10:24:25-08:00",
+    "pav:lastUpdatedOn": "2020-11-02T11:07:16-08:00",
     "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
     "schema:schemaVersion": "1.6.0",
     "additionalProperties": false,
