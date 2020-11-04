@@ -24,7 +24,7 @@
   dct:title "ZonMW Project Administration Terms"@en;
   pav:createdOn "2020-10-30T13:43:00+00:00"@en;
   pav:lastUpdatedOn "2020-10-30T13:43:00+00:00"@en;
-  pav:version "1.1.2"@en;
+  pav:version "1.2.0"@en;
   skos:hasTopConcept zonmwpa:CareProcessPhase, zonmwpa:FocusArea, zonmwpa:Institution,
     zonmwpa:Population, zonmwpa:Province, zonmwpa:Service, zonmwpa:Setting, zonmwpa:SizeOfCollection,
     zonmwpa:StudyArea, zonmwpa:Theme, zonmwpa:TypeOfCollection, zonmwpa:TypeOfData, zonmwpa:TypeOfMaterial;
