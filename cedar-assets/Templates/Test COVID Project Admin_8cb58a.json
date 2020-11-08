@@ -42,7 +42,7 @@
             "Project duration",
             "Lead Institution",
             "Lead Institution GRID reference",
-            "ProjectPartner",
+            "Project Partner Information",
             "Principal Investigator1",
             "Data Steward1",
             "Project Participant ORCID",
@@ -66,7 +66,7 @@
             "Project Acronym": "Project Acronym",
             "ZonMW Project Identifier": "ZonMW Project Identifier",
             "Funder Information": "Funder Information",
-            "ProjectPartner": "ProjectPartner"
+            "Project Partner Information": "Project Partner Information"
         },
         "propertyDescriptions": {
             "Project ID": "",
@@ -88,7 +88,7 @@
             "Project Acronym": "Enter acronym for the project if available",
             "ZonMW Project Identifier": "ZonMW Project Identifier",
             "Funder Information": "Information about the organization providing the funding for the described project ('funding provider').",
-            "ProjectPartner": "Information about project partner institution"
+            "Project Partner Information": "Information about project partner institution"
         }
     },
     "properties": {
@@ -327,9 +327,9 @@
                         "https://schema.metadatacenter.org/properties/fe1ce44b-4ce2-4b85-98de-87542310e833"
                     ]
                 },
-                "ProjectPartner": {
+                "Project Partner Information": {
                     "enum": [
-                        "https://schema.metadatacenter.org/properties/3075ce76-aff3-439f-b09c-99ebfa05d437"
+                        "https://schema.metadatacenter.org/properties/d0cf5f01-9eb6-4e89-ba85-2547a914236c"
                     ]
                 }
             },
@@ -350,7 +350,7 @@
                 "Data Steward1",
                 "ZonMW Project Identifier",
                 "Funder Information",
-                "ProjectPartner"
+                "Project Partner Information"
             ],
             "additionalProperties": false
         },
@@ -502,9 +502,9 @@
             ],
             "schema:name": "Start date",
             "schema:description": "The date the project started or is expected to start",
-            "pav:createdOn": "2020-11-08T07:28:19-08:00",
+            "pav:createdOn": "2020-11-08T07:41:20-08:00",
             "pav:createdBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
-            "pav:lastUpdatedOn": "2020-11-08T07:28:19-08:00",
+            "pav:lastUpdatedOn": "2020-11-08T07:41:20-08:00",
             "oslc:modifiedBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
@@ -796,9 +796,9 @@
                     "language"
                 ],
                 "additionalProperties": false,
-                "pav:createdOn": "2020-11-08T07:28:19-08:00",
+                "pav:createdOn": "2020-11-08T07:41:20-08:00",
                 "pav:createdBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
-                "pav:lastUpdatedOn": "2020-11-08T07:28:19-08:00",
+                "pav:lastUpdatedOn": "2020-11-08T07:41:20-08:00",
                 "oslc:modifiedBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
                 "schema:schemaVersion": "1.6.0",
                 "schema:name": "Project Title",
@@ -889,9 +889,9 @@
             ],
             "schema:name": "End date",
             "schema:description": "The date the project is expected to end",
-            "pav:createdOn": "2020-11-08T07:28:19-08:00",
+            "pav:createdOn": "2020-11-08T07:41:20-08:00",
             "pav:createdBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
-            "pav:lastUpdatedOn": "2020-11-08T07:28:19-08:00",
+            "pav:lastUpdatedOn": "2020-11-08T07:41:20-08:00",
             "oslc:modifiedBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
@@ -967,9 +967,9 @@
             ],
             "schema:name": "Project duration",
             "schema:description": "Enter project duration in months",
-            "pav:createdOn": "2020-11-08T07:28:19-08:00",
+            "pav:createdOn": "2020-11-08T07:41:20-08:00",
             "pav:createdBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
-            "pav:lastUpdatedOn": "2020-11-08T07:28:19-08:00",
+            "pav:lastUpdatedOn": "2020-11-08T07:41:20-08:00",
             "oslc:modifiedBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
@@ -1150,9 +1150,9 @@
                 "@id",
                 "Principle Investigator ORCID"
             ],
-            "pav:createdOn": "2020-11-08T07:28:19-08:00",
+            "pav:createdOn": "2020-11-08T07:41:20-08:00",
             "pav:createdBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
-            "pav:lastUpdatedOn": "2020-11-08T07:28:19-08:00",
+            "pav:lastUpdatedOn": "2020-11-08T07:41:20-08:00",
             "oslc:modifiedBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
@@ -1251,9 +1251,9 @@
                     }
                 },
                 "additionalProperties": false,
-                "pav:createdOn": "2020-11-08T07:28:19-08:00",
+                "pav:createdOn": "2020-11-08T07:41:20-08:00",
                 "pav:createdBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
-                "pav:lastUpdatedOn": "2020-11-08T07:28:19-08:00",
+                "pav:lastUpdatedOn": "2020-11-08T07:41:20-08:00",
                 "oslc:modifiedBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
                 "schema:schemaVersion": "1.6.0",
                 "schema:name": "Province",
@@ -1659,9 +1659,9 @@
                     "Data Steward Role"
                 ],
                 "additionalProperties": false,
-                "pav:createdOn": "2020-11-08T07:28:19-08:00",
+                "pav:createdOn": "2020-11-08T07:41:20-08:00",
                 "pav:createdBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
-                "pav:lastUpdatedOn": "2020-11-08T07:28:19-08:00",
+                "pav:lastUpdatedOn": "2020-11-08T07:41:20-08:00",
                 "oslc:modifiedBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
                 "schema:schemaVersion": "1.6.0",
                 "schema:name": "Data Steward",
@@ -1758,9 +1758,9 @@
             },
             "schema:name": "Lead Institution",
             "schema:description": "Choose the lead institution name",
-            "pav:createdOn": "2020-11-08T07:28:19-08:00",
+            "pav:createdOn": "2020-11-08T07:41:20-08:00",
             "pav:createdBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
-            "pav:lastUpdatedOn": "2020-11-08T07:28:19-08:00",
+            "pav:lastUpdatedOn": "2020-11-08T07:41:20-08:00",
             "oslc:modifiedBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
@@ -1846,9 +1846,9 @@
             ],
             "schema:name": "Lead Institution GRID reference",
             "schema:description": "Enter the GRID reference of the lead institution (see https://www.grid.ac/)",
-            "pav:createdOn": "2020-11-08T07:28:19-08:00",
+            "pav:createdOn": "2020-11-08T07:41:20-08:00",
             "pav:createdBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
-            "pav:lastUpdatedOn": "2020-11-08T07:28:19-08:00",
+            "pav:lastUpdatedOn": "2020-11-08T07:41:20-08:00",
             "oslc:modifiedBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
@@ -1934,9 +1934,9 @@
             ],
             "schema:name": "Project Website",
             "schema:description": "Enter the URL of the project's website",
-            "pav:createdOn": "2020-11-08T07:28:19-08:00",
+            "pav:createdOn": "2020-11-08T07:41:20-08:00",
             "pav:createdBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
-            "pav:lastUpdatedOn": "2020-11-08T07:28:19-08:00",
+            "pav:lastUpdatedOn": "2020-11-08T07:41:20-08:00",
             "oslc:modifiedBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
@@ -2022,9 +2022,9 @@
             ],
             "schema:name": "Project GUPRI",
             "schema:description": "Enter the Global Unique Persistent and Resolvable Identifier (GUPRI) you minted with Nanobench",
-            "pav:createdOn": "2020-11-08T07:28:19-08:00",
+            "pav:createdOn": "2020-11-08T07:41:20-08:00",
             "pav:createdBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
-            "pav:lastUpdatedOn": "2020-11-08T07:28:19-08:00",
+            "pav:lastUpdatedOn": "2020-11-08T07:41:20-08:00",
             "oslc:modifiedBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
@@ -2124,9 +2124,9 @@
                     }
                 },
                 "additionalProperties": false,
-                "pav:createdOn": "2020-11-08T07:28:19-08:00",
+                "pav:createdOn": "2020-11-08T07:41:20-08:00",
                 "pav:createdBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
-                "pav:lastUpdatedOn": "2020-11-08T07:28:19-08:00",
+                "pav:lastUpdatedOn": "2020-11-08T07:41:20-08:00",
                 "oslc:modifiedBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
                 "schema:schemaVersion": "1.6.0",
                 "schema:name": "Country",
@@ -2216,9 +2216,9 @@
                     "@value"
                 ],
                 "additionalProperties": false,
-                "pav:createdOn": "2020-11-08T07:28:19-08:00",
+                "pav:createdOn": "2020-11-08T07:41:20-08:00",
                 "pav:createdBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
-                "pav:lastUpdatedOn": "2020-11-08T07:28:19-08:00",
+                "pav:lastUpdatedOn": "2020-11-08T07:41:20-08:00",
                 "oslc:modifiedBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
                 "schema:schemaVersion": "1.6.0",
                 "schema:name": "Project Participant ORCID",
@@ -2306,9 +2306,9 @@
             ],
             "schema:name": "Project Acronym",
             "schema:description": "Enter acronym for the project if available",
-            "pav:createdOn": "2020-11-08T07:28:19-08:00",
+            "pav:createdOn": "2020-11-08T07:41:20-08:00",
             "pav:createdBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
-            "pav:lastUpdatedOn": "2020-11-08T07:28:19-08:00",
+            "pav:lastUpdatedOn": "2020-11-08T07:41:20-08:00",
             "oslc:modifiedBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
@@ -2491,9 +2491,9 @@
                 "@id",
                 "ZonMW Project Identifier"
             ],
-            "pav:createdOn": "2020-11-08T07:28:19-08:00",
+            "pav:createdOn": "2020-11-08T07:41:20-08:00",
             "pav:createdBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
-            "pav:lastUpdatedOn": "2020-11-08T07:28:19-08:00",
+            "pav:lastUpdatedOn": "2020-11-08T07:41:20-08:00",
             "oslc:modifiedBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
@@ -2780,9 +2780,9 @@
                     "Funder GRID reference"
                 ],
                 "additionalProperties": false,
-                "pav:createdOn": "2020-11-08T07:28:19-08:00",
+                "pav:createdOn": "2020-11-08T07:41:20-08:00",
                 "pav:createdBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
-                "pav:lastUpdatedOn": "2020-11-08T07:28:19-08:00",
+                "pav:lastUpdatedOn": "2020-11-08T07:41:20-08:00",
                 "oslc:modifiedBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
                 "schema:schemaVersion": "1.6.0",
                 "schema:name": "Funder Information",
@@ -2792,291 +2792,287 @@
                 "$schema": "http://json-schema.org/draft-04/schema#"
             }
         },
-        "ProjectPartner": {
-            "type": "array",
-            "minItems": 0,
-            "items": {
-                "type": "object",
-                "@id": "https://repo.metadatacenter.org/template-elements/f7724c51-084e-42ca-8141-7a54979a3a1f",
-                "@type": "https://schema.metadatacenter.org/core/TemplateElement",
-                "@context": {
-                    "xsd": "http://www.w3.org/2001/XMLSchema#",
-                    "pav": "http://purl.org/pav/",
-                    "bibo": "http://purl.org/ontology/bibo/",
-                    "oslc": "http://open-services.net/ns/core#",
-                    "schema": "http://schema.org/",
-                    "schema:name": {
-                        "@type": "xsd:string"
-                    },
-                    "schema:description": {
-                        "@type": "xsd:string"
-                    },
-                    "pav:createdOn": {
-                        "@type": "xsd:dateTime"
-                    },
-                    "pav:createdBy": {
-                        "@type": "@id"
-                    },
-                    "pav:lastUpdatedOn": {
-                        "@type": "xsd:dateTime"
-                    },
-                    "oslc:modifiedBy": {
-                        "@type": "@id"
-                    }
+        "Project Partner Information": {
+            "@id": "https://repo.metadatacenter.org/template-elements/f7724c51-084e-42ca-8141-7a54979a3a1f",
+            "@type": "https://schema.metadatacenter.org/core/TemplateElement",
+            "@context": {
+                "xsd": "http://www.w3.org/2001/XMLSchema#",
+                "pav": "http://purl.org/pav/",
+                "bibo": "http://purl.org/ontology/bibo/",
+                "oslc": "http://open-services.net/ns/core#",
+                "schema": "http://schema.org/",
+                "schema:name": {
+                    "@type": "xsd:string"
                 },
-                "title": "ProjectPartner field schema",
-                "description": "ProjectPartner field schema generated by the CEDAR Template Editor 2.5.11",
-                "_ui": {
-                    "order": [
-                        "Project Partner Institution",
-                        "Project Partner Institution GRID reference"
-                    ],
-                    "propertyLabels": {
-                        "Project Partner Institution": "Project Partner Institution",
-                        "Project Partner Institution GRID reference": "Project Partner Institution GRID reference"
-                    },
-                    "propertyDescriptions": {
-                        "Project Partner Institution": "Enter the project partner institution name",
-                        "Project Partner Institution GRID reference": "Enter the GRID reference of the project partner institution (see https://www.grid.ac/)"
-                    }
+                "schema:description": {
+                    "@type": "xsd:string"
                 },
-                "properties": {
-                    "@context": {
-                        "type": "object",
-                        "properties": {
-                            "Project Partner Institution": {
-                                "enum": [
-                                    "https://schema.metadatacenter.org/properties/a569ccb0-c712-4b6b-b8cf-124b16743b2b"
-                                ]
-                            },
-                            "Project Partner Institution GRID reference": {
-                                "enum": [
-                                    "https://schema.metadatacenter.org/properties/056922d7-424b-4f6f-ba27-2a238b7af8d9"
-                                ]
-                            }
-                        },
-                        "additionalProperties": false,
-                        "required": [
-                            "Project Partner Institution",
-                            "Project Partner Institution GRID reference"
-                        ]
-                    },
-                    "@id": {
-                        "type": "string",
-                        "format": "uri"
-                    },
-                    "@type": {
-                        "oneOf": [
-                            {
-                                "type": "string",
-                                "format": "uri"
-                            },
-                            {
-                                "type": "array",
-                                "minItems": 1,
-                                "items": {
-                                    "type": "string",
-                                    "format": "uri"
-                                },
-                                "uniqueItems": true
-                            }
-                        ]
-                    },
-                    "Project Partner Institution": {
-                        "@type": "https://schema.metadatacenter.org/core/TemplateField",
-                        "@context": {
-                            "xsd": "http://www.w3.org/2001/XMLSchema#",
-                            "pav": "http://purl.org/pav/",
-                            "bibo": "http://purl.org/ontology/bibo/",
-                            "oslc": "http://open-services.net/ns/core#",
-                            "schema": "http://schema.org/",
-                            "skos": "http://www.w3.org/2004/02/skos/core#",
-                            "schema:name": {
-                                "@type": "xsd:string"
-                            },
-                            "schema:description": {
-                                "@type": "xsd:string"
-                            },
-                            "skos:prefLabel": {
-                                "@type": "xsd:string"
-                            },
-                            "skos:altLabel": {
-                                "@type": "xsd:string"
-                            },
-                            "pav:createdOn": {
-                                "@type": "xsd:dateTime"
-                            },
-                            "pav:createdBy": {
-                                "@type": "@id"
-                            },
-                            "pav:lastUpdatedOn": {
-                                "@type": "xsd:dateTime"
-                            },
-                            "oslc:modifiedBy": {
-                                "@type": "@id"
-                            }
-                        },
-                        "type": "object",
-                        "title": "Project Partner Institution field schema",
-                        "description": "Project Partner Institution field schema generated by the CEDAR Template Editor 2.5.11",
-                        "_ui": {
-                            "inputType": "textfield"
-                        },
-                        "_valueConstraints": {
-                            "requiredValue": true
-                        },
-                        "properties": {
-                            "@type": {
-                                "oneOf": [
-                                    {
-                                        "type": "string",
-                                        "format": "uri"
-                                    },
-                                    {
-                                        "type": "array",
-                                        "minItems": 1,
-                                        "items": {
-                                            "type": "string",
-                                            "format": "uri"
-                                        },
-                                        "uniqueItems": true
-                                    }
-                                ]
-                            },
-                            "@value": {
-                                "type": [
-                                    "string",
-                                    "null"
-                                ]
-                            },
-                            "rdfs:label": {
-                                "type": [
-                                    "string",
-                                    "null"
-                                ]
-                            }
-                        },
-                        "required": [
-                            "@value"
-                        ],
-                        "schema:name": "Project Partner Institution",
-                        "schema:description": "Enter the project partner institution name",
-                        "pav:createdOn": "2020-11-08T07:27:04-08:00",
-                        "pav:createdBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
-                        "pav:lastUpdatedOn": "2020-11-08T07:27:04-08:00",
-                        "oslc:modifiedBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
-                        "schema:schemaVersion": "1.6.0",
-                        "additionalProperties": false,
-                        "@id": "https://repo.metadatacenter.org/template-fields/67e5a3b0-02fe-4b10-8a7c-16b8de0429c0",
-                        "$schema": "http://json-schema.org/draft-04/schema#"
-                    },
-                    "Project Partner Institution GRID reference": {
-                        "@type": "https://schema.metadatacenter.org/core/TemplateField",
-                        "@context": {
-                            "xsd": "http://www.w3.org/2001/XMLSchema#",
-                            "pav": "http://purl.org/pav/",
-                            "bibo": "http://purl.org/ontology/bibo/",
-                            "oslc": "http://open-services.net/ns/core#",
-                            "schema": "http://schema.org/",
-                            "skos": "http://www.w3.org/2004/02/skos/core#",
-                            "schema:name": {
-                                "@type": "xsd:string"
-                            },
-                            "schema:description": {
-                                "@type": "xsd:string"
-                            },
-                            "skos:prefLabel": {
-                                "@type": "xsd:string"
-                            },
-                            "skos:altLabel": {
-                                "@type": "xsd:string"
-                            },
-                            "pav:createdOn": {
-                                "@type": "xsd:dateTime"
-                            },
-                            "pav:createdBy": {
-                                "@type": "@id"
-                            },
-                            "pav:lastUpdatedOn": {
-                                "@type": "xsd:dateTime"
-                            },
-                            "oslc:modifiedBy": {
-                                "@type": "@id"
-                            }
-                        },
-                        "type": "object",
-                        "title": "Project Partner Institution GRID reference field schema",
-                        "description": "Project Partner Institution GRID reference field schema generated by the CEDAR Template Editor 2.5.11",
-                        "_ui": {
-                            "inputType": "textfield"
-                        },
-                        "_valueConstraints": {
-                            "requiredValue": false
-                        },
-                        "properties": {
-                            "@type": {
-                                "oneOf": [
-                                    {
-                                        "type": "string",
-                                        "format": "uri"
-                                    },
-                                    {
-                                        "type": "array",
-                                        "minItems": 1,
-                                        "items": {
-                                            "type": "string",
-                                            "format": "uri"
-                                        },
-                                        "uniqueItems": true
-                                    }
-                                ]
-                            },
-                            "@value": {
-                                "type": [
-                                    "string",
-                                    "null"
-                                ]
-                            },
-                            "rdfs:label": {
-                                "type": [
-                                    "string",
-                                    "null"
-                                ]
-                            }
-                        },
-                        "required": [
-                            "@value"
-                        ],
-                        "schema:name": "Project Partner Institution GRID reference",
-                        "schema:description": "Enter the GRID reference of the project partner institution (see https://www.grid.ac/)",
-                        "pav:createdOn": "2020-11-08T07:27:04-08:00",
-                        "pav:createdBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
-                        "pav:lastUpdatedOn": "2020-11-08T07:27:04-08:00",
-                        "oslc:modifiedBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
-                        "schema:schemaVersion": "1.6.0",
-                        "additionalProperties": false,
-                        "@id": "https://repo.metadatacenter.org/template-fields/eec52022-2901-413e-9ed8-ba8d23f6f804",
-                        "$schema": "http://json-schema.org/draft-04/schema#"
-                    }
+                "pav:createdOn": {
+                    "@type": "xsd:dateTime"
                 },
-                "required": [
-                    "@context",
-                    "@id",
+                "pav:createdBy": {
+                    "@type": "@id"
+                },
+                "pav:lastUpdatedOn": {
+                    "@type": "xsd:dateTime"
+                },
+                "oslc:modifiedBy": {
+                    "@type": "@id"
+                }
+            },
+            "type": "object",
+            "title": "Project partner information element schema",
+            "description": "Project partner information element schema generated by the CEDAR Template Editor 2.5.11",
+            "_ui": {
+                "order": [
                     "Project Partner Institution",
                     "Project Partner Institution GRID reference"
                 ],
-                "additionalProperties": false,
-                "pav:createdOn": "2020-11-08T07:28:19-08:00",
-                "pav:createdBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
-                "pav:lastUpdatedOn": "2020-11-08T07:28:19-08:00",
-                "oslc:modifiedBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
-                "schema:schemaVersion": "1.6.0",
-                "schema:name": "ProjectPartner",
-                "schema:description": "Information about project partner institution",
-                "pav:version": "0.0.1",
-                "bibo:status": "bibo:draft",
-                "$schema": "http://json-schema.org/draft-04/schema#"
-            }
+                "propertyLabels": {
+                    "Project Partner Institution": "Project Partner Institution",
+                    "Project Partner Institution GRID reference": "Project Partner Institution GRID reference"
+                },
+                "propertyDescriptions": {
+                    "Project Partner Institution": "Enter the project partner institution name",
+                    "Project Partner Institution GRID reference": "Enter the GRID reference of the project partner institution (see https://www.grid.ac/)"
+                }
+            },
+            "properties": {
+                "@context": {
+                    "type": "object",
+                    "properties": {
+                        "Project Partner Institution": {
+                            "enum": [
+                                "https://schema.metadatacenter.org/properties/a569ccb0-c712-4b6b-b8cf-124b16743b2b"
+                            ]
+                        },
+                        "Project Partner Institution GRID reference": {
+                            "enum": [
+                                "https://schema.metadatacenter.org/properties/056922d7-424b-4f6f-ba27-2a238b7af8d9"
+                            ]
+                        }
+                    },
+                    "additionalProperties": false,
+                    "required": [
+                        "Project Partner Institution",
+                        "Project Partner Institution GRID reference"
+                    ]
+                },
+                "@id": {
+                    "type": "string",
+                    "format": "uri"
+                },
+                "@type": {
+                    "oneOf": [
+                        {
+                            "type": "string",
+                            "format": "uri"
+                        },
+                        {
+                            "type": "array",
+                            "minItems": 1,
+                            "items": {
+                                "type": "string",
+                                "format": "uri"
+                            },
+                            "uniqueItems": true
+                        }
+                    ]
+                },
+                "Project Partner Institution": {
+                    "@type": "https://schema.metadatacenter.org/core/TemplateField",
+                    "@context": {
+                        "xsd": "http://www.w3.org/2001/XMLSchema#",
+                        "pav": "http://purl.org/pav/",
+                        "bibo": "http://purl.org/ontology/bibo/",
+                        "oslc": "http://open-services.net/ns/core#",
+                        "schema": "http://schema.org/",
+                        "skos": "http://www.w3.org/2004/02/skos/core#",
+                        "schema:name": {
+                            "@type": "xsd:string"
+                        },
+                        "schema:description": {
+                            "@type": "xsd:string"
+                        },
+                        "skos:prefLabel": {
+                            "@type": "xsd:string"
+                        },
+                        "skos:altLabel": {
+                            "@type": "xsd:string"
+                        },
+                        "pav:createdOn": {
+                            "@type": "xsd:dateTime"
+                        },
+                        "pav:createdBy": {
+                            "@type": "@id"
+                        },
+                        "pav:lastUpdatedOn": {
+                            "@type": "xsd:dateTime"
+                        },
+                        "oslc:modifiedBy": {
+                            "@type": "@id"
+                        }
+                    },
+                    "type": "object",
+                    "title": "Project Partner Institution field schema",
+                    "description": "Project Partner Institution field schema generated by the CEDAR Template Editor 2.5.11",
+                    "_ui": {
+                        "inputType": "textfield"
+                    },
+                    "_valueConstraints": {
+                        "requiredValue": true
+                    },
+                    "properties": {
+                        "@type": {
+                            "oneOf": [
+                                {
+                                    "type": "string",
+                                    "format": "uri"
+                                },
+                                {
+                                    "type": "array",
+                                    "minItems": 1,
+                                    "items": {
+                                        "type": "string",
+                                        "format": "uri"
+                                    },
+                                    "uniqueItems": true
+                                }
+                            ]
+                        },
+                        "@value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ]
+                        },
+                        "rdfs:label": {
+                            "type": [
+                                "string",
+                                "null"
+                            ]
+                        }
+                    },
+                    "required": [
+                        "@value"
+                    ],
+                    "schema:name": "Project Partner Institution",
+                    "schema:description": "Enter the project partner institution name",
+                    "pav:createdOn": "2020-11-08T07:38:16-08:00",
+                    "pav:createdBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
+                    "pav:lastUpdatedOn": "2020-11-08T07:38:16-08:00",
+                    "oslc:modifiedBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
+                    "schema:schemaVersion": "1.6.0",
+                    "additionalProperties": false,
+                    "@id": "https://repo.metadatacenter.org/template-fields/67e5a3b0-02fe-4b10-8a7c-16b8de0429c0",
+                    "$schema": "http://json-schema.org/draft-04/schema#"
+                },
+                "Project Partner Institution GRID reference": {
+                    "@type": "https://schema.metadatacenter.org/core/TemplateField",
+                    "@context": {
+                        "xsd": "http://www.w3.org/2001/XMLSchema#",
+                        "pav": "http://purl.org/pav/",
+                        "bibo": "http://purl.org/ontology/bibo/",
+                        "oslc": "http://open-services.net/ns/core#",
+                        "schema": "http://schema.org/",
+                        "skos": "http://www.w3.org/2004/02/skos/core#",
+                        "schema:name": {
+                            "@type": "xsd:string"
+                        },
+                        "schema:description": {
+                            "@type": "xsd:string"
+                        },
+                        "skos:prefLabel": {
+                            "@type": "xsd:string"
+                        },
+                        "skos:altLabel": {
+                            "@type": "xsd:string"
+                        },
+                        "pav:createdOn": {
+                            "@type": "xsd:dateTime"
+                        },
+                        "pav:createdBy": {
+                            "@type": "@id"
+                        },
+                        "pav:lastUpdatedOn": {
+                            "@type": "xsd:dateTime"
+                        },
+                        "oslc:modifiedBy": {
+                            "@type": "@id"
+                        }
+                    },
+                    "type": "object",
+                    "title": "Project Partner Institution GRID reference field schema",
+                    "description": "Project Partner Institution GRID reference field schema generated by the CEDAR Template Editor 2.5.11",
+                    "_ui": {
+                        "inputType": "textfield"
+                    },
+                    "_valueConstraints": {
+                        "requiredValue": false
+                    },
+                    "properties": {
+                        "@type": {
+                            "oneOf": [
+                                {
+                                    "type": "string",
+                                    "format": "uri"
+                                },
+                                {
+                                    "type": "array",
+                                    "minItems": 1,
+                                    "items": {
+                                        "type": "string",
+                                        "format": "uri"
+                                    },
+                                    "uniqueItems": true
+                                }
+                            ]
+                        },
+                        "@value": {
+                            "type": [
+                                "string",
+                                "null"
+                            ]
+                        },
+                        "rdfs:label": {
+                            "type": [
+                                "string",
+                                "null"
+                            ]
+                        }
+                    },
+                    "required": [
+                        "@value"
+                    ],
+                    "schema:name": "Project Partner Institution GRID reference",
+                    "schema:description": "Enter the GRID reference of the project partner institution (see https://www.grid.ac/)",
+                    "pav:createdOn": "2020-11-08T07:38:16-08:00",
+                    "pav:createdBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
+                    "pav:lastUpdatedOn": "2020-11-08T07:38:16-08:00",
+                    "oslc:modifiedBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
+                    "schema:schemaVersion": "1.6.0",
+                    "additionalProperties": false,
+                    "@id": "https://repo.metadatacenter.org/template-fields/eec52022-2901-413e-9ed8-ba8d23f6f804",
+                    "$schema": "http://json-schema.org/draft-04/schema#"
+                }
+            },
+            "schema:name": "Project Partner Information",
+            "schema:description": "Information about project partner institution",
+            "required": [
+                "@context",
+                "@id",
+                "Project Partner Institution",
+                "Project Partner Institution GRID reference"
+            ],
+            "pav:createdOn": "2020-11-08T07:41:20-08:00",
+            "pav:createdBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
+            "pav:lastUpdatedOn": "2020-11-08T07:41:20-08:00",
+            "oslc:modifiedBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
+            "schema:schemaVersion": "1.6.0",
+            "additionalProperties": false,
+            "pav:version": "0.0.1",
+            "bibo:status": "bibo:draft",
+            "$schema": "http://json-schema.org/draft-04/schema#"
         }
     },
     "required": [
@@ -3105,13 +3101,13 @@
         "Country",
         "ZonMW Project Identifier",
         "Funder Information",
-        "ProjectPartner"
+        "Project Partner Information"
     ],
     "schema:name": "Test COVID Project Admin",
     "schema:description": "A project admin metadata template for COVID 19 projects funded by ZonMw",
     "pav:createdOn": "2020-11-08T07:20:12-08:00",
     "pav:createdBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
-    "pav:lastUpdatedOn": "2020-11-08T07:28:19-08:00",
+    "pav:lastUpdatedOn": "2020-11-08T07:41:20-08:00",
     "oslc:modifiedBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
     "schema:schemaVersion": "1.6.0",
     "additionalProperties": false,
