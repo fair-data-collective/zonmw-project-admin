@@ -44,6 +44,7 @@
             "Size of collection",
             "Required assets",
             "Required assets1",
+            "Delivered assets",
             "Which standards does your project rely on?"
         ],
         "propertyLabels": {
@@ -60,7 +61,8 @@
             "WHEN - care process phase": "WHEN - care process phase",
             "Which standards does your project rely on?": "Which standards does your project rely on?",
             "Required assets": "Required assets",
-            "Required assets1": "Required assets"
+            "Required assets1": "Required assets",
+            "Delivered assets": "Delivered assets"
         },
         "propertyDescriptions": {
             "Project ID": "",
@@ -77,7 +79,8 @@
             "WHEN - care process phase": "Enter the phase of the care process the project is contributing to.",
             "Which standards does your project rely on?": "Help Text",
             "Required assets": "",
-            "Required assets1": ""
+            "Required assets1": "",
+            "Delivered assets": ""
         }
     },
     "properties": {
@@ -305,6 +308,11 @@
                     "enum": [
                         "https://schema.metadatacenter.org/properties/a5833bfc-1610-4798-a4c6-e038e8daacca"
                     ]
+                },
+                "Delivered assets": {
+                    "enum": [
+                        "https://schema.metadatacenter.org/properties/24791317-c1cb-476e-af98-2250f97c431b"
+                    ]
                 }
             },
             "required": [
@@ -324,7 +332,8 @@
                 "Population",
                 "Project Title",
                 "Required assets",
-                "Required assets1"
+                "Required assets1",
+                "Delivered assets"
             ],
             "additionalProperties": false
         },
@@ -570,9 +579,9 @@
                 "@id",
                 "Project ID"
             ],
-            "pav:createdOn": "2020-11-08T21:32:02-08:00",
+            "pav:createdOn": "2020-11-08T21:45:58-08:00",
             "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
-            "pav:lastUpdatedOn": "2020-11-08T21:32:02-08:00",
+            "pav:lastUpdatedOn": "2020-11-08T21:45:58-08:00",
             "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
@@ -717,9 +726,9 @@
             },
             "schema:name": "Size of collection",
             "schema:description": "Indicate the size of collection",
-            "pav:createdOn": "2020-11-08T21:32:02-08:00",
+            "pav:createdOn": "2020-11-08T21:45:58-08:00",
             "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
-            "pav:lastUpdatedOn": "2020-11-08T21:32:02-08:00",
+            "pav:lastUpdatedOn": "2020-11-08T21:45:58-08:00",
             "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
@@ -1015,9 +1024,9 @@
                 "Setting String",
                 "Setting CV Term"
             ],
-            "pav:createdOn": "2020-11-08T21:32:02-08:00",
+            "pav:createdOn": "2020-11-08T21:45:58-08:00",
             "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
-            "pav:lastUpdatedOn": "2020-11-08T21:32:02-08:00",
+            "pav:lastUpdatedOn": "2020-11-08T21:45:58-08:00",
             "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
@@ -1322,9 +1331,9 @@
                 "Population String",
                 "Population CV Term"
             ],
-            "pav:createdOn": "2020-11-08T21:32:02-08:00",
+            "pav:createdOn": "2020-11-08T21:45:58-08:00",
             "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
-            "pav:lastUpdatedOn": "2020-11-08T21:32:02-08:00",
+            "pav:lastUpdatedOn": "2020-11-08T21:45:58-08:00",
             "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
@@ -1618,9 +1627,9 @@
                     "language"
                 ],
                 "additionalProperties": false,
-                "pav:createdOn": "2020-11-08T21:32:02-08:00",
+                "pav:createdOn": "2020-11-08T21:45:58-08:00",
                 "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
-                "pav:lastUpdatedOn": "2020-11-08T21:32:02-08:00",
+                "pav:lastUpdatedOn": "2020-11-08T21:45:58-08:00",
                 "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
                 "schema:schemaVersion": "1.6.0",
                 "schema:name": "Project Title",
@@ -1717,9 +1726,9 @@
             },
             "schema:name": "If your project deals with focus area 1 which of the following themes is it covering?",
             "schema:description": "Select the theme your project is covering if your focus area is predictive diagnostics and treatment",
-            "pav:createdOn": "2020-11-08T21:32:02-08:00",
+            "pav:createdOn": "2020-11-08T21:45:58-08:00",
             "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
-            "pav:lastUpdatedOn": "2020-11-08T21:32:02-08:00",
+            "pav:lastUpdatedOn": "2020-11-08T21:45:58-08:00",
             "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
@@ -1817,9 +1826,9 @@
             ],
             "schema:name": "Focus Area",
             "schema:description": "Help Text",
-            "pav:createdOn": "2020-11-08T21:32:02-08:00",
+            "pav:createdOn": "2020-11-08T21:45:58-08:00",
             "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
-            "pav:lastUpdatedOn": "2020-11-08T21:32:02-08:00",
+            "pav:lastUpdatedOn": "2020-11-08T21:45:58-08:00",
             "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
@@ -1905,9 +1914,9 @@
             ],
             "schema:name": "If your project deals with focus area 2 which of the following themes is it covering?",
             "schema:description": "Select the theme your project is covering if your focus area is care and prevention",
-            "pav:createdOn": "2020-11-08T21:32:02-08:00",
+            "pav:createdOn": "2020-11-08T21:45:58-08:00",
             "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
-            "pav:lastUpdatedOn": "2020-11-08T21:32:02-08:00",
+            "pav:lastUpdatedOn": "2020-11-08T21:45:58-08:00",
             "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
@@ -1993,9 +2002,9 @@
             ],
             "schema:name": "If your project deals with focus area 3 which of the following themes is it covering?",
             "schema:description": "Select the theme your project is covering if your focus area is effects on society",
-            "pav:createdOn": "2020-11-08T21:32:02-08:00",
+            "pav:createdOn": "2020-11-08T21:45:58-08:00",
             "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
-            "pav:lastUpdatedOn": "2020-11-08T21:32:02-08:00",
+            "pav:lastUpdatedOn": "2020-11-08T21:45:58-08:00",
             "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
@@ -2101,9 +2110,9 @@
                     }
                 },
                 "additionalProperties": false,
-                "pav:createdOn": "2020-11-08T21:32:02-08:00",
+                "pav:createdOn": "2020-11-08T21:45:58-08:00",
                 "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
-                "pav:lastUpdatedOn": "2020-11-08T21:32:02-08:00",
+                "pav:lastUpdatedOn": "2020-11-08T21:45:58-08:00",
                 "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
                 "schema:schemaVersion": "1.6.0",
                 "schema:name": "WHERE - Study Area",
@@ -2211,9 +2220,9 @@
                     }
                 },
                 "additionalProperties": false,
-                "pav:createdOn": "2020-11-08T21:32:02-08:00",
+                "pav:createdOn": "2020-11-08T21:45:58-08:00",
                 "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
-                "pav:lastUpdatedOn": "2020-11-08T21:32:02-08:00",
+                "pav:lastUpdatedOn": "2020-11-08T21:45:58-08:00",
                 "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
                 "schema:schemaVersion": "1.6.0",
                 "schema:name": "WHEN - care process phase",
@@ -2305,9 +2314,9 @@
                     "@value"
                 ],
                 "additionalProperties": false,
-                "pav:createdOn": "2020-11-08T21:32:02-08:00",
+                "pav:createdOn": "2020-11-08T21:45:58-08:00",
                 "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
-                "pav:lastUpdatedOn": "2020-11-08T21:32:02-08:00",
+                "pav:lastUpdatedOn": "2020-11-08T21:45:58-08:00",
                 "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
                 "schema:schemaVersion": "1.6.0",
                 "schema:name": "Which standards does your project rely on?",
@@ -3783,9 +3792,9 @@
                 "Type of Data",
                 "Types of service"
             ],
-            "pav:createdOn": "2020-11-08T21:32:02-08:00",
+            "pav:createdOn": "2020-11-08T21:45:58-08:00",
             "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
-            "pav:lastUpdatedOn": "2020-11-08T21:32:02-08:00",
+            "pav:lastUpdatedOn": "2020-11-08T21:45:58-08:00",
             "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
@@ -5261,14 +5270,1493 @@
                 "Type of Data",
                 "Types of service"
             ],
-            "pav:createdOn": "2020-11-08T21:32:02-08:00",
+            "pav:createdOn": "2020-11-08T21:45:58-08:00",
             "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
-            "pav:lastUpdatedOn": "2020-11-08T21:32:02-08:00",
+            "pav:lastUpdatedOn": "2020-11-08T21:45:58-08:00",
             "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
             "pav:version": "0.0.1",
             "bibo:status": "bibo:draft",
+            "$schema": "http://json-schema.org/draft-04/schema#"
+        },
+        "Delivered assets": {
+            "@type": "https://schema.metadatacenter.org/core/TemplateElement",
+            "@context": {
+                "xsd": "http://www.w3.org/2001/XMLSchema#",
+                "pav": "http://purl.org/pav/",
+                "bibo": "http://purl.org/ontology/bibo/",
+                "oslc": "http://open-services.net/ns/core#",
+                "schema": "http://schema.org/",
+                "schema:name": {
+                    "@type": "xsd:string"
+                },
+                "schema:description": {
+                    "@type": "xsd:string"
+                },
+                "pav:createdOn": {
+                    "@type": "xsd:dateTime"
+                },
+                "pav:createdBy": {
+                    "@type": "@id"
+                },
+                "pav:lastUpdatedOn": {
+                    "@type": "xsd:dateTime"
+                },
+                "oslc:modifiedBy": {
+                    "@type": "@id"
+                }
+            },
+            "type": "object",
+            "title": "Delivered assets element schema",
+            "description": "Delivered assets element schema generated by the CEDAR Template Editor 2.5.11",
+            "_ui": {
+                "order": [
+                    "Which assets does your project deliver?",
+                    "Type of Bio-material",
+                    "Type of Images",
+                    "Type of Data",
+                    "Types of service"
+                ],
+                "propertyLabels": {
+                    "Type of Bio-material": "Type of Bio-material",
+                    "Type of Images": "Type of Images",
+                    "Type of Data": "Type of Data",
+                    "Types of service": "Types of service",
+                    "Which assets does your project deliver?": "Which assets does your project deliver?"
+                },
+                "propertyDescriptions": {
+                    "Type of Bio-material": "Types of material the project is dealing with",
+                    "Type of Images": "Type of images the project is contributing to",
+                    "Type of Data": "Type of data the project is contributing to",
+                    "Types of service": "Services used/provided by the project",
+                    "Which assets does your project deliver?": "Help Text"
+                }
+            },
+            "properties": {
+                "@context": {
+                    "type": "object",
+                    "properties": {
+                        "Type of Bio-material": {
+                            "enum": [
+                                "https://schema.metadatacenter.org/properties/c8384716-7c42-4038-98c4-16322f3a914f"
+                            ]
+                        },
+                        "Type of Images": {
+                            "enum": [
+                                "https://schema.metadatacenter.org/properties/c334df3c-212b-479c-8d75-b07adbe23b56"
+                            ]
+                        },
+                        "Type of Data": {
+                            "enum": [
+                                "https://schema.metadatacenter.org/properties/45358d84-b995-495e-8349-7d0dc6f27dfb"
+                            ]
+                        },
+                        "Types of service": {
+                            "enum": [
+                                "https://schema.metadatacenter.org/properties/6ad2be31-360f-4f69-a153-4a08a8f7462b"
+                            ]
+                        },
+                        "Which assets does your project deliver?": {
+                            "enum": [
+                                "https://schema.metadatacenter.org/properties/fbef4a72-95d3-4b9e-b1f7-db64a5399b0b"
+                            ]
+                        }
+                    },
+                    "additionalProperties": false,
+                    "required": [
+                        "Which assets does your project deliver?",
+                        "Type of Bio-material",
+                        "Type of Images",
+                        "Type of Data",
+                        "Types of service"
+                    ]
+                },
+                "@id": {
+                    "type": "string",
+                    "format": "uri"
+                },
+                "@type": {
+                    "oneOf": [
+                        {
+                            "type": "string",
+                            "format": "uri"
+                        },
+                        {
+                            "type": "array",
+                            "minItems": 1,
+                            "items": {
+                                "type": "string",
+                                "format": "uri"
+                            },
+                            "uniqueItems": true
+                        }
+                    ]
+                },
+                "Type of Bio-material": {
+                    "@type": "https://schema.metadatacenter.org/core/TemplateElement",
+                    "@context": {
+                        "xsd": "http://www.w3.org/2001/XMLSchema#",
+                        "pav": "http://purl.org/pav/",
+                        "bibo": "http://purl.org/ontology/bibo/",
+                        "oslc": "http://open-services.net/ns/core#",
+                        "schema": "http://schema.org/",
+                        "schema:name": {
+                            "@type": "xsd:string"
+                        },
+                        "schema:description": {
+                            "@type": "xsd:string"
+                        },
+                        "pav:createdOn": {
+                            "@type": "xsd:dateTime"
+                        },
+                        "pav:createdBy": {
+                            "@type": "@id"
+                        },
+                        "pav:lastUpdatedOn": {
+                            "@type": "xsd:dateTime"
+                        },
+                        "oslc:modifiedBy": {
+                            "@type": "@id"
+                        }
+                    },
+                    "type": "object",
+                    "title": "Type of bio-material element schema",
+                    "description": "Type of bio-material element schema generated by the CEDAR Template Editor 2.5.11",
+                    "_ui": {
+                        "order": [
+                            "Please add the type of bio-material",
+                            "Type of Material String"
+                        ],
+                        "propertyLabels": {
+                            "Type of Material String": "Type of Material String",
+                            "Please add the type of bio-material": "Please add the type of bio-material"
+                        },
+                        "propertyDescriptions": {
+                            "Type of Material String": "In case you have selected  'other types of bio-material\" enter a type of bio-material as free text here",
+                            "Please add the type of bio-material": "Choose the type of bio-material."
+                        }
+                    },
+                    "properties": {
+                        "@context": {
+                            "type": "object",
+                            "properties": {
+                                "Type of Material String": {
+                                    "enum": [
+                                        "https://schema.metadatacenter.org/properties/a3026932-7cd7-41a5-98ae-46d422fb9e47"
+                                    ]
+                                },
+                                "Please add the type of bio-material": {
+                                    "enum": [
+                                        "https://schema.metadatacenter.org/properties/ea9553a0-a165-483c-900f-e07fe519752c"
+                                    ]
+                                }
+                            },
+                            "additionalProperties": false,
+                            "required": [
+                                "Type of Material String",
+                                "Please add the type of bio-material"
+                            ]
+                        },
+                        "@id": {
+                            "type": "string",
+                            "format": "uri"
+                        },
+                        "@type": {
+                            "oneOf": [
+                                {
+                                    "type": "string",
+                                    "format": "uri"
+                                },
+                                {
+                                    "type": "array",
+                                    "minItems": 1,
+                                    "items": {
+                                        "type": "string",
+                                        "format": "uri"
+                                    },
+                                    "uniqueItems": true
+                                }
+                            ]
+                        },
+                        "Type of Material String": {
+                            "@type": "https://schema.metadatacenter.org/core/TemplateField",
+                            "@context": {
+                                "xsd": "http://www.w3.org/2001/XMLSchema#",
+                                "pav": "http://purl.org/pav/",
+                                "bibo": "http://purl.org/ontology/bibo/",
+                                "oslc": "http://open-services.net/ns/core#",
+                                "schema": "http://schema.org/",
+                                "skos": "http://www.w3.org/2004/02/skos/core#",
+                                "schema:name": {
+                                    "@type": "xsd:string"
+                                },
+                                "schema:description": {
+                                    "@type": "xsd:string"
+                                },
+                                "skos:prefLabel": {
+                                    "@type": "xsd:string"
+                                },
+                                "skos:altLabel": {
+                                    "@type": "xsd:string"
+                                },
+                                "pav:createdOn": {
+                                    "@type": "xsd:dateTime"
+                                },
+                                "pav:createdBy": {
+                                    "@type": "@id"
+                                },
+                                "pav:lastUpdatedOn": {
+                                    "@type": "xsd:dateTime"
+                                },
+                                "oslc:modifiedBy": {
+                                    "@type": "@id"
+                                }
+                            },
+                            "type": "object",
+                            "title": "Type of Material String field schema",
+                            "description": "Type of Material String field schema generated by the CEDAR Template Editor 2.5.11",
+                            "_ui": {
+                                "inputType": "textfield"
+                            },
+                            "_valueConstraints": {
+                                "requiredValue": false
+                            },
+                            "properties": {
+                                "@type": {
+                                    "oneOf": [
+                                        {
+                                            "type": "string",
+                                            "format": "uri"
+                                        },
+                                        {
+                                            "type": "array",
+                                            "minItems": 1,
+                                            "items": {
+                                                "type": "string",
+                                                "format": "uri"
+                                            },
+                                            "uniqueItems": true
+                                        }
+                                    ]
+                                },
+                                "@value": {
+                                    "type": [
+                                        "string",
+                                        "null"
+                                    ]
+                                },
+                                "rdfs:label": {
+                                    "type": [
+                                        "string",
+                                        "null"
+                                    ]
+                                }
+                            },
+                            "required": [
+                                "@value"
+                            ],
+                            "schema:name": "Type of Material String",
+                            "schema:description": "In case you have selected  'other types of bio-material\" enter a type of bio-material as free text here",
+                            "pav:createdOn": "2020-11-08T16:27:16-08:00",
+                            "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
+                            "pav:lastUpdatedOn": "2020-11-08T16:27:16-08:00",
+                            "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
+                            "schema:schemaVersion": "1.6.0",
+                            "additionalProperties": false,
+                            "skos:prefLabel": "Other Type of bio-material (free text)",
+                            "@id": "https://repo.metadatacenter.org/template-fields/4fba3e3a-0625-49d1-8d18-449d477636fc",
+                            "$schema": "http://json-schema.org/draft-04/schema#"
+                        },
+                        "Please add the type of bio-material": {
+                            "@type": "https://schema.metadatacenter.org/core/TemplateField",
+                            "@context": {
+                                "xsd": "http://www.w3.org/2001/XMLSchema#",
+                                "pav": "http://purl.org/pav/",
+                                "bibo": "http://purl.org/ontology/bibo/",
+                                "oslc": "http://open-services.net/ns/core#",
+                                "schema": "http://schema.org/",
+                                "skos": "http://www.w3.org/2004/02/skos/core#",
+                                "schema:name": {
+                                    "@type": "xsd:string"
+                                },
+                                "schema:description": {
+                                    "@type": "xsd:string"
+                                },
+                                "skos:prefLabel": {
+                                    "@type": "xsd:string"
+                                },
+                                "skos:altLabel": {
+                                    "@type": "xsd:string"
+                                },
+                                "pav:createdOn": {
+                                    "@type": "xsd:dateTime"
+                                },
+                                "pav:createdBy": {
+                                    "@type": "@id"
+                                },
+                                "pav:lastUpdatedOn": {
+                                    "@type": "xsd:dateTime"
+                                },
+                                "oslc:modifiedBy": {
+                                    "@type": "@id"
+                                }
+                            },
+                            "type": "object",
+                            "title": "Please add the type of bio-material field schema",
+                            "description": "Please add the type of bio-material field schema generated by the CEDAR Template Editor 2.5.11",
+                            "_ui": {
+                                "inputType": "textfield"
+                            },
+                            "_valueConstraints": {
+                                "requiredValue": false,
+                                "ontologies": [],
+                                "valueSets": [],
+                                "classes": [],
+                                "branches": [
+                                    {
+                                        "source": "undefined (ZONMW-ADMIN-MD)",
+                                        "acronym": "ZONMW-ADMIN-MD",
+                                        "uri": "http://www.fair-data-collective.com/zonmw/projectadmin/TypeOfMaterial",
+                                        "name": "Type Of Material",
+                                        "maxDepth": 0
+                                    }
+                                ],
+                                "multipleChoice": false,
+                                "actions": [
+                                    {
+                                        "to": 20,
+                                        "action": "move",
+                                        "termUri": "http://www.fair-data-collective.com/zonmw/projectadmin/OtherTypesOfMaterial",
+                                        "type": "OntologyClass",
+                                        "sourceUri": "http://www.fair-data-collective.com/zonmw/projectadmin/TypeOfMaterial",
+                                        "source": "ZONMW-ADMIN-MD"
+                                    }
+                                ]
+                            },
+                            "properties": {
+                                "@type": {
+                                    "oneOf": [
+                                        {
+                                            "type": "string",
+                                            "format": "uri"
+                                        },
+                                        {
+                                            "type": "array",
+                                            "minItems": 1,
+                                            "items": {
+                                                "type": "string",
+                                                "format": "uri"
+                                            },
+                                            "uniqueItems": true
+                                        }
+                                    ]
+                                },
+                                "rdfs:label": {
+                                    "type": [
+                                        "string",
+                                        "null"
+                                    ]
+                                },
+                                "@id": {
+                                    "type": "string",
+                                    "format": "uri"
+                                }
+                            },
+                            "schema:name": "Please add the type of bio-material",
+                            "schema:description": "Choose the type of bio-material.",
+                            "pav:createdOn": "2020-11-08T16:27:16-08:00",
+                            "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
+                            "pav:lastUpdatedOn": "2020-11-08T16:27:16-08:00",
+                            "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
+                            "schema:schemaVersion": "1.6.0",
+                            "additionalProperties": false,
+                            "skos:prefLabel": "Type of bio-material",
+                            "@id": "https://repo.metadatacenter.org/template-fields/45d4cf8e-31b1-4759-b29d-c5fc42c084c6",
+                            "$schema": "http://json-schema.org/draft-04/schema#"
+                        }
+                    },
+                    "schema:name": "Type of Bio-material",
+                    "schema:description": "Types of material the project is dealing with",
+                    "required": [
+                        "@context",
+                        "@id",
+                        "Type of Material String",
+                        "Please add the type of bio-material"
+                    ],
+                    "pav:createdOn": "2020-11-08T16:30:09-08:00",
+                    "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
+                    "pav:lastUpdatedOn": "2020-11-08T16:30:09-08:00",
+                    "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
+                    "schema:schemaVersion": "1.6.0",
+                    "additionalProperties": false,
+                    "pav:version": "0.0.1",
+                    "bibo:status": "bibo:draft",
+                    "pav:derivedFrom": "https://repo.metadatacenter.org/template-elements/6bcb2467-a4cd-4b74-849b-e2d20bb6805e",
+                    "@id": "https://repo.metadatacenter.org/template-elements/4fb62510-3040-4c34-ba9b-72b64e1b4faa",
+                    "$schema": "http://json-schema.org/draft-04/schema#"
+                },
+                "Type of Images": {
+                    "@type": "https://schema.metadatacenter.org/core/TemplateElement",
+                    "@context": {
+                        "xsd": "http://www.w3.org/2001/XMLSchema#",
+                        "pav": "http://purl.org/pav/",
+                        "bibo": "http://purl.org/ontology/bibo/",
+                        "oslc": "http://open-services.net/ns/core#",
+                        "schema": "http://schema.org/",
+                        "schema:name": {
+                            "@type": "xsd:string"
+                        },
+                        "schema:description": {
+                            "@type": "xsd:string"
+                        },
+                        "pav:createdOn": {
+                            "@type": "xsd:dateTime"
+                        },
+                        "pav:createdBy": {
+                            "@type": "@id"
+                        },
+                        "pav:lastUpdatedOn": {
+                            "@type": "xsd:dateTime"
+                        },
+                        "oslc:modifiedBy": {
+                            "@type": "@id"
+                        }
+                    },
+                    "type": "object",
+                    "title": "Type of images element schema",
+                    "description": "Type of images element schema generated by the CEDAR Template Editor 2.5.11",
+                    "_ui": {
+                        "order": [
+                            "Type of Images CV Term",
+                            "Type of Images String"
+                        ],
+                        "propertyLabels": {
+                            "Type of Images String": "Type of Images String",
+                            "Type of Images CV Term": "Type of Images CV Term"
+                        },
+                        "propertyDescriptions": {
+                            "Type of Images String": "For types of images that are not in the list of choices, add here the type of images as free text.",
+                            "Type of Images CV Term": "Choose the type of images."
+                        }
+                    },
+                    "properties": {
+                        "@context": {
+                            "type": "object",
+                            "properties": {
+                                "Type of Images String": {
+                                    "enum": [
+                                        "https://schema.metadatacenter.org/properties/a3026932-7cd7-41a5-98ae-46d422fb9e47"
+                                    ]
+                                },
+                                "Type of Images CV Term": {
+                                    "enum": [
+                                        "https://schema.metadatacenter.org/properties/dd61da7d-0047-4363-a9e1-ac4ed70f4131"
+                                    ]
+                                }
+                            },
+                            "additionalProperties": false,
+                            "required": [
+                                "Type of Images String",
+                                "Type of Images CV Term"
+                            ]
+                        },
+                        "@id": {
+                            "type": "string",
+                            "format": "uri"
+                        },
+                        "@type": {
+                            "oneOf": [
+                                {
+                                    "type": "string",
+                                    "format": "uri"
+                                },
+                                {
+                                    "type": "array",
+                                    "minItems": 1,
+                                    "items": {
+                                        "type": "string",
+                                        "format": "uri"
+                                    },
+                                    "uniqueItems": true
+                                }
+                            ]
+                        },
+                        "Type of Images String": {
+                            "type": "array",
+                            "minItems": 1,
+                            "items": {
+                                "type": "object",
+                                "@id": "https://repo.metadatacenter.org/template-fields/4fba3e3a-0625-49d1-8d18-449d477636fc",
+                                "@type": "https://schema.metadatacenter.org/core/TemplateField",
+                                "@context": {
+                                    "xsd": "http://www.w3.org/2001/XMLSchema#",
+                                    "pav": "http://purl.org/pav/",
+                                    "bibo": "http://purl.org/ontology/bibo/",
+                                    "oslc": "http://open-services.net/ns/core#",
+                                    "schema": "http://schema.org/",
+                                    "skos": "http://www.w3.org/2004/02/skos/core#",
+                                    "schema:name": {
+                                        "@type": "xsd:string"
+                                    },
+                                    "schema:description": {
+                                        "@type": "xsd:string"
+                                    },
+                                    "skos:prefLabel": {
+                                        "@type": "xsd:string"
+                                    },
+                                    "skos:altLabel": {
+                                        "@type": "xsd:string"
+                                    },
+                                    "pav:createdOn": {
+                                        "@type": "xsd:dateTime"
+                                    },
+                                    "pav:createdBy": {
+                                        "@type": "@id"
+                                    },
+                                    "pav:lastUpdatedOn": {
+                                        "@type": "xsd:dateTime"
+                                    },
+                                    "oslc:modifiedBy": {
+                                        "@type": "@id"
+                                    }
+                                },
+                                "title": "Type of Images String field schema",
+                                "description": "Type of Images String field schema generated by the CEDAR Template Editor 2.5.11",
+                                "_ui": {
+                                    "inputType": "textfield"
+                                },
+                                "_valueConstraints": {
+                                    "requiredValue": false
+                                },
+                                "properties": {
+                                    "@type": {
+                                        "oneOf": [
+                                            {
+                                                "type": "string",
+                                                "format": "uri"
+                                            },
+                                            {
+                                                "type": "array",
+                                                "minItems": 1,
+                                                "items": {
+                                                    "type": "string",
+                                                    "format": "uri"
+                                                },
+                                                "uniqueItems": true
+                                            }
+                                        ]
+                                    },
+                                    "@value": {
+                                        "type": [
+                                            "string",
+                                            "null"
+                                        ]
+                                    },
+                                    "rdfs:label": {
+                                        "type": [
+                                            "string",
+                                            "null"
+                                        ]
+                                    }
+                                },
+                                "required": [
+                                    "@value"
+                                ],
+                                "additionalProperties": false,
+                                "pav:createdOn": "2020-11-08T16:26:28-08:00",
+                                "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
+                                "pav:lastUpdatedOn": "2020-11-08T16:26:28-08:00",
+                                "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
+                                "schema:schemaVersion": "1.6.0",
+                                "schema:name": "Type of Images String",
+                                "schema:description": "For types of images that are not in the list of choices, add here the type of images as free text.",
+                                "skos:prefLabel": "Other Type of Images (free text entry)",
+                                "$schema": "http://json-schema.org/draft-04/schema#"
+                            }
+                        },
+                        "Type of Images CV Term": {
+                            "type": "array",
+                            "minItems": 1,
+                            "items": {
+                                "type": "object",
+                                "@type": "https://schema.metadatacenter.org/core/TemplateField",
+                                "@context": {
+                                    "xsd": "http://www.w3.org/2001/XMLSchema#",
+                                    "pav": "http://purl.org/pav/",
+                                    "bibo": "http://purl.org/ontology/bibo/",
+                                    "oslc": "http://open-services.net/ns/core#",
+                                    "schema": "http://schema.org/",
+                                    "skos": "http://www.w3.org/2004/02/skos/core#",
+                                    "schema:name": {
+                                        "@type": "xsd:string"
+                                    },
+                                    "schema:description": {
+                                        "@type": "xsd:string"
+                                    },
+                                    "skos:prefLabel": {
+                                        "@type": "xsd:string"
+                                    },
+                                    "skos:altLabel": {
+                                        "@type": "xsd:string"
+                                    },
+                                    "pav:createdOn": {
+                                        "@type": "xsd:dateTime"
+                                    },
+                                    "pav:createdBy": {
+                                        "@type": "@id"
+                                    },
+                                    "pav:lastUpdatedOn": {
+                                        "@type": "xsd:dateTime"
+                                    },
+                                    "oslc:modifiedBy": {
+                                        "@type": "@id"
+                                    }
+                                },
+                                "title": "Type of Images CV Term field schema",
+                                "description": "Type of Images CV Term field schema generated by the CEDAR Template Editor 2.5.11",
+                                "_ui": {
+                                    "inputType": "textfield"
+                                },
+                                "_valueConstraints": {
+                                    "requiredValue": true,
+                                    "ontologies": [],
+                                    "valueSets": [],
+                                    "classes": [],
+                                    "branches": [
+                                        {
+                                            "source": "undefined (ZONMW-ADMIN-MD)",
+                                            "acronym": "ZONMW-ADMIN-MD",
+                                            "uri": "http://www.fair-data-collective.com/zonmw/projectadmin/TypeOfData",
+                                            "name": "Type Of Data",
+                                            "maxDepth": 0
+                                        }
+                                    ],
+                                    "multipleChoice": false,
+                                    "actions": [
+                                        {
+                                            "to": 14,
+                                            "action": "move",
+                                            "termUri": "http://www.fair-data-collective.com/zonmw/projectadmin/OtherTypesOfData",
+                                            "type": "OntologyClass",
+                                            "sourceUri": "http://www.fair-data-collective.com/zonmw/projectadmin/TypeOfData",
+                                            "source": "ZONMW-ADMIN-MD"
+                                        }
+                                    ]
+                                },
+                                "properties": {
+                                    "@type": {
+                                        "oneOf": [
+                                            {
+                                                "type": "string",
+                                                "format": "uri"
+                                            },
+                                            {
+                                                "type": "array",
+                                                "minItems": 1,
+                                                "items": {
+                                                    "type": "string",
+                                                    "format": "uri"
+                                                },
+                                                "uniqueItems": true
+                                            }
+                                        ]
+                                    },
+                                    "rdfs:label": {
+                                        "type": [
+                                            "string",
+                                            "null"
+                                        ]
+                                    },
+                                    "@id": {
+                                        "type": "string",
+                                        "format": "uri"
+                                    }
+                                },
+                                "additionalProperties": false,
+                                "pav:createdOn": "2020-11-08T16:26:28-08:00",
+                                "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
+                                "pav:lastUpdatedOn": "2020-11-08T16:26:28-08:00",
+                                "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
+                                "schema:schemaVersion": "1.6.0",
+                                "schema:name": "Type of Images CV Term",
+                                "schema:description": "Choose the type of images.",
+                                "skos:prefLabel": "Type of Images",
+                                "@id": "https://repo.metadatacenter.org/template-fields/2465c6c6-a693-47d2-90a6-3b603fa40270",
+                                "$schema": "http://json-schema.org/draft-04/schema#"
+                            }
+                        }
+                    },
+                    "schema:name": "Type of Images",
+                    "schema:description": "Type of images the project is contributing to",
+                    "required": [
+                        "@context",
+                        "@id",
+                        "Type of Images String",
+                        "Type of Images CV Term"
+                    ],
+                    "pav:createdOn": "2020-11-08T16:30:09-08:00",
+                    "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
+                    "pav:lastUpdatedOn": "2020-11-08T16:30:09-08:00",
+                    "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
+                    "schema:schemaVersion": "1.6.0",
+                    "additionalProperties": false,
+                    "pav:version": "0.0.1",
+                    "bibo:status": "bibo:draft",
+                    "pav:derivedFrom": "https://repo.metadatacenter.org/template-elements/6bcb2467-a4cd-4b74-849b-e2d20bb6805e",
+                    "@id": "https://repo.metadatacenter.org/template-elements/0ed53d91-8e9c-4391-8a63-a51df653fa4d",
+                    "$schema": "http://json-schema.org/draft-04/schema#"
+                },
+                "Type of Data": {
+                    "@type": "https://schema.metadatacenter.org/core/TemplateElement",
+                    "@context": {
+                        "xsd": "http://www.w3.org/2001/XMLSchema#",
+                        "pav": "http://purl.org/pav/",
+                        "bibo": "http://purl.org/ontology/bibo/",
+                        "oslc": "http://open-services.net/ns/core#",
+                        "schema": "http://schema.org/",
+                        "schema:name": {
+                            "@type": "xsd:string"
+                        },
+                        "schema:description": {
+                            "@type": "xsd:string"
+                        },
+                        "pav:createdOn": {
+                            "@type": "xsd:dateTime"
+                        },
+                        "pav:createdBy": {
+                            "@type": "@id"
+                        },
+                        "pav:lastUpdatedOn": {
+                            "@type": "xsd:dateTime"
+                        },
+                        "oslc:modifiedBy": {
+                            "@type": "@id"
+                        }
+                    },
+                    "type": "object",
+                    "title": "Type of data element schema",
+                    "description": "Type of data element schema generated by the CEDAR Template Editor 2.5.11",
+                    "_ui": {
+                        "order": [
+                            "Type of Data CV Term",
+                            "Type of Data String"
+                        ],
+                        "propertyLabels": {
+                            "Type of Data String": "Type of Data String",
+                            "Type of Data CV Term": "Type of Data CV Term"
+                        },
+                        "propertyDescriptions": {
+                            "Type of Data String": "For types of data that are not in the list of choices, add here the type of data as free text.",
+                            "Type of Data CV Term": "Choose the type of data."
+                        }
+                    },
+                    "properties": {
+                        "@context": {
+                            "type": "object",
+                            "properties": {
+                                "Type of Data String": {
+                                    "enum": [
+                                        "https://schema.metadatacenter.org/properties/a3026932-7cd7-41a5-98ae-46d422fb9e47"
+                                    ]
+                                },
+                                "Type of Data CV Term": {
+                                    "enum": [
+                                        "https://schema.metadatacenter.org/properties/dd61da7d-0047-4363-a9e1-ac4ed70f4131"
+                                    ]
+                                }
+                            },
+                            "additionalProperties": false,
+                            "required": [
+                                "Type of Data String",
+                                "Type of Data CV Term"
+                            ]
+                        },
+                        "@id": {
+                            "type": "string",
+                            "format": "uri"
+                        },
+                        "@type": {
+                            "oneOf": [
+                                {
+                                    "type": "string",
+                                    "format": "uri"
+                                },
+                                {
+                                    "type": "array",
+                                    "minItems": 1,
+                                    "items": {
+                                        "type": "string",
+                                        "format": "uri"
+                                    },
+                                    "uniqueItems": true
+                                }
+                            ]
+                        },
+                        "Type of Data String": {
+                            "type": "array",
+                            "minItems": 1,
+                            "items": {
+                                "type": "object",
+                                "@id": "https://repo.metadatacenter.org/template-fields/4fba3e3a-0625-49d1-8d18-449d477636fc",
+                                "@type": "https://schema.metadatacenter.org/core/TemplateField",
+                                "@context": {
+                                    "xsd": "http://www.w3.org/2001/XMLSchema#",
+                                    "pav": "http://purl.org/pav/",
+                                    "bibo": "http://purl.org/ontology/bibo/",
+                                    "oslc": "http://open-services.net/ns/core#",
+                                    "schema": "http://schema.org/",
+                                    "skos": "http://www.w3.org/2004/02/skos/core#",
+                                    "schema:name": {
+                                        "@type": "xsd:string"
+                                    },
+                                    "schema:description": {
+                                        "@type": "xsd:string"
+                                    },
+                                    "skos:prefLabel": {
+                                        "@type": "xsd:string"
+                                    },
+                                    "skos:altLabel": {
+                                        "@type": "xsd:string"
+                                    },
+                                    "pav:createdOn": {
+                                        "@type": "xsd:dateTime"
+                                    },
+                                    "pav:createdBy": {
+                                        "@type": "@id"
+                                    },
+                                    "pav:lastUpdatedOn": {
+                                        "@type": "xsd:dateTime"
+                                    },
+                                    "oslc:modifiedBy": {
+                                        "@type": "@id"
+                                    }
+                                },
+                                "title": "Type of Data String field schema",
+                                "description": "Type of Data String field schema generated by the CEDAR Template Editor 2.5.11",
+                                "_ui": {
+                                    "inputType": "textfield"
+                                },
+                                "_valueConstraints": {
+                                    "requiredValue": false
+                                },
+                                "properties": {
+                                    "@type": {
+                                        "oneOf": [
+                                            {
+                                                "type": "string",
+                                                "format": "uri"
+                                            },
+                                            {
+                                                "type": "array",
+                                                "minItems": 1,
+                                                "items": {
+                                                    "type": "string",
+                                                    "format": "uri"
+                                                },
+                                                "uniqueItems": true
+                                            }
+                                        ]
+                                    },
+                                    "@value": {
+                                        "type": [
+                                            "string",
+                                            "null"
+                                        ]
+                                    },
+                                    "rdfs:label": {
+                                        "type": [
+                                            "string",
+                                            "null"
+                                        ]
+                                    }
+                                },
+                                "required": [
+                                    "@value"
+                                ],
+                                "additionalProperties": false,
+                                "pav:createdOn": "2020-11-08T16:22:48-08:00",
+                                "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
+                                "pav:lastUpdatedOn": "2020-11-08T16:22:48-08:00",
+                                "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
+                                "schema:schemaVersion": "1.6.0",
+                                "schema:name": "Type of Data String",
+                                "schema:description": "For types of data that are not in the list of choices, add here the type of data as free text.",
+                                "skos:prefLabel": "Other Type of Data (free text entry)",
+                                "$schema": "http://json-schema.org/draft-04/schema#"
+                            }
+                        },
+                        "Type of Data CV Term": {
+                            "type": "array",
+                            "minItems": 1,
+                            "items": {
+                                "type": "object",
+                                "@type": "https://schema.metadatacenter.org/core/TemplateField",
+                                "@context": {
+                                    "xsd": "http://www.w3.org/2001/XMLSchema#",
+                                    "pav": "http://purl.org/pav/",
+                                    "bibo": "http://purl.org/ontology/bibo/",
+                                    "oslc": "http://open-services.net/ns/core#",
+                                    "schema": "http://schema.org/",
+                                    "skos": "http://www.w3.org/2004/02/skos/core#",
+                                    "schema:name": {
+                                        "@type": "xsd:string"
+                                    },
+                                    "schema:description": {
+                                        "@type": "xsd:string"
+                                    },
+                                    "skos:prefLabel": {
+                                        "@type": "xsd:string"
+                                    },
+                                    "skos:altLabel": {
+                                        "@type": "xsd:string"
+                                    },
+                                    "pav:createdOn": {
+                                        "@type": "xsd:dateTime"
+                                    },
+                                    "pav:createdBy": {
+                                        "@type": "@id"
+                                    },
+                                    "pav:lastUpdatedOn": {
+                                        "@type": "xsd:dateTime"
+                                    },
+                                    "oslc:modifiedBy": {
+                                        "@type": "@id"
+                                    }
+                                },
+                                "title": "Type of Data CV Term field schema",
+                                "description": "Type of Data CV Term field schema generated by the CEDAR Template Editor 2.5.11",
+                                "_ui": {
+                                    "inputType": "textfield"
+                                },
+                                "_valueConstraints": {
+                                    "requiredValue": true,
+                                    "ontologies": [],
+                                    "valueSets": [],
+                                    "classes": [],
+                                    "branches": [
+                                        {
+                                            "source": "undefined (ZONMW-ADMIN-MD)",
+                                            "acronym": "ZONMW-ADMIN-MD",
+                                            "uri": "http://www.fair-data-collective.com/zonmw/projectadmin/TypeOfData",
+                                            "name": "Type Of Data",
+                                            "maxDepth": 0
+                                        }
+                                    ],
+                                    "multipleChoice": false,
+                                    "actions": [
+                                        {
+                                            "to": 14,
+                                            "action": "move",
+                                            "termUri": "http://www.fair-data-collective.com/zonmw/projectadmin/OtherTypesOfData",
+                                            "type": "OntologyClass",
+                                            "sourceUri": "http://www.fair-data-collective.com/zonmw/projectadmin/TypeOfData",
+                                            "source": "ZONMW-ADMIN-MD"
+                                        }
+                                    ]
+                                },
+                                "properties": {
+                                    "@type": {
+                                        "oneOf": [
+                                            {
+                                                "type": "string",
+                                                "format": "uri"
+                                            },
+                                            {
+                                                "type": "array",
+                                                "minItems": 1,
+                                                "items": {
+                                                    "type": "string",
+                                                    "format": "uri"
+                                                },
+                                                "uniqueItems": true
+                                            }
+                                        ]
+                                    },
+                                    "rdfs:label": {
+                                        "type": [
+                                            "string",
+                                            "null"
+                                        ]
+                                    },
+                                    "@id": {
+                                        "type": "string",
+                                        "format": "uri"
+                                    }
+                                },
+                                "additionalProperties": false,
+                                "pav:createdOn": "2020-11-08T16:22:48-08:00",
+                                "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
+                                "pav:lastUpdatedOn": "2020-11-08T16:22:48-08:00",
+                                "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
+                                "schema:schemaVersion": "1.6.0",
+                                "schema:name": "Type of Data CV Term",
+                                "schema:description": "Choose the type of data.",
+                                "skos:prefLabel": "Type of Data",
+                                "@id": "https://repo.metadatacenter.org/template-fields/2465c6c6-a693-47d2-90a6-3b603fa40270",
+                                "$schema": "http://json-schema.org/draft-04/schema#"
+                            }
+                        }
+                    },
+                    "schema:name": "Type of Data",
+                    "schema:description": "Type of data the project is contributing to",
+                    "required": [
+                        "@context",
+                        "@id",
+                        "Type of Data String",
+                        "Type of Data CV Term"
+                    ],
+                    "pav:createdOn": "2020-11-08T16:30:09-08:00",
+                    "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
+                    "pav:lastUpdatedOn": "2020-11-08T16:30:09-08:00",
+                    "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
+                    "schema:schemaVersion": "1.6.0",
+                    "additionalProperties": false,
+                    "pav:version": "0.0.1",
+                    "bibo:status": "bibo:draft",
+                    "pav:derivedFrom": "https://repo.metadatacenter.org/template-elements/4e68a9ef-be19-47aa-a20d-2289bc790ba4",
+                    "@id": "https://repo.metadatacenter.org/template-elements/6bcb2467-a4cd-4b74-849b-e2d20bb6805e",
+                    "$schema": "http://json-schema.org/draft-04/schema#"
+                },
+                "Types of service": {
+                    "@id": "https://repo.metadatacenter.org/template-elements/2cc4ced5-f695-4bb7-8f66-ed4d13960ff7",
+                    "@type": "https://schema.metadatacenter.org/core/TemplateElement",
+                    "@context": {
+                        "xsd": "http://www.w3.org/2001/XMLSchema#",
+                        "pav": "http://purl.org/pav/",
+                        "bibo": "http://purl.org/ontology/bibo/",
+                        "oslc": "http://open-services.net/ns/core#",
+                        "schema": "http://schema.org/",
+                        "schema:name": {
+                            "@type": "xsd:string"
+                        },
+                        "schema:description": {
+                            "@type": "xsd:string"
+                        },
+                        "pav:createdOn": {
+                            "@type": "xsd:dateTime"
+                        },
+                        "pav:createdBy": {
+                            "@type": "@id"
+                        },
+                        "pav:lastUpdatedOn": {
+                            "@type": "xsd:dateTime"
+                        },
+                        "oslc:modifiedBy": {
+                            "@type": "@id"
+                        }
+                    },
+                    "type": "object",
+                    "title": "Types of service element schema",
+                    "description": "Types of service element schema generated by the CEDAR Template Editor 2.5.11",
+                    "_ui": {
+                        "order": [
+                            "Service CV Term",
+                            "Service String"
+                        ],
+                        "propertyLabels": {
+                            "Service String": "Service String",
+                            "Service CV Term": "Service CV Term"
+                        },
+                        "propertyDescriptions": {
+                            "Service String": "For services that are not in the list, add the service here as a free text",
+                            "Service CV Term": "Choose the type of service,"
+                        }
+                    },
+                    "properties": {
+                        "@context": {
+                            "type": "object",
+                            "properties": {
+                                "Service String": {
+                                    "enum": [
+                                        "https://schema.metadatacenter.org/properties/a3026932-7cd7-41a5-98ae-46d422fb9e47"
+                                    ]
+                                },
+                                "Service CV Term": {
+                                    "enum": [
+                                        "https://schema.metadatacenter.org/properties/2b62933b-5e2b-4994-b976-2f3f9c75cf54"
+                                    ]
+                                }
+                            },
+                            "additionalProperties": false,
+                            "required": [
+                                "Service String",
+                                "Service CV Term"
+                            ]
+                        },
+                        "@id": {
+                            "type": "string",
+                            "format": "uri"
+                        },
+                        "@type": {
+                            "oneOf": [
+                                {
+                                    "type": "string",
+                                    "format": "uri"
+                                },
+                                {
+                                    "type": "array",
+                                    "minItems": 1,
+                                    "items": {
+                                        "type": "string",
+                                        "format": "uri"
+                                    },
+                                    "uniqueItems": true
+                                }
+                            ]
+                        },
+                        "Service String": {
+                            "type": "array",
+                            "minItems": 1,
+                            "items": {
+                                "type": "object",
+                                "@id": "https://repo.metadatacenter.org/template-fields/4fba3e3a-0625-49d1-8d18-449d477636fc",
+                                "@type": "https://schema.metadatacenter.org/core/TemplateField",
+                                "@context": {
+                                    "xsd": "http://www.w3.org/2001/XMLSchema#",
+                                    "pav": "http://purl.org/pav/",
+                                    "bibo": "http://purl.org/ontology/bibo/",
+                                    "oslc": "http://open-services.net/ns/core#",
+                                    "schema": "http://schema.org/",
+                                    "skos": "http://www.w3.org/2004/02/skos/core#",
+                                    "schema:name": {
+                                        "@type": "xsd:string"
+                                    },
+                                    "schema:description": {
+                                        "@type": "xsd:string"
+                                    },
+                                    "skos:prefLabel": {
+                                        "@type": "xsd:string"
+                                    },
+                                    "skos:altLabel": {
+                                        "@type": "xsd:string"
+                                    },
+                                    "pav:createdOn": {
+                                        "@type": "xsd:dateTime"
+                                    },
+                                    "pav:createdBy": {
+                                        "@type": "@id"
+                                    },
+                                    "pav:lastUpdatedOn": {
+                                        "@type": "xsd:dateTime"
+                                    },
+                                    "oslc:modifiedBy": {
+                                        "@type": "@id"
+                                    }
+                                },
+                                "title": "Service String field schema",
+                                "description": "Service String field schema generated by the CEDAR Template Editor 2.5.11",
+                                "_ui": {
+                                    "inputType": "textfield"
+                                },
+                                "_valueConstraints": {
+                                    "requiredValue": false
+                                },
+                                "properties": {
+                                    "@type": {
+                                        "oneOf": [
+                                            {
+                                                "type": "string",
+                                                "format": "uri"
+                                            },
+                                            {
+                                                "type": "array",
+                                                "minItems": 1,
+                                                "items": {
+                                                    "type": "string",
+                                                    "format": "uri"
+                                                },
+                                                "uniqueItems": true
+                                            }
+                                        ]
+                                    },
+                                    "@value": {
+                                        "type": [
+                                            "string",
+                                            "null"
+                                        ]
+                                    },
+                                    "rdfs:label": {
+                                        "type": [
+                                            "string",
+                                            "null"
+                                        ]
+                                    }
+                                },
+                                "required": [
+                                    "@value"
+                                ],
+                                "additionalProperties": false,
+                                "pav:createdOn": "2020-11-08T16:28:59-08:00",
+                                "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
+                                "pav:lastUpdatedOn": "2020-11-08T16:28:59-08:00",
+                                "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
+                                "schema:schemaVersion": "1.6.0",
+                                "schema:name": "Service String",
+                                "schema:description": "For services that are not in the list, add the service here as a free text",
+                                "skos:prefLabel": "Other Service (free text entry)",
+                                "$schema": "http://json-schema.org/draft-04/schema#"
+                            }
+                        },
+                        "Service CV Term": {
+                            "type": "array",
+                            "minItems": 1,
+                            "items": {
+                                "type": "object",
+                                "@type": "https://schema.metadatacenter.org/core/TemplateField",
+                                "@context": {
+                                    "xsd": "http://www.w3.org/2001/XMLSchema#",
+                                    "pav": "http://purl.org/pav/",
+                                    "bibo": "http://purl.org/ontology/bibo/",
+                                    "oslc": "http://open-services.net/ns/core#",
+                                    "schema": "http://schema.org/",
+                                    "skos": "http://www.w3.org/2004/02/skos/core#",
+                                    "schema:name": {
+                                        "@type": "xsd:string"
+                                    },
+                                    "schema:description": {
+                                        "@type": "xsd:string"
+                                    },
+                                    "skos:prefLabel": {
+                                        "@type": "xsd:string"
+                                    },
+                                    "skos:altLabel": {
+                                        "@type": "xsd:string"
+                                    },
+                                    "pav:createdOn": {
+                                        "@type": "xsd:dateTime"
+                                    },
+                                    "pav:createdBy": {
+                                        "@type": "@id"
+                                    },
+                                    "pav:lastUpdatedOn": {
+                                        "@type": "xsd:dateTime"
+                                    },
+                                    "oslc:modifiedBy": {
+                                        "@type": "@id"
+                                    }
+                                },
+                                "title": "Service CV Term field schema",
+                                "description": "Service CV Term field schema generated by the CEDAR Template Editor 2.5.11",
+                                "_ui": {
+                                    "inputType": "textfield"
+                                },
+                                "_valueConstraints": {
+                                    "requiredValue": false,
+                                    "ontologies": [],
+                                    "valueSets": [],
+                                    "classes": [],
+                                    "branches": [
+                                        {
+                                            "source": "undefined (ZONMW-ADMIN-MD)",
+                                            "acronym": "ZONMW-ADMIN-MD",
+                                            "uri": "http://www.fair-data-collective.com/zonmw/projectadmin/Service",
+                                            "name": "Service",
+                                            "maxDepth": 0
+                                        }
+                                    ],
+                                    "multipleChoice": false,
+                                    "actions": [
+                                        {
+                                            "to": 10,
+                                            "action": "move",
+                                            "termUri": "http://www.fair-data-collective.com/zonmw/projectadmin/OtherServices",
+                                            "type": "OntologyClass",
+                                            "sourceUri": "http://www.fair-data-collective.com/zonmw/projectadmin/Service",
+                                            "source": "ZONMW-ADMIN-MD"
+                                        }
+                                    ]
+                                },
+                                "properties": {
+                                    "@type": {
+                                        "oneOf": [
+                                            {
+                                                "type": "string",
+                                                "format": "uri"
+                                            },
+                                            {
+                                                "type": "array",
+                                                "minItems": 1,
+                                                "items": {
+                                                    "type": "string",
+                                                    "format": "uri"
+                                                },
+                                                "uniqueItems": true
+                                            }
+                                        ]
+                                    },
+                                    "rdfs:label": {
+                                        "type": [
+                                            "string",
+                                            "null"
+                                        ]
+                                    },
+                                    "@id": {
+                                        "type": "string",
+                                        "format": "uri"
+                                    }
+                                },
+                                "additionalProperties": false,
+                                "pav:createdOn": "2020-11-08T16:28:59-08:00",
+                                "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
+                                "pav:lastUpdatedOn": "2020-11-08T16:28:59-08:00",
+                                "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
+                                "schema:schemaVersion": "1.6.0",
+                                "schema:name": "Service CV Term",
+                                "schema:description": "Choose the type of service,",
+                                "skos:prefLabel": "Service",
+                                "@id": "https://repo.metadatacenter.org/template-fields/66afe9e3-c57e-4347-b1e2-ccd36c19df74",
+                                "$schema": "http://json-schema.org/draft-04/schema#"
+                            }
+                        }
+                    },
+                    "schema:name": "Types of service",
+                    "schema:description": "Services used/provided by the project",
+                    "required": [
+                        "@context",
+                        "@id",
+                        "Service String",
+                        "Service CV Term"
+                    ],
+                    "pav:createdOn": "2020-11-08T16:30:09-08:00",
+                    "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
+                    "pav:lastUpdatedOn": "2020-11-08T16:30:09-08:00",
+                    "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
+                    "schema:schemaVersion": "1.6.0",
+                    "additionalProperties": false,
+                    "pav:version": "0.0.1",
+                    "bibo:status": "bibo:draft",
+                    "$schema": "http://json-schema.org/draft-04/schema#"
+                },
+                "Which assets does your project deliver?": {
+                    "type": "array",
+                    "minItems": 1,
+                    "items": {
+                        "type": "object",
+                        "@type": "https://schema.metadatacenter.org/core/TemplateField",
+                        "@context": {
+                            "xsd": "http://www.w3.org/2001/XMLSchema#",
+                            "pav": "http://purl.org/pav/",
+                            "bibo": "http://purl.org/ontology/bibo/",
+                            "oslc": "http://open-services.net/ns/core#",
+                            "schema": "http://schema.org/",
+                            "skos": "http://www.w3.org/2004/02/skos/core#",
+                            "schema:name": {
+                                "@type": "xsd:string"
+                            },
+                            "schema:description": {
+                                "@type": "xsd:string"
+                            },
+                            "skos:prefLabel": {
+                                "@type": "xsd:string"
+                            },
+                            "skos:altLabel": {
+                                "@type": "xsd:string"
+                            },
+                            "pav:createdOn": {
+                                "@type": "xsd:dateTime"
+                            },
+                            "pav:createdBy": {
+                                "@type": "@id"
+                            },
+                            "pav:lastUpdatedOn": {
+                                "@type": "xsd:dateTime"
+                            },
+                            "oslc:modifiedBy": {
+                                "@type": "@id"
+                            }
+                        },
+                        "title": "Which assets does your project deliver? field schema",
+                        "description": "Which assets does your project deliver? field schema generated by the CEDAR Template Editor 2.5.11",
+                        "_ui": {
+                            "inputType": "checkbox"
+                        },
+                        "_valueConstraints": {
+                            "requiredValue": true,
+                            "multipleChoice": true,
+                            "literals": [
+                                {
+                                    "label": "biomaterial"
+                                },
+                                {
+                                    "label": "data"
+                                },
+                                {
+                                    "label": "images"
+                                },
+                                {
+                                    "label": "services"
+                                }
+                            ]
+                        },
+                        "properties": {
+                            "@type": {
+                                "oneOf": [
+                                    {
+                                        "type": "string",
+                                        "format": "uri"
+                                    },
+                                    {
+                                        "type": "array",
+                                        "minItems": 1,
+                                        "items": {
+                                            "type": "string",
+                                            "format": "uri"
+                                        },
+                                        "uniqueItems": true
+                                    }
+                                ]
+                            },
+                            "@value": {
+                                "type": [
+                                    "string",
+                                    "null"
+                                ]
+                            },
+                            "rdfs:label": {
+                                "type": [
+                                    "string",
+                                    "null"
+                                ]
+                            }
+                        },
+                        "required": [
+                            "@value"
+                        ],
+                        "additionalProperties": false,
+                        "pav:createdOn": "2020-11-08T16:30:09-08:00",
+                        "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
+                        "pav:lastUpdatedOn": "2020-11-08T16:30:09-08:00",
+                        "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
+                        "schema:schemaVersion": "1.6.0",
+                        "schema:name": "Which assets does your project deliver?",
+                        "schema:description": "Help Text",
+                        "@id": "https://repo.metadatacenter.org/template-fields/ad5f968d-8b31-4be2-96fc-02d642293218",
+                        "$schema": "http://json-schema.org/draft-04/schema#"
+                    }
+                }
+            },
+            "schema:name": "Delivered assets",
+            "schema:description": "",
+            "required": [
+                "@context",
+                "@id",
+                "Which assets does your project deliver?",
+                "Type of Bio-material",
+                "Type of Images",
+                "Type of Data",
+                "Types of service"
+            ],
+            "pav:createdOn": "2020-11-08T21:45:58-08:00",
+            "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
+            "pav:lastUpdatedOn": "2020-11-08T21:45:58-08:00",
+            "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
+            "schema:schemaVersion": "1.6.0",
+            "additionalProperties": false,
+            "pav:version": "0.0.1",
+            "bibo:status": "bibo:draft",
+            "pav:derivedFrom": "https://repo.metadatacenter.org/template-elements/1cc9bd09-8bdd-4ac0-8bda-30d2c4bfce0a",
+            "@id": "https://repo.metadatacenter.org/template-elements/c064c7cb-3627-435d-8e10-3be022aebc99",
             "$schema": "http://json-schema.org/draft-04/schema#"
         }
     },
@@ -5295,13 +6783,14 @@
         "If your project deals with focus area 3 which of the following themes is it covering?",
         "Which standards does your project rely on?",
         "Required assets",
-        "Required assets1"
+        "Required assets1",
+        "Delivered assets"
     ],
     "schema:name": "COVID Project Content",
     "schema:description": "A metadata template for COVID 19 projects funded by ZonMw",
     "pav:createdOn": "2020-11-01T10:51:17-08:00",
     "pav:createdBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
-    "pav:lastUpdatedOn": "2020-11-08T21:32:02-08:00",
+    "pav:lastUpdatedOn": "2020-11-08T21:45:58-08:00",
     "oslc:modifiedBy": "https://metadatacenter.org/users/ffbb4dc6-7829-4a3c-8708-a2e4c386997b",
     "schema:schemaVersion": "1.6.0",
     "additionalProperties": false,
