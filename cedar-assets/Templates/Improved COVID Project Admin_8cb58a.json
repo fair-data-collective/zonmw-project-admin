@@ -313,7 +313,7 @@
                 },
                 "Country and Province": {
                     "enum": [
-                        "https://schema.metadatacenter.org/properties/a109bdd7-100c-4a42-93c6-6d7297d4fbbb"
+                        "https://schema.metadatacenter.org/properties/16bd4013-279c-40f2-b7d0-b2858878c311"
                     ]
                 }
             },
@@ -488,9 +488,9 @@
             ],
             "schema:name": "Start date",
             "schema:description": "The date the project started or is expected to start",
-            "pav:createdOn": "2020-11-09T10:35:48-08:00",
+            "pav:createdOn": "2020-11-09T10:37:58-08:00",
             "pav:createdBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
-            "pav:lastUpdatedOn": "2020-11-09T10:35:48-08:00",
+            "pav:lastUpdatedOn": "2020-11-09T10:37:58-08:00",
             "oslc:modifiedBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
@@ -782,9 +782,9 @@
                     "language"
                 ],
                 "additionalProperties": false,
-                "pav:createdOn": "2020-11-09T10:35:48-08:00",
+                "pav:createdOn": "2020-11-09T10:37:58-08:00",
                 "pav:createdBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
-                "pav:lastUpdatedOn": "2020-11-09T10:35:48-08:00",
+                "pav:lastUpdatedOn": "2020-11-09T10:37:58-08:00",
                 "oslc:modifiedBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
                 "schema:schemaVersion": "1.6.0",
                 "schema:name": "Project Title",
@@ -875,9 +875,9 @@
             ],
             "schema:name": "End date",
             "schema:description": "The date the project is expected to end",
-            "pav:createdOn": "2020-11-09T10:35:48-08:00",
+            "pav:createdOn": "2020-11-09T10:37:58-08:00",
             "pav:createdBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
-            "pav:lastUpdatedOn": "2020-11-09T10:35:48-08:00",
+            "pav:lastUpdatedOn": "2020-11-09T10:37:58-08:00",
             "oslc:modifiedBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
@@ -953,9 +953,9 @@
             ],
             "schema:name": "Project duration",
             "schema:description": "Enter project duration in months",
-            "pav:createdOn": "2020-11-09T10:35:48-08:00",
+            "pav:createdOn": "2020-11-09T10:37:58-08:00",
             "pav:createdBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
-            "pav:lastUpdatedOn": "2020-11-09T10:35:48-08:00",
+            "pav:lastUpdatedOn": "2020-11-09T10:37:58-08:00",
             "oslc:modifiedBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
@@ -1136,9 +1136,9 @@
                 "@id",
                 "Principle Investigator ORCID"
             ],
-            "pav:createdOn": "2020-11-09T10:35:48-08:00",
+            "pav:createdOn": "2020-11-09T10:37:58-08:00",
             "pav:createdBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
-            "pav:lastUpdatedOn": "2020-11-09T10:35:48-08:00",
+            "pav:lastUpdatedOn": "2020-11-09T10:37:58-08:00",
             "oslc:modifiedBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
@@ -1545,9 +1545,9 @@
                     "Data Steward Role"
                 ],
                 "additionalProperties": false,
-                "pav:createdOn": "2020-11-09T10:35:48-08:00",
+                "pav:createdOn": "2020-11-09T10:37:58-08:00",
                 "pav:createdBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
-                "pav:lastUpdatedOn": "2020-11-09T10:35:48-08:00",
+                "pav:lastUpdatedOn": "2020-11-09T10:37:58-08:00",
                 "oslc:modifiedBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
                 "schema:schemaVersion": "1.6.0",
                 "schema:name": "Data Steward",
@@ -1636,9 +1636,9 @@
             ],
             "schema:name": "Project Website",
             "schema:description": "Enter the URL of the project's website",
-            "pav:createdOn": "2020-11-09T10:35:48-08:00",
+            "pav:createdOn": "2020-11-09T10:37:58-08:00",
             "pav:createdBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
-            "pav:lastUpdatedOn": "2020-11-09T10:35:48-08:00",
+            "pav:lastUpdatedOn": "2020-11-09T10:37:58-08:00",
             "oslc:modifiedBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
@@ -1724,9 +1724,9 @@
             ],
             "schema:name": "Project GUPRI",
             "schema:description": "Enter the Global Unique Persistent and Resolvable Identifier (GUPRI) you minted with Nanobench",
-            "pav:createdOn": "2020-11-09T10:35:48-08:00",
+            "pav:createdOn": "2020-11-09T10:37:58-08:00",
             "pav:createdBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
-            "pav:lastUpdatedOn": "2020-11-09T10:35:48-08:00",
+            "pav:lastUpdatedOn": "2020-11-09T10:37:58-08:00",
             "oslc:modifiedBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
@@ -1814,9 +1814,9 @@
                     "@value"
                 ],
                 "additionalProperties": false,
-                "pav:createdOn": "2020-11-09T10:35:48-08:00",
+                "pav:createdOn": "2020-11-09T10:37:58-08:00",
                 "pav:createdBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
-                "pav:lastUpdatedOn": "2020-11-09T10:35:48-08:00",
+                "pav:lastUpdatedOn": "2020-11-09T10:37:58-08:00",
                 "oslc:modifiedBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
                 "schema:schemaVersion": "1.6.0",
                 "schema:name": "Project Participant ORCID",
@@ -1904,9 +1904,9 @@
             ],
             "schema:name": "Project Acronym",
             "schema:description": "Enter acronym for the project if available",
-            "pav:createdOn": "2020-11-09T10:35:48-08:00",
+            "pav:createdOn": "2020-11-09T10:37:58-08:00",
             "pav:createdBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
-            "pav:lastUpdatedOn": "2020-11-09T10:35:48-08:00",
+            "pav:lastUpdatedOn": "2020-11-09T10:37:58-08:00",
             "oslc:modifiedBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
@@ -2089,9 +2089,9 @@
                 "@id",
                 "ZonMW Project Identifier"
             ],
-            "pav:createdOn": "2020-11-09T10:35:48-08:00",
+            "pav:createdOn": "2020-11-09T10:37:58-08:00",
             "pav:createdBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
-            "pav:lastUpdatedOn": "2020-11-09T10:35:48-08:00",
+            "pav:lastUpdatedOn": "2020-11-09T10:37:58-08:00",
             "oslc:modifiedBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
@@ -2378,9 +2378,9 @@
                     "Funder GRID reference"
                 ],
                 "additionalProperties": false,
-                "pav:createdOn": "2020-11-09T10:35:48-08:00",
+                "pav:createdOn": "2020-11-09T10:37:58-08:00",
                 "pav:createdBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
-                "pav:lastUpdatedOn": "2020-11-09T10:35:48-08:00",
+                "pav:lastUpdatedOn": "2020-11-09T10:37:58-08:00",
                 "oslc:modifiedBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
                 "schema:schemaVersion": "1.6.0",
                 "schema:name": "Funder Information",
@@ -2664,9 +2664,9 @@
                     "Project Partner Institution GRID reference"
                 ],
                 "additionalProperties": false,
-                "pav:createdOn": "2020-11-09T10:35:48-08:00",
+                "pav:createdOn": "2020-11-09T10:37:58-08:00",
                 "pav:createdBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
-                "pav:lastUpdatedOn": "2020-11-09T10:35:48-08:00",
+                "pav:lastUpdatedOn": "2020-11-09T10:37:58-08:00",
                 "oslc:modifiedBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
                 "schema:schemaVersion": "1.6.0",
                 "schema:name": "Project Partner Information",
@@ -2956,9 +2956,9 @@
                 "Lead Institution",
                 "Lead Institution GRID reference"
             ],
-            "pav:createdOn": "2020-11-09T10:35:48-08:00",
+            "pav:createdOn": "2020-11-09T10:37:58-08:00",
             "pav:createdBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
-            "pav:lastUpdatedOn": "2020-11-09T10:35:48-08:00",
+            "pav:lastUpdatedOn": "2020-11-09T10:37:58-08:00",
             "oslc:modifiedBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
@@ -2967,306 +2967,306 @@
             "$schema": "http://json-schema.org/draft-04/schema#"
         },
         "Country and Province": {
-            "type": "array",
-            "minItems": 1,
-            "items": {
-                "type": "object",
-                "@id": "https://repo.metadatacenter.org/template-elements/5c582bd9-b688-4074-a638-a1013098af1b",
-                "@type": "https://schema.metadatacenter.org/core/TemplateElement",
-                "@context": {
-                    "xsd": "http://www.w3.org/2001/XMLSchema#",
-                    "pav": "http://purl.org/pav/",
-                    "bibo": "http://purl.org/ontology/bibo/",
-                    "oslc": "http://open-services.net/ns/core#",
-                    "schema": "http://schema.org/",
-                    "schema:name": {
-                        "@type": "xsd:string"
-                    },
-                    "schema:description": {
-                        "@type": "xsd:string"
-                    },
-                    "pav:createdOn": {
-                        "@type": "xsd:dateTime"
-                    },
-                    "pav:createdBy": {
-                        "@type": "@id"
-                    },
-                    "pav:lastUpdatedOn": {
-                        "@type": "xsd:dateTime"
-                    },
-                    "oslc:modifiedBy": {
-                        "@type": "@id"
-                    }
+            "@id": "https://repo.metadatacenter.org/template-elements/5c582bd9-b688-4074-a638-a1013098af1b",
+            "@type": "https://schema.metadatacenter.org/core/TemplateElement",
+            "@context": {
+                "xsd": "http://www.w3.org/2001/XMLSchema#",
+                "pav": "http://purl.org/pav/",
+                "bibo": "http://purl.org/ontology/bibo/",
+                "oslc": "http://open-services.net/ns/core#",
+                "schema": "http://schema.org/",
+                "schema:name": {
+                    "@type": "xsd:string"
                 },
-                "title": "Country and Province field schema",
-                "description": "Country and Province field schema generated by the CEDAR Template Editor 2.5.11",
-                "_ui": {
-                    "order": [
-                        "Country",
-                        "Province"
-                    ],
-                    "propertyLabels": {
-                        "Country": "Country",
-                        "Province": "Province"
-                    },
-                    "propertyDescriptions": {
-                        "Country": "Enter the name of the countries involved in the project",
-                        "Province": "Enter the name of the provinces involved in the project"
-                    }
+                "schema:description": {
+                    "@type": "xsd:string"
                 },
-                "properties": {
-                    "@context": {
-                        "type": "object",
-                        "properties": {
-                            "Country": {
-                                "enum": [
-                                    "https://schema.metadatacenter.org/properties/ce69fb14-29b2-4c4b-8834-3d8e1f5d927f"
-                                ]
-                            },
-                            "Province": {
-                                "enum": [
-                                    "https://schema.metadatacenter.org/properties/e1d64d1c-5990-4003-9ba4-b2edadf3e783"
-                                ]
-                            }
-                        },
-                        "additionalProperties": false,
-                        "required": [
-                            "Country",
-                            "Province"
-                        ]
-                    },
-                    "@id": {
-                        "type": "string",
-                        "format": "uri"
-                    },
-                    "@type": {
-                        "oneOf": [
-                            {
-                                "type": "string",
-                                "format": "uri"
-                            },
-                            {
-                                "type": "array",
-                                "minItems": 1,
-                                "items": {
-                                    "type": "string",
-                                    "format": "uri"
-                                },
-                                "uniqueItems": true
-                            }
-                        ]
-                    },
-                    "Country": {
-                        "@type": "https://schema.metadatacenter.org/core/TemplateField",
-                        "@context": {
-                            "xsd": "http://www.w3.org/2001/XMLSchema#",
-                            "pav": "http://purl.org/pav/",
-                            "bibo": "http://purl.org/ontology/bibo/",
-                            "oslc": "http://open-services.net/ns/core#",
-                            "schema": "http://schema.org/",
-                            "skos": "http://www.w3.org/2004/02/skos/core#",
-                            "schema:name": {
-                                "@type": "xsd:string"
-                            },
-                            "schema:description": {
-                                "@type": "xsd:string"
-                            },
-                            "skos:prefLabel": {
-                                "@type": "xsd:string"
-                            },
-                            "skos:altLabel": {
-                                "@type": "xsd:string"
-                            },
-                            "pav:createdOn": {
-                                "@type": "xsd:dateTime"
-                            },
-                            "pav:createdBy": {
-                                "@type": "@id"
-                            },
-                            "pav:lastUpdatedOn": {
-                                "@type": "xsd:dateTime"
-                            },
-                            "oslc:modifiedBy": {
-                                "@type": "@id"
-                            }
-                        },
-                        "type": "object",
-                        "title": "Country field schema",
-                        "description": "Country field schema generated by the CEDAR Template Editor 2.5.11",
-                        "_ui": {
-                            "inputType": "textfield"
-                        },
-                        "_valueConstraints": {
-                            "requiredValue": true,
-                            "ontologies": [],
-                            "valueSets": [],
-                            "classes": [],
-                            "branches": [
-                                {
-                                    "source": "undefined (MESH)",
-                                    "acronym": "MESH",
-                                    "uri": "http://purl.bioontology.org/ontology/MESH/D005842",
-                                    "name": "Geographic Locations",
-                                    "maxDepth": 0
-                                }
-                            ],
-                            "multipleChoice": false
-                        },
-                        "properties": {
-                            "@type": {
-                                "oneOf": [
-                                    {
-                                        "type": "string",
-                                        "format": "uri"
-                                    },
-                                    {
-                                        "type": "array",
-                                        "minItems": 1,
-                                        "items": {
-                                            "type": "string",
-                                            "format": "uri"
-                                        },
-                                        "uniqueItems": true
-                                    }
-                                ]
-                            },
-                            "rdfs:label": {
-                                "type": [
-                                    "string",
-                                    "null"
-                                ]
-                            },
-                            "@id": {
-                                "type": "string",
-                                "format": "uri"
-                            }
-                        },
-                        "schema:name": "Country",
-                        "schema:description": "Enter the name of the countries involved in the project",
-                        "pav:createdOn": "2020-11-09T10:33:52-08:00",
-                        "pav:createdBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
-                        "pav:lastUpdatedOn": "2020-11-09T10:33:52-08:00",
-                        "oslc:modifiedBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
-                        "schema:schemaVersion": "1.6.0",
-                        "additionalProperties": false,
-                        "@id": "https://repo.metadatacenter.org/template-fields/96440e87-4a8d-4dbb-b679-3baed54303aa",
-                        "$schema": "http://json-schema.org/draft-04/schema#"
-                    },
-                    "Province": {
-                        "@type": "https://schema.metadatacenter.org/core/TemplateField",
-                        "@context": {
-                            "xsd": "http://www.w3.org/2001/XMLSchema#",
-                            "pav": "http://purl.org/pav/",
-                            "bibo": "http://purl.org/ontology/bibo/",
-                            "oslc": "http://open-services.net/ns/core#",
-                            "schema": "http://schema.org/",
-                            "skos": "http://www.w3.org/2004/02/skos/core#",
-                            "schema:name": {
-                                "@type": "xsd:string"
-                            },
-                            "schema:description": {
-                                "@type": "xsd:string"
-                            },
-                            "skos:prefLabel": {
-                                "@type": "xsd:string"
-                            },
-                            "skos:altLabel": {
-                                "@type": "xsd:string"
-                            },
-                            "pav:createdOn": {
-                                "@type": "xsd:dateTime"
-                            },
-                            "pav:createdBy": {
-                                "@type": "@id"
-                            },
-                            "pav:lastUpdatedOn": {
-                                "@type": "xsd:dateTime"
-                            },
-                            "oslc:modifiedBy": {
-                                "@type": "@id"
-                            }
-                        },
-                        "type": "object",
-                        "title": "Province field schema",
-                        "description": "Province field schema generated by the CEDAR Template Editor 2.5.11",
-                        "_ui": {
-                            "inputType": "textfield"
-                        },
-                        "_valueConstraints": {
-                            "requiredValue": false,
-                            "ontologies": [],
-                            "valueSets": [],
-                            "classes": [],
-                            "branches": [
-                                {
-                                    "source": "undefined (ZONMW-ADMIN-MD)",
-                                    "acronym": "ZONMW-ADMIN-MD",
-                                    "uri": "http://www.fair-data-collective.com/zonmw/projectadmin/Province",
-                                    "name": "Province",
-                                    "maxDepth": 0
-                                }
-                            ],
-                            "multipleChoice": false
-                        },
-                        "properties": {
-                            "@type": {
-                                "oneOf": [
-                                    {
-                                        "type": "string",
-                                        "format": "uri"
-                                    },
-                                    {
-                                        "type": "array",
-                                        "minItems": 1,
-                                        "items": {
-                                            "type": "string",
-                                            "format": "uri"
-                                        },
-                                        "uniqueItems": true
-                                    }
-                                ]
-                            },
-                            "rdfs:label": {
-                                "type": [
-                                    "string",
-                                    "null"
-                                ]
-                            },
-                            "@id": {
-                                "type": "string",
-                                "format": "uri"
-                            }
-                        },
-                        "schema:name": "Province",
-                        "schema:description": "Enter the name of the provinces involved in the project",
-                        "pav:createdOn": "2020-11-09T10:33:52-08:00",
-                        "pav:createdBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
-                        "pav:lastUpdatedOn": "2020-11-09T10:33:52-08:00",
-                        "oslc:modifiedBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
-                        "schema:schemaVersion": "1.6.0",
-                        "additionalProperties": false,
-                        "@id": "https://repo.metadatacenter.org/template-fields/99a48471-eca8-4f0b-b02b-ef39f9c01714",
-                        "$schema": "http://json-schema.org/draft-04/schema#"
-                    }
+                "pav:createdOn": {
+                    "@type": "xsd:dateTime"
                 },
-                "required": [
-                    "@context",
-                    "@id",
+                "pav:createdBy": {
+                    "@type": "@id"
+                },
+                "pav:lastUpdatedOn": {
+                    "@type": "xsd:dateTime"
+                },
+                "oslc:modifiedBy": {
+                    "@type": "@id"
+                }
+            },
+            "type": "object",
+            "title": "Country and province element schema",
+            "description": "Country and province element schema generated by the CEDAR Template Editor 2.5.11",
+            "_ui": {
+                "order": [
                     "Country",
                     "Province"
                 ],
-                "additionalProperties": false,
-                "pav:createdOn": "2020-11-09T10:35:48-08:00",
-                "pav:createdBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
-                "pav:lastUpdatedOn": "2020-11-09T10:35:48-08:00",
-                "oslc:modifiedBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
-                "schema:schemaVersion": "1.6.0",
-                "schema:name": "Country and Province",
-                "schema:description": "Country and associated provinces involved in the project.",
-                "pav:version": "0.0.1",
-                "bibo:status": "bibo:draft",
-                "$schema": "http://json-schema.org/draft-04/schema#"
-            }
+                "propertyLabels": {
+                    "Country": "Country",
+                    "Province": "Province"
+                },
+                "propertyDescriptions": {
+                    "Country": "Enter the name of the countries involved in the project",
+                    "Province": "Enter the name of the provinces involved in the project"
+                }
+            },
+            "properties": {
+                "@context": {
+                    "type": "object",
+                    "properties": {
+                        "Country": {
+                            "enum": [
+                                "https://schema.metadatacenter.org/properties/ce69fb14-29b2-4c4b-8834-3d8e1f5d927f"
+                            ]
+                        },
+                        "Province": {
+                            "enum": [
+                                "https://schema.metadatacenter.org/properties/e1d64d1c-5990-4003-9ba4-b2edadf3e783"
+                            ]
+                        }
+                    },
+                    "additionalProperties": false,
+                    "required": [
+                        "Country",
+                        "Province"
+                    ]
+                },
+                "@id": {
+                    "type": "string",
+                    "format": "uri"
+                },
+                "@type": {
+                    "oneOf": [
+                        {
+                            "type": "string",
+                            "format": "uri"
+                        },
+                        {
+                            "type": "array",
+                            "minItems": 1,
+                            "items": {
+                                "type": "string",
+                                "format": "uri"
+                            },
+                            "uniqueItems": true
+                        }
+                    ]
+                },
+                "Country": {
+                    "@type": "https://schema.metadatacenter.org/core/TemplateField",
+                    "@context": {
+                        "xsd": "http://www.w3.org/2001/XMLSchema#",
+                        "pav": "http://purl.org/pav/",
+                        "bibo": "http://purl.org/ontology/bibo/",
+                        "oslc": "http://open-services.net/ns/core#",
+                        "schema": "http://schema.org/",
+                        "skos": "http://www.w3.org/2004/02/skos/core#",
+                        "schema:name": {
+                            "@type": "xsd:string"
+                        },
+                        "schema:description": {
+                            "@type": "xsd:string"
+                        },
+                        "skos:prefLabel": {
+                            "@type": "xsd:string"
+                        },
+                        "skos:altLabel": {
+                            "@type": "xsd:string"
+                        },
+                        "pav:createdOn": {
+                            "@type": "xsd:dateTime"
+                        },
+                        "pav:createdBy": {
+                            "@type": "@id"
+                        },
+                        "pav:lastUpdatedOn": {
+                            "@type": "xsd:dateTime"
+                        },
+                        "oslc:modifiedBy": {
+                            "@type": "@id"
+                        }
+                    },
+                    "type": "object",
+                    "title": "Country field schema",
+                    "description": "Country field schema generated by the CEDAR Template Editor 2.5.11",
+                    "_ui": {
+                        "inputType": "textfield"
+                    },
+                    "_valueConstraints": {
+                        "requiredValue": true,
+                        "ontologies": [],
+                        "valueSets": [],
+                        "classes": [],
+                        "branches": [
+                            {
+                                "source": "undefined (MESH)",
+                                "acronym": "MESH",
+                                "uri": "http://purl.bioontology.org/ontology/MESH/D005842",
+                                "name": "Geographic Locations",
+                                "maxDepth": 0
+                            }
+                        ],
+                        "multipleChoice": false,
+                        "defaultValue": {
+                            "termUri": "http://purl.bioontology.org/ontology/MESH/D009426",
+                            "rdfs:label": "Netherlands"
+                        }
+                    },
+                    "properties": {
+                        "@type": {
+                            "oneOf": [
+                                {
+                                    "type": "string",
+                                    "format": "uri"
+                                },
+                                {
+                                    "type": "array",
+                                    "minItems": 1,
+                                    "items": {
+                                        "type": "string",
+                                        "format": "uri"
+                                    },
+                                    "uniqueItems": true
+                                }
+                            ]
+                        },
+                        "rdfs:label": {
+                            "type": [
+                                "string",
+                                "null"
+                            ]
+                        },
+                        "@id": {
+                            "type": "string",
+                            "format": "uri"
+                        }
+                    },
+                    "schema:name": "Country",
+                    "schema:description": "Enter the name of the countries involved in the project",
+                    "pav:createdOn": "2020-11-09T10:37:46-08:00",
+                    "pav:createdBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
+                    "pav:lastUpdatedOn": "2020-11-09T10:37:46-08:00",
+                    "oslc:modifiedBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
+                    "schema:schemaVersion": "1.6.0",
+                    "additionalProperties": false,
+                    "@id": "https://repo.metadatacenter.org/template-fields/96440e87-4a8d-4dbb-b679-3baed54303aa",
+                    "$schema": "http://json-schema.org/draft-04/schema#"
+                },
+                "Province": {
+                    "@type": "https://schema.metadatacenter.org/core/TemplateField",
+                    "@context": {
+                        "xsd": "http://www.w3.org/2001/XMLSchema#",
+                        "pav": "http://purl.org/pav/",
+                        "bibo": "http://purl.org/ontology/bibo/",
+                        "oslc": "http://open-services.net/ns/core#",
+                        "schema": "http://schema.org/",
+                        "skos": "http://www.w3.org/2004/02/skos/core#",
+                        "schema:name": {
+                            "@type": "xsd:string"
+                        },
+                        "schema:description": {
+                            "@type": "xsd:string"
+                        },
+                        "skos:prefLabel": {
+                            "@type": "xsd:string"
+                        },
+                        "skos:altLabel": {
+                            "@type": "xsd:string"
+                        },
+                        "pav:createdOn": {
+                            "@type": "xsd:dateTime"
+                        },
+                        "pav:createdBy": {
+                            "@type": "@id"
+                        },
+                        "pav:lastUpdatedOn": {
+                            "@type": "xsd:dateTime"
+                        },
+                        "oslc:modifiedBy": {
+                            "@type": "@id"
+                        }
+                    },
+                    "type": "object",
+                    "title": "Province field schema",
+                    "description": "Province field schema generated by the CEDAR Template Editor 2.5.11",
+                    "_ui": {
+                        "inputType": "textfield"
+                    },
+                    "_valueConstraints": {
+                        "requiredValue": false,
+                        "ontologies": [],
+                        "valueSets": [],
+                        "classes": [],
+                        "branches": [
+                            {
+                                "source": "undefined (ZONMW-ADMIN-MD)",
+                                "acronym": "ZONMW-ADMIN-MD",
+                                "uri": "http://www.fair-data-collective.com/zonmw/projectadmin/Province",
+                                "name": "Province",
+                                "maxDepth": 0
+                            }
+                        ],
+                        "multipleChoice": false
+                    },
+                    "properties": {
+                        "@type": {
+                            "oneOf": [
+                                {
+                                    "type": "string",
+                                    "format": "uri"
+                                },
+                                {
+                                    "type": "array",
+                                    "minItems": 1,
+                                    "items": {
+                                        "type": "string",
+                                        "format": "uri"
+                                    },
+                                    "uniqueItems": true
+                                }
+                            ]
+                        },
+                        "rdfs:label": {
+                            "type": [
+                                "string",
+                                "null"
+                            ]
+                        },
+                        "@id": {
+                            "type": "string",
+                            "format": "uri"
+                        }
+                    },
+                    "schema:name": "Province",
+                    "schema:description": "Enter the name of the provinces involved in the project",
+                    "pav:createdOn": "2020-11-09T10:37:46-08:00",
+                    "pav:createdBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
+                    "pav:lastUpdatedOn": "2020-11-09T10:37:46-08:00",
+                    "oslc:modifiedBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
+                    "schema:schemaVersion": "1.6.0",
+                    "additionalProperties": false,
+                    "@id": "https://repo.metadatacenter.org/template-fields/99a48471-eca8-4f0b-b02b-ef39f9c01714",
+                    "$schema": "http://json-schema.org/draft-04/schema#"
+                }
+            },
+            "schema:name": "Country and Province",
+            "schema:description": "Country and associated provinces involved in the project.",
+            "required": [
+                "@context",
+                "@id",
+                "Country",
+                "Province"
+            ],
+            "pav:createdOn": "2020-11-09T10:37:58-08:00",
+            "pav:createdBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
+            "pav:lastUpdatedOn": "2020-11-09T10:37:58-08:00",
+            "oslc:modifiedBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
+            "schema:schemaVersion": "1.6.0",
+            "additionalProperties": false,
+            "pav:version": "0.0.1",
+            "bibo:status": "bibo:draft",
+            "$schema": "http://json-schema.org/draft-04/schema#"
         }
     },
     "required": [
@@ -3299,7 +3299,7 @@
     "schema:description": "A project admin metadata template for COVID 19 projects funded by ZonMw",
     "pav:createdOn": "2020-11-08T07:20:12-08:00",
     "pav:createdBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
-    "pav:lastUpdatedOn": "2020-11-09T10:35:48-08:00",
+    "pav:lastUpdatedOn": "2020-11-09T10:37:58-08:00",
     "oslc:modifiedBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
     "schema:schemaVersion": "1.6.0",
     "additionalProperties": false,

@@ -139,7 +139,11 @@
                         "maxDepth": 0
                     }
                 ],
-                "multipleChoice": false
+                "multipleChoice": false,
+                "defaultValue": {
+                    "termUri": "http://purl.bioontology.org/ontology/MESH/D009426",
+                    "rdfs:label": "Netherlands"
+                }
             },
             "properties": {
                 "@type": {
@@ -172,9 +176,9 @@
             },
             "schema:name": "Country",
             "schema:description": "Enter the name of the countries involved in the project",
-            "pav:createdOn": "2020-11-09T10:33:52-08:00",
+            "pav:createdOn": "2020-11-09T10:37:46-08:00",
             "pav:createdBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
-            "pav:lastUpdatedOn": "2020-11-09T10:33:52-08:00",
+            "pav:lastUpdatedOn": "2020-11-09T10:37:46-08:00",
             "oslc:modifiedBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
@@ -268,9 +272,9 @@
             },
             "schema:name": "Province",
             "schema:description": "Enter the name of the provinces involved in the project",
-            "pav:createdOn": "2020-11-09T10:33:52-08:00",
+            "pav:createdOn": "2020-11-09T10:37:46-08:00",
             "pav:createdBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
-            "pav:lastUpdatedOn": "2020-11-09T10:33:52-08:00",
+            "pav:lastUpdatedOn": "2020-11-09T10:37:46-08:00",
             "oslc:modifiedBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
             "schema:schemaVersion": "1.6.0",
             "additionalProperties": false,
@@ -288,7 +292,7 @@
     ],
     "pav:createdOn": "2020-11-09T10:24:43-08:00",
     "pav:createdBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
-    "pav:lastUpdatedOn": "2020-11-09T10:33:52-08:00",
+    "pav:lastUpdatedOn": "2020-11-09T10:37:46-08:00",
     "oslc:modifiedBy": "https://metadatacenter.org/users/cb584e9d-cd34-44f0-9d67-10b217311750",
     "schema:schemaVersion": "1.6.0",
     "additionalProperties": false,
