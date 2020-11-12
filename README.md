@@ -8,4 +8,4 @@ This content supports the ZonMW Project Administration data collection for the C
 The published controlled vocabulary for this domain can be found at http://bioportal.bioontology.org/ontologies/ZONMW-ADMIN-MD.
 (To find the term, go to the [classes tab](http://bioportal.bioontology.org/ontologies/ZONMW-ADMIN-MD/?p=classes).)
 
-We have not yet set up automatic content resolution for the FAIR Data Collective vocabularies. 
+We have not yet set up automatic content resolution for the FAIR Data Collective vocabularies though. (Sorry!)
