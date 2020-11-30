@@ -71,7 +71,7 @@ zonmwpa:Neighbourhood a skos:Concept;
 zonmwpa:OtherStudyArea a skos:Concept;
   skos:broader zonmwpa:StudyArea;
   skos:inScheme <http://www.fair-data-collective.com/zonmw/projectadmin>;
-  skos:prefLabel "OtherStudyArea"@en .
+  skos:prefLabel "Other Study Area"@en .
 
 zonmwpa:SizeOfCollection a skos:Concept;
   skos:definition "This is a set of controlled terms for the Size of Collection category."@en;
